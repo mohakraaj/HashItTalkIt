@@ -1,0 +1,17 @@
+@(roomForm: Form[models.RoomData])(implicit messages: Messages)
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>HashItTalkIT</title>
+    <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+    <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+  </head>
+  <body>
+  @helper.form(action = routes.Application.addRoomDetails()) {
+    @helper.inputText(roomForm("name"))
+    <input type="submit" text="submit" />
+  }
+  </body>
+</html>

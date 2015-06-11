@@ -1,0 +1,852 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes
+compile options:
+4 items
+0 -> -deprecation
+1 -> -unchecked
+2 -> -encoding
+3 -> utf8
+javac options:
+3 items
+0 -> -encoding
+1 -> utf8
+2 -> -g
+compiler version:
+1 items
+0 -> 2.11.6
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+70 items
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$2.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$addRoomDetails$1$$anonfun$apply$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$addRoomDetails$1$$anonfun$apply$2.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$addRoomDetails$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$chat$1$$anonfun$3.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$chat$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$home$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$ws$1$$anonfun$apply$3.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$ws$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/Message$.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/Message.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/RoomData$.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/RoomData.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$props$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$receive$1$$anonfun$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$receive$1$$anonfun$2.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$receive$1$$anonfun$applyOrElse$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$receive$1$$anonfun$applyOrElse$2.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$receive$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$updateRoomUserMapping$1$$anonfun$apply$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$updateRoomUserMapping$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$updateRoomUserMapping$2.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$updateRoomUserMapping$3.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/ReverseApplication.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/ReverseAssets.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/javascript/ReverseApplication.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/javascript/ReverseAssets.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/routes.java -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/routes$javascript.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/routes.java -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/routes.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$documentation$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_addRoomDetails4_invoker$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_chat0_invoker$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_home2_invoker$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_ws3_invoker$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Assets_at1_invoker$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5$$anonfun$apply$5.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/RoutesPrefix$$anonfun$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/RoutesPrefix$.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/RoutesPrefix.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/chat$.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/chat.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/chat_Scope0$.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/chat_Scope0$chat_Scope1$.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/chat_Scope0$chat_Scope1$chat$$anonfun$f$1$$anonfun$apply$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/chat_Scope0$chat_Scope1$chat$$anonfun$f$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/chat_Scope0$chat_Scope1$chat.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/chat_Scope0.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/home$.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/home.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/home_Scope0$.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/home_Scope0$home$$anonfun$apply$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/home_Scope0$home$$anonfun$f$1$$anonfun$apply$2.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/home_Scope0$home$$anonfun$f$1.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/home_Scope0$home.class
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/home_Scope0.class
+binary dependencies:
+33 items
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.0.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.0.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.0.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.0.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> /Users/MAC/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> /Users/MAC/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.0.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> /Users/MAC/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /Users/MAC/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.0.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /Users/MAC/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/routes.java -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.0.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.0.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> /Users/MAC/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> /Users/MAC/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.0.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> /Users/MAC/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> /Users/MAC/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> /Users/MAC/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.0.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> /Users/MAC/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> /Users/MAC/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+16 items
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/routes.java
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/routes.java -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/routes.java -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/routes.java -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/routes.java
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/routes.java -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/routes.java
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/routes.java
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+70 items
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> controllers.Application
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> controllers.Application$$anonfun$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> controllers.Application$$anonfun$2
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> controllers.Application$$anonfun$addRoomDetails$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> controllers.Application$$anonfun$addRoomDetails$1$$anonfun$apply$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> controllers.Application$$anonfun$addRoomDetails$1$$anonfun$apply$2
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> controllers.Application$$anonfun$chat$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> controllers.Application$$anonfun$chat$1$$anonfun$3
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> controllers.Application$$anonfun$home$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> controllers.Application$$anonfun$ws$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> controllers.Application$$anonfun$ws$1$$anonfun$apply$3
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models.Message
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models.Message$
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models.RoomData
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models.RoomData$
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models.UserActor
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models.UserActor$
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models.UserActor$$anonfun$props$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models.UserActor$$anonfun$receive$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models.UserActor$$anonfun$receive$1$$anonfun$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models.UserActor$$anonfun$receive$1$$anonfun$2
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models.UserActor$$anonfun$receive$1$$anonfun$applyOrElse$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models.UserActor$$anonfun$receive$1$$anonfun$applyOrElse$2
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models.UserActor$$anonfun$updateRoomUserMapping$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models.UserActor$$anonfun$updateRoomUserMapping$1$$anonfun$apply$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models.UserActor$$anonfun$updateRoomUserMapping$2
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models.UserActor$$anonfun$updateRoomUserMapping$3
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> controllers.ReverseApplication
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> controllers.ReverseAssets
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> controllers.javascript.ReverseApplication
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> controllers.javascript.ReverseAssets
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/routes.java -> controllers.routes
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/routes.java -> controllers.routes$javascript
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$documentation$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$router$Routes$$controllers_Application_addRoomDetails4_invoker$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$router$Routes$$controllers_Application_chat0_invoker$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$router$Routes$$controllers_Application_home2_invoker$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$router$Routes$$controllers_Application_ws3_invoker$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$router$Routes$$controllers_Assets_at1_invoker$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$2
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$3
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$4
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$5
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$5$$anonfun$apply$5
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> router.RoutesPrefix
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> router.RoutesPrefix$
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> router.RoutesPrefix$$anonfun$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> views.html.chat
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> views.html.chat$
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> views.html.chat_Scope0
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> views.html.chat_Scope0$
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> views.html.chat_Scope0$chat_Scope1$
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> views.html.chat_Scope0$chat_Scope1$chat
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> views.html.chat_Scope0$chat_Scope1$chat$$anonfun$f$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> views.html.chat_Scope0$chat_Scope1$chat$$anonfun$f$1$$anonfun$apply$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> views.html.home
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> views.html.home$
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> views.html.home_Scope0
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> views.html.home_Scope0$
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> views.html.home_Scope0$home
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> views.html.home_Scope0$home$$anonfun$apply$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> views.html.home_Scope0$home$$anonfun$f$1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> views.html.home_Scope0$home$$anonfun$f$1$$anonfun$apply$2
+used names:
+450 items
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> +
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> ->
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> <init>
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> ==
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Action
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> ActorRef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Application
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> BadRequest
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> ClassTag
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Codec
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> ContentTypeOf
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Controller
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Forbidden
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Form
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Forms
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> FrameFormatter
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Future
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Implicits
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> JsValue
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Lang
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Left
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Logger
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Messages
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> None
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Ok
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Play
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Predef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Redirect
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Right
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> RoomData
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> UID
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> UserActor
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> WebSocket
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> Writeable
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> _1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> _2
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> actor
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> akka
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> api
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> applicationMessages
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> apply
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> asInstanceOf
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> bindFromRequest
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> chat
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> concurrent
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> contentTypeOf_Html
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> controllers
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> counter
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> counter_=
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> current
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> data
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> defaultLang
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> fold
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> formWithErrors
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> get
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> getOrElse
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> home
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> html
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> http
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> i18n
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> isInstanceOf
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> json
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> jsonFrame
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> libs
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> mapping
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> materializeClassTag
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> models
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> mvc
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> name
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> ne
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> nonEmptyText
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> package
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> play
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> props
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> request
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> request2lang
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> room
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> roomDetailsForm
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> roomName
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> routes
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> session
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> successful
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> toString
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> tryAcceptWithActor
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> uid
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> utf_8
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> views
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> warn
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> withSession
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> writeableOf_Content
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> x
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> !
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> !=
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> &&
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> +
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> ::
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> <init>
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> ==
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> A1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> AbstractFunction1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> AbstractFunction2
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> Actor
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> ActorLogging
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> ActorRef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> AnyRef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> B1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> Boolean
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> ClassTag
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> Function1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> HashMap
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> JsValue
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> List
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> Logger
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> LoggingReceive
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> Message
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> None
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> Predef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> Product
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> Props
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> Reads
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> RoomData
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> ScalaRunTime
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> Serializable
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> String
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> StringReads
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> UserActor
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> Utility
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> \
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> _1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> _2
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> _hashCode
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> _toString
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> actor
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> actorRef2Scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> akka
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> api
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> apply
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> asInstanceOf
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> canBuildFrom
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> collection
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> context
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> eq
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> escape
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> event
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> exists
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> get
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> immutable
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> isInstanceOf
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> jsValueToJsLookup
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> json
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> libs
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> map
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> materializeClassTag
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> models
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> msg
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> mutable
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> name
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> out
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> package
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> play
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> roomName
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> runtime
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> self
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> toList
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> toString
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> typedProductIterator
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> uid
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> unchecked
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> update
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> updateRoomUserMapping
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> user
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> userRoomMapping
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> validate
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> warn
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> x
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> xml
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> ||
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> +
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> <byname>
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> <init>
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> AnyRef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> Asset
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> Assets
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> Call
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> HandlerDef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> JavascriptLiteral
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> Map
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> PathBindable
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> Predef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> QueryStringBindable
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> ReverseApplication
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> ReverseAssets
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> ReverseRouteContext
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> String
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> _defaultPrefix
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> _prefix
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> _root_
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> api
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> apply
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> bindableString
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> controllers
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> core
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> dynamicString
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> empty
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> endsWith
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> file
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> implicitly
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> mvc
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> play
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> queryString
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> routing
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> unbind
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> +
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> <byname>
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> <init>
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> AnyRef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Asset
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Assets
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Call
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> HandlerDef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> JavaScriptReverseRoute
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> JavascriptLiteral
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> PathBindable
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Predef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> QueryStringBindable
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> ReverseApplication
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> ReverseAssets
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> ReverseRouteContext
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> String
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> _defaultPrefix
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> _prefix
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> _root_
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> api
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> bindableString
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> controllers
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> core
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> dynamicString
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> empty
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> endsWith
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> implicitly
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> javascript
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> javascriptUnbind
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> mvc
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> play
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> queryString
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> routing
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> +
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> ++
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> :+
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> <init>
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> A1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> Any
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> Application
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> Application_1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> Asset
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> Assets
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> Assets_0
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> B1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> Function1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> GeneratedRouter
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> Handler
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> HandlerInvokerFactory
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> HttpErrorHandler
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> List
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> Nil
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> None
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> PartialFunction
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> PathBindable
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> Predef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> RequestHeader
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> ReverseRouteContext
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> Right
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> Route
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> Routes
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> RoutesPrefix
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> Seq
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> String
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> Tuple3
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> addRoomDetails
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> api
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> apply
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> asInstanceOf
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> at
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> bindableString
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> call
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> canBuildFrom
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> chat
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> collection
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> controllers
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> controllers_Application_addRoomDetails4_invoker
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> controllers_Application_addRoomDetails4_route
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> controllers_Application_chat0_invoker
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> controllers_Application_chat0_route
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> controllers_Application_home2_invoker
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> controllers_Application_home2_route
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> controllers_Application_ws3_invoker
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> controllers_Application_ws3_route
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> controllers_Assets_at1_invoker
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> controllers_Assets_at1_route
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> core
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> createInvoker
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> defaultPrefix
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> e
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> empty
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> endsWith
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> errorHandler
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> fakeValue
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> file
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> foldLeft
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> fromPath
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> get
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> getClass
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> getClassLoader
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> home
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> http
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> immutable
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> isEmpty
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> isInstanceOf
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> j
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> mvc
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> package
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> params
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> passThrough
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> path
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> play
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> prefix
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> router
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> routing
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> s
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> setPrefix
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> unapply
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> unary_!
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> unchecked
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> ws
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> <init>
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> AnyRef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> Function0
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> Predef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> RoutesPrefix
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> String
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> Unit
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> _prefix
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> _prefix_=
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> byNamePrefix
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> p
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> prefix
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> router
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> <init>
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> Any
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> AnyRef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> Appendable
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> Application
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> Assets
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> BaseScalaTemplate
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> Format
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> Function1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> HtmlFormat
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> ManifestFactory
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> PlayMagic
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> Predef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> RequestHeader
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> Seq
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> String
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> Template2
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> TemplateMagic
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> _display_
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> _root_
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> api
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> apply
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> at
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> chat
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> chat_Scope0
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> chat_Scope1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> classType
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> collection
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> controllers
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> data
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> format
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> html
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> i18n
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> message
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> models
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> mvc
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> play
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> raw
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> reflect
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> request
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> routes
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> templates
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> twirl
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> views
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> webSocketURL
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> ws
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> <init>
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> Any
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> AnyRef
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> Appendable
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> Application
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> Assets
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> BaseScalaTemplate
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> FieldConstructor
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> Form
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> Format
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> Function1
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> HtmlFormat
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> ManifestFactory
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> Messages
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> PlayMagic
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> RoomData
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> Seq
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> Template2
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> TemplateMagic
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> _display_
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> _root_
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> addRoomDetails
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> api
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> apply
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> at
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> classType
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> collection
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> controllers
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> data
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> defaultField
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> form
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> format
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> helper
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> home
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> home_Scope0
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> html
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> i18n
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> inputText
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> messages
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> models
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> mvc
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> play
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> raw
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> reflect
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> roomForm
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> routes
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> scala
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> templates
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> twirl
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> views
+product stamps:
+70 items
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$1.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$2.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$addRoomDetails$1$$anonfun$apply$1.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$addRoomDetails$1$$anonfun$apply$2.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$addRoomDetails$1.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$chat$1$$anonfun$3.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$chat$1.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$home$1.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$ws$1$$anonfun$apply$3.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application$$anonfun$ws$1.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/Application.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/ReverseApplication.class -> lastModified(1433841730000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/ReverseAssets.class -> lastModified(1433841730000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/javascript/ReverseApplication.class -> lastModified(1433841730000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/javascript/ReverseAssets.class -> lastModified(1433841730000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/routes$javascript.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/controllers/routes.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/Message$.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/Message.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/RoomData$.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/RoomData.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$props$1.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$receive$1$$anonfun$1.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$receive$1$$anonfun$2.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$receive$1$$anonfun$applyOrElse$1.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$receive$1$$anonfun$applyOrElse$2.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$receive$1.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$updateRoomUserMapping$1$$anonfun$apply$1.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$updateRoomUserMapping$1.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$updateRoomUserMapping$2.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$$anonfun$updateRoomUserMapping$3.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor$.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/models/UserActor.class -> lastModified(1433843263000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$documentation$1.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_addRoomDetails4_invoker$1.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_chat0_invoker$1.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_home2_invoker$1.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_ws3_invoker$1.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Assets_at1_invoker$1.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5$$anonfun$apply$5.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes$$anonfun$routes$1.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/Routes.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/RoutesPrefix$$anonfun$1.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/RoutesPrefix$.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/router/RoutesPrefix.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/chat$.class -> lastModified(1433903665000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/chat.class -> lastModified(1433903665000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/chat_Scope0$.class -> lastModified(1433903665000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/chat_Scope0$chat_Scope1$.class -> lastModified(1433903665000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/chat_Scope0$chat_Scope1$chat$$anonfun$f$1$$anonfun$apply$1.class -> lastModified(1433903665000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/chat_Scope0$chat_Scope1$chat$$anonfun$f$1.class -> lastModified(1433903665000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/chat_Scope0$chat_Scope1$chat.class -> lastModified(1433903665000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/chat_Scope0.class -> lastModified(1433903665000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/home$.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/home.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/home_Scope0$.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/home_Scope0$home$$anonfun$apply$1.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/home_Scope0$home$$anonfun$f$1$$anonfun$apply$2.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/home_Scope0$home$$anonfun$f$1.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/home_Scope0$home.class -> lastModified(1433841731000)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/views/html/home_Scope0.class -> lastModified(1433841731000)
+source stamps:
+9 items
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> hash(c4c2de148170a95b712ba3247f2de445da132d4a)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> hash(fa50226cd1efcb1b17eff6fe0b695ef0a206f033)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> hash(c4ffa1523ac84be43b0244ff64c013d5e494d639)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> hash(863b6d8c7562598955e963baff2e01f0255a110e)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/routes.java -> hash(ffe68e2cfc94802b8a7dcbd1876f3f9fe8ae3de8)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> hash(b113d9c57a4ed4fca0224761a39c1f129d6ebf70)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> hash(e2c8138f3d353d5d3c8b2358833f827220511a8d)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> hash(6fbf8aa4ce15cd4992ed681aa3d5ddea899e5ee1)
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> hash(9b4c0fee2b327539fbaa74446f39600f1695c152)
+binary stamps:
+7 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1428689516000)
+/Users/MAC/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar -> lastModified(1431096334000)
+/Users/MAC/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.0.jar -> lastModified(1432703587000)
+/Users/MAC/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.0.jar -> lastModified(1432703632000)
+/Users/MAC/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar -> lastModified(1431579649000)
+/Users/MAC/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar -> lastModified(1425056383000)
+/Users/MAC/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar -> lastModified(1424912463000)
+class names:
+7 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/MAC/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar -> akka.actor.ActorLogging
+/Users/MAC/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.0.jar -> play.api.libs.json.JsLookup
+/Users/MAC/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.0.jar -> play.api.mvc.RequestHeader$
+/Users/MAC/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar -> play.twirl.api.Template2
+/Users/MAC/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar -> scala.xml.Utility
+/Users/MAC/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar -> scala.collection.Seq$
+internal apis:
+9 items
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAe8GvxAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAADc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwDO4TZnQAD3JlcXVlc3Qyc2Vzc2lvbnNxAH4AC2dnSxt0AA1yZXF1ZXN0MmZsYXNoc3EAfgAL2RS/XnQADHJlcXVlc3QybGFuZ3VxAH4ACQAAAR5zcQB+AAuLb/SNdAAMUmVzZXRDb250ZW50c3EAfgALaGhS/HQADU5vdEFjY2VwdGFibGVzcQB+AAtIuuC/dAARVGVtcG9yYXJ5UmVkaXJlY3RzcQB+AAsI5adHdAAIc2VuZEZpbGVzcQB+AAsHBStHdAAPYWRkaW5nVG9TZXNzaW9uc3EAfgALonmSp3QABkxvY2tlZHNxAH4AC6Jcxx90AAZub3RpZnlzcQB+AAvgvcxTdAAERlJPTXNxAH4AC1hbtdx0ABBDT05URU5UX0xBTkdVQUdFc3EAfgALOfKH0XQAB0NSRUFURURzcQB+AAsa3kiFdAAHdW5hcHBseXNxAH4AC3mMytF0ABBUT09fTUFOWV9SRVFVRVNUc3EAfgALcThtsHQAEnRvbGVyYW50Qm9keVBhcnNlcnNxAH4AC06vw5h0AAdXQVJOSU5Hc3EAfgALYLyLl3QAD1BheW1lbnRSZXF1aXJlZHNxAH4AC/OQAMx0AAhDT05USU5VRXNxAH4ACzdOoCl0AARib2R5c3EAfgALeFxqsXQABWNodW5rc3EAfgALae3Ns3QADmZvcm0kZGVmYXVsdCQyc3EAfgALVa7IKnQAC1NFVF9DT09LSUUyc3EAfgALo4lwTnQACEhUVFBfMV8xc3EAfgAL/dKh6nQAE0NPTlRFTlRfRElTUE9TSVRJT05zcQB+AAvxhWGWdAANcmF3JGRlZmF1bHQkMXNxAH4ACztsThd0AAxDT05URU5UX1RZUEVzcQB+AAtyqlvpdAAGQklOQVJZc3EAfgAL1Y7Ma3QABHdhaXRzcQB+AAshxS6pdAAcQUNDRVNTX0NPTlRST0xfQUxMT1dfTUVUSE9EU3NxAH4AC4ZhHQp0AApCYWRHYXRld2F5c3EAfgALO8Y4z3QAEE1ldGhvZE5vdEFsbG93ZWRzcQB+AAtDSzIBdAAOVG9vTWFueVJlcXVlc3RzcQB+AAttciSrdAATZGVjaHVua1dpdGhUcmFpbGVyc3NxAH4ACzTZ8Fl0AApVU0VSX0FHRU5Uc3EAfgALODUeOnQAFnNlbmRSZXNvdXJjZSRkZWZhdWx0JDJzcQB+AAu9qmGSdAAESE9TVHNxAH4AC3rQY1x0AAtDT05URU5UX01ENXNxAH4AC3GZqcR0AA5jb3B5JGRlZmF1bHQkMnNxAH4AC4o+nwd0AAdDcmVhdGVkc3EAfgALScDIqHQADSRhc0luc3RhbmNlT2ZzcQB+AAtR0XOvdAAFZW1wdHlzcQB+AAvpv8FVdAAQWF9GT1JXQVJERURfUE9SVHNxAH4AC9TP2mp0AApKYXZhU2NyaXB0c3EAfgALOSRd6nQAC0JBRF9SRVFVRVNUc3EAfgAL1Lvtb3QABXVzaW5nc3EAfgALPrkiSnQADk5vdEltcGxlbWVudGVkc3EAfgALLvOVcHQADE1BWF9GT1JXQVJEU3NxAH4AC0qLwSp0ABBYX0ZPUldBUkRFRF9IT1NUc3EAfgALyQ6Co3QAA0NTU3NxAH4AC1tPKAF0AAx0b2xlcmFudEpzb25zcQB+AAuiTkvydAAIU2VlT3RoZXJzcQB+AAtWwSMIdAAHVFJBSUxFUnNxAH4ACw4I6550ABJQUk9YWV9BVVRIRU5USUNBVEVzcQB+AAsW6TugdAANQVVUSE9SSVpBVElPTnNxAH4ACwA2h1R0AANYTUxzcQB+AAu+yeZAdAAKYW55Q29udGVudHNxAH4AC6by64N0AA1DQUNIRV9DT05UUk9Mc3EAfgALn7W7EXQAG05vbkF1dGhvcml0YXRpdmVJbmZvcm1hdGlvbnNxAH4AC44JiAh0AA9OT1RfSU1QTEVNRU5URURzcQB+AAuFIim+dAAMcHJvZHVjdEFyaXR5c3EAfgALtq2FXHQABmVxdWFsc3NxAH4ACypivrp0AA9yb29tRGV0YWlsc0Zvcm1zcQB+AAvl/kuldAAQUEFZTUVOVF9SRVFVSVJFRHNxAH4AC+cCxOd0AARqc29uc3EAfgALd263THQACEFjY2VwdGVkc3EAfgALKLDq1HQAC1JFVFJZX0FGVEVSc3EAfgALcVpaNnQAElJlZGlyZWN0JGRlZmF1bHQkMnNxAH4AC5lAgVx0AA51cmxGb3JtRW5jb2RlZHNxAH4AC3nUt+l0AARKU09Oc3EAfgAL4CC4MnQACFJlZGlyZWN0c3EAfgALxbGGaHQAE1BSRUNPTkRJVElPTl9GQUlMRURzcQB+AAv/a6BqdAAOUGFydGlhbENvbnRlbnRzcQB+AAsLH1a9dAAUVW5zdXBwb3J0ZWRNZWRpYVR5cGVzcQB+AAsTUpPYdAAIQ09ORkxJQ1RzcQB+AAv3sSKgdAASc2VuZEZpbGUkZGVmYXVsdCQyc3EAfgALD8Q4uXQADkFDQ0VQVF9DSEFSU0VUc3EAfgALbbAGUHQAEUV4cGVjdGF0aW9uRmFpbGVkc3EAfgAL/kXsq3QAA1ZJQXNxAH4AC3XgCAd0AAxhc0luc3RhbmNlT2ZzcQB+AAs5slSGdAAPUkVRVUVTVF9USU1FT1VUc3EAfgALe2eoiXQAEE1VTFRJUExFX0NIT0lDRVNzcQB+AAsdhD5SdAARTU9WRURfUEVSTUFORU5UTFlzcQB+AAuKW9uvdAACVEVzcQB+AAvVFom9dAAOR2F0ZXdheVRpbWVvdXRzcQB+AAvl3t/RdAAQQ09OVEVOVF9MT0NBVElPTnNxAH4AC9CGpTt0AA9QQVJUSUFMX0NPTlRFTlRzcQB+AAvZ+Wt1dAATcmVtb3ZpbmdGcm9tU2Vzc2lvbnNxAH4ACzBxstp0ABRJTlNVRkZJQ0lFTlRfU1RPUkFHRXNxAH4ACyF5Sat0ABFtdWx0aXBhcnRGb3JtRGF0YXNxAH4AC1kC6mR0AAxFVkVOVF9TVFJFQU1zcQB+AAsoLcDvdAAMc3luY2hyb25pemVkc3EAfgALLkkB33QAEEZhaWxlZERlcGVuZGVuY3lzcQB+AAvfyVUhdAAERVRBR3NxAH4AC3zGIa10AA9MRU5HVEhfUkVRVUlSRURzcQB+AAuSmnsldAAOd2l0aE5ld1Nlc3Npb25zcQB+AAsVSjFBdAAKSkFWQVNDUklQVHNxAH4AC9+GxIR0AA5FbnRpdHlUb29MYXJnZXNxAH4AC0agE3d0AAxVTkFVVEhPUklaRURzcQB+AAuuuDOGdAASc2VuZFBhdGgkZGVmYXVsdCQyc3EAfgALrK084XQAFlVOU1VQUE9SVEVEX01FRElBX1RZUEVzcQB+AAslI0I6dAANJGlzSW5zdGFuY2VPZnNxAH4ACyGET2R0AAdSRUZFUkVSc3EAfgAL3H35F3QAGFJFUVVFU1RfRU5USVRZX1RPT19MQVJHRXNxAH4ACwcooYx0AAZPUklHSU5zcQB+AAseinfrdAALd2l0aENvb2tpZXNzcQB+AAvvcv9VdAAPQUNDRVBUX0xBTkdVQUdFc3EAfgALWS1XzHQADE5PVF9NT0RJRklFRHNxAH4AC8NRHYJ0AAJhc3NxAH4AC4yJz0x0AAt3aXRoU2Vzc2lvbnNxAH4ACzfE+A90ABpIVFRQX1ZFUlNJT05fTk9UX1NVUFBPUlRFRHNxAH4ACyGSgvZ0ABtBQ0NFU1NfQ09OVFJPTF9BTExPV19PUklHSU5zcQB+AAuce5+ydAASc2VuZEZpbGUkZGVmYXVsdCQzc3EAfgALHiTR2HQAE1VucHJvY2Vzc2FibGVFbnRpdHlzcQB+AAtNdcmqdAANcmF3JGRlZmF1bHQkMnNxAH4AC1UHvbd0AAR0ZXh0c3EAfgALQKSrSnQACGNhbkVxdWFsc3EAfgALz3AxaXQACE5vdEZvdW5kc3EAfgALggZsqnQABmNvbmZpZ3NxAH4AC7HzRC10AAhJRl9SQU5HRXNxAH4AC6uvCrF0ABJzZW5kRmlsZSRkZWZhdWx0JDRzcQB+AAu0NhxLdAAbbXVsdGlwYXJ0Rm9ybURhdGEkZGVmYXVsdCQyc3EAfgALD0iWvHQACGZsYXNoaW5nc3EAfgALI+GZvXQAB2RlY2h1bmtzcQB+AAtWUp2KdAAERk9STXNxAH4ACwy+d6R0ABNJRl9VTk1PRElGSUVEX1NJTkNFc3EAfgAL34x0/nQAE1NXSVRDSElOR19QUk9UT0NPTFNzcQB+AAvxpkPMdAASVEVNUE9SQVJZX1JFRElSRUNUc3EAfgALBqDWJnQADXByb2R1Y3RQcmVmaXhzcQB+AAvO287MdAAOQ09OVEVOVF9MRU5HVEhzcQB+AAv+uFPWdAANdGVtcG9yYXJ5RmlsZXNxAH4AC1G2t290AApTRVRfQ09PS0lFc3EAfgALAx9ekHQACW5vdGlmeUFsbHNxAH4ACzlgpqF0AANBR0VzcQB+AAs6bd7QdAAURGVmYXVsdE1heFRleHRMZW5ndGhzcQB+AAsx2qpxdAALQkFEX0dBVEVXQVlzcQB+AAuzAcEsdAASRVhQRUNUQVRJT05fRkFJTEVEc3EAfgALd4hyInQACkNPTk5FQ1RJT05zcQB+AAtLfYdVdAAJRk9SV0FSREVEc3EAfgALzZE9iXQAAk9rc3EAfgAL/ivPb3QADGlzSW5zdGFuY2VPZnNxAH4ACwR+6YB0ABBNb3ZlZFBlcm1hbmVudGx5c3EAfgALZQfFP3QAAk9Lc3EAfgALR5BfeHQABGNoYXRzcQB+AAvSDHVFdAARZGlzY2FyZGluZ0Nvb2tpZXNzcQB+AAsGZllmdAAEaG9tZXNxAH4ACxuykX10ABVBcHBsaWNhdGlvblhtbE1hdGNoZXJzcQB+AAv+gv4VdAAcQUNDRVNTX0NPTlRST0xfQUxMT1dfSEVBREVSU3NxAH4AC3Cn9BN0AA5DQUNIRV9NQU5JRkVTVHNxAH4ACxl2kAt0AAlGb3JiaWRkZW5zcQB+AAs8byYbdAAXSHR0cFZlcnNpb25Ob3RTdXBwb3J0ZWRzcQB+AAtYWHcEdAAEVEVYVHNxAH4ACxAxwi90AApCYWRSZXF1ZXN0c3EAfgALHL85FHQABUZPVU5Ec3EAfgALln+WJ3QABjxpbml0PnNxAH4AC4cl38B0AAtOb3RNb2RpZmllZHNxAH4ACxP7/zV0AAREQVRFc3EAfgALj1erR3QAD2NyZWF0ZUJhZFJlc3VsdHNxAH4AC25hkjp0AAVhc3luY3NxAH4AC8y/sql0AA1DT05URU5UX1JBTkdFc3EAfgALwMO3jnQACVVOTElNSVRFRHNxAH4AC9LYmIR0AAQkYW1wc3EAfgAL1h7uDnQADHNlbmRSZXNvdXJjZXNxAH4AC+hWWEp0AAx0b2xlcmFudFRleHRzcQB+AAtjtfw7dAAHY2h1bmtlZHNxAH4AC7MXW1B0ABFUUkFOU0ZFUl9FTkNPRElOR3NxAH4AC4+8xlh0AAVhcHBseXNxAH4ACxkFmy10AANyYXdzcQB+AAvmUw4OdAAFZXJyb3JzcQB+AAu+H3EZdAADeG1sc3EAfgALl+F/c3QAA1VJRHNxAH4AC7OPPeJ0AAVwYXJzZXNxAH4AC85QvRF0ABNQUk9YWV9BVVRIT1JJWkFUSU9Oc3EAfgALJTwqI3QAAj09c3EAfgALNkqq5HQABEdPTkVzcQB+AAsF92oKdAAER29uZXNxAH4AC09QVot0ACBBQ0NFU1NfQ09OVFJPTF9BTExPV19DUkVERU5USUFMU3NxAH4AC7I6UYN0AA5OT1RfQUNDRVBUQUJMRXNxAH4AC/dAboJ0AAVjbG9uZXNxAH4AC75/kQJ0AAZzdHJlYW1zcQB+AAtfri9NdAAGRVhQRUNUc3EAfgAL9cefuXQAFnNlbmRSZXNvdXJjZSRkZWZhdWx0JDNzcQB+AAtPPPJHdAAHZGVmYXVsdHNxAH4AC0aNanF0ABJTZXJ2aWNlVW5hdmFpbGFibGVzcQB+AAvlBgFqdAAITE9DQVRJT05zcQB+AAvtydvWdAASc2VuZFBhdGgkZGVmYXVsdCQ0c3EAfgALIsuzEHQABFZBUllzcQB+AAv9etW5dAAQV1dXX0FVVEhFTlRJQ0FURXNxAH4ACxZhJWx0AAtBcHBsaWNhdGlvbnNxAH4AC31g+6F0AARmZWVkc3EAfgALt8+VEHQABFRPRE9zcQB+AAsPZxjCdAAPWF9GT1JXQVJERURfRk9Sc3EAfgAL6eHZOnQADmZvcm0kZGVmYXVsdCQzc3EAfgALjbOeF3QAElByZWNvbmRpdGlvbkZhaWxlZHNxAH4AC4kql3N0AAhBQ0NFUFRFRHNxAH4AC3GvI9R0AARIdG1sc3EAfgALRBU0s3QACk5PX0NPTlRFTlRzcQB+AAsPDQ6ZdAAISFRUUF8xXzBzcQB+AAt3TH2LdAAVSU5URVJOQUxfU0VSVkVSX0VSUk9Sc3EAfgALF2INYHQAD2NodW5rJGRlZmF1bHQkMXNxAH4AC5f3jgl0AA5hZGRSb29tRGV0YWlsc3NxAH4AC3TQS8V0AAdVUEdSQURFc3EAfgALYVukTXQAFnRvbGVyYW50Rm9ybVVybEVuY29kZWRzcQB+AAs/FRCpdAAJTk9UX0ZPVU5Ec3EAfgALtIKi8nQAB3Nlc3Npb25zcQB+AAu62JExdAAPQUNDRVBUX0VOQ09ESU5Hc3EAfgALS5Cls3QAE0ludGVybmFsU2VydmVyRXJyb3JzcQB+AAtT6cNMdAAHRVhQSVJFU3NxAH4AC9d3T1Z0AA5jb3B5JGRlZmF1bHQkM3NxAH4AC8l7axF0AARjb3B5c3EAfgALNng/WXQAH1JFUVVFU1RFRF9SQU5HRV9OT1RfU0FUSVNGSUFCTEVzcQB+AAsbvytvdAAGaGVhZGVyc3EAfgALJm9gKHQAFERlZmF1bHRNYXhEaXNrTGVuZ3Roc3EAfgALFB6wKnQACHJvb21OYW1lc3EAfgALIGC8K3QAB2NvdW50ZXJzcQB+AAtVYdvadAAIdG9TdHJpbmdzcQB+AAvSuPWPdAAMVW5hdXRob3JpemVkc3EAfgALwHs5pHQABGZpbGVzcQB+AAuLYHxgdAAOUmVxdWVzdFRpbWVvdXRzcQB+AAsKxOTqdAAGQUNDRVBUc3EAfgAL8vTWzXQAClVyaVRvb0xvbmdzcQB+AAvqAWRqdAAPR0FURVdBWV9USU1FT1VUc3EAfgALHvTH3XQAC011bHRpU3RhdHVzc3EAfgALoxJlrnQABlNFUlZFUnNxAH4AC3Vq1Z50AB1BQ0NFU1NfQ09OVFJPTF9SRVFVRVNUX01FVEhPRHNxAH4AC9rHltZ0ABRVTlBST0NFU1NBQkxFX0VOVElUWXNxAH4AC6EbNi50ABZBQ0NFU1NfQ09OVFJPTF9NQVhfQUdFc3EAfgALon0G4nQACHNlbmRQYXRoc3EAfgALc8rtnXQAAiE9c3EAfgALxkQbUnQADUxBU1RfTU9ESUZJRURzcQB+AAsovZkfdAAdQUNDRVNTX0NPTlRST0xfRVhQT1NFX0hFQURFUlNzcQB+AAsdbbeMdAAeQUNDRVNTX0NPTlRST0xfUkVRVUVTVF9IRUFERVJTc3EAfgALi4tUTXQAC3dpdGhDaGFyc2V0c3EAfgALBhyuKnQACENvbmZsaWN0c3EAfgALG05gP3QACmNvbm5lY3Rpb25zcQB+AAvwpgpGdAAFQUxMT1dzcQB+AAt6PxFldAAGQ09PS0lFc3EAfgALnrWUDHQAEUlGX01PRElGSUVEX1NJTkNFc3EAfgALR4niPXQACGdldENsYXNzc3EAfgAL78j5H3QAA1htbHNxAH4ACzOPDNN0ABlDT05URU5UX1RSQU5TRkVSX0VOQ09ESU5Hc3EAfgALbkNbMnQADmNvcHkkZGVmYXVsdCQxc3EAfgALoefP/nQABEhUTUxzcQB+AAsmsnuddAAFRm91bmRzcQB+AAtNMhWHdAAdTk9OX0FVVEhPUklUQVRJVkVfSU5GT1JNQVRJT05zcQB+AAsbNhD5dAAEZm9ybXNxAH4AC62JHkx0AAZyZW5kZXJzcQB+AAv0sqLidAAGUFJBR01Bc3EAfgALOusZAHQACElGX01BVENIc3EAfgALuFpNM3QAHVBST1hZX0FVVEhFTlRJQ0FUSU9OX1JFUVVJUkVEc3EAfgALjwS/cHQADVJFU0VUX0NPTlRFTlRzcQB+AAsbNg3AdAAJU0VFX09USEVSc3EAfgALQydpVnQAEUZBSUxFRF9ERVBFTkRFTkNZc3EAfgALq4T/xHQAAm5lc3EAfgALPL1oI3QAEENPTlRFTlRfRU5DT0RJTkdzcQB+AAtF88XldAATSW5zdWZmaWNpZW50U3RvcmFnZXNxAH4AC3wUbsV0AAVSQU5HRXNxAH4AC8LCIRl0AA93aXRoRGF0ZUhlYWRlcnNzcQB+AAsGPPdRdAAJVVNFX1BST1hZc3EAfgALKnxS7nQAB0FjY2VwdHNzcQB+AAv5/SQcdAAHQ0hVTktFRHNxAH4ACz8KuKN0ABRSRVFVRVNUX1VSSV9UT09fTE9OR3NxAH4AC0n2vid0ABJSZWRpcmVjdCRkZWZhdWx0JDNzcQB+AAsCwRXZdAAGTE9DS0VEc3EAfgALgRfUbXQAAndzc3EAfgALnlmsGnQABHdoZW5zcQB+AAvZc9HadAASc2VuZFBhdGgkZGVmYXVsdCQzc3EAfgALtUdy1XQABmlnbm9yZXNxAH4AC9dY1gV0AARKc29uc3EAfgALqR9Zt3QACW1heExlbmd0aHNxAH4ACw25u0p0AAlGT1JCSURERU5zcQB+AAuV9ofWdAASTUVUSE9EX05PVF9BTExPV0VEc3EAfgALgSNi2nQAAmVxc3EAfgALkeGOpnQAGWNyZWF0ZUJhZFJlc3VsdCRkZWZhdWx0JDJzcQB+AAvJTI7WdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAL9iTlEHQADUlGX05PTkVfTUFUQ0hzcQB+AAtwUJmFdAANQUNDRVBUX1JBTkdFU3NxAH4AC2RwJ/10AAlOb0NvbnRlbnRzcQB+AAtOV2H7dAAQWF9SRVFVRVNURURfV0lUSHNxAH4AC9Igf+10ABFYX0ZPUldBUkRFRF9QUk9UT3NxAH4AC7nePSp0AAt0b2xlcmFudFhtbHNxAH4AC8wShfp0AAxNVUxUSV9TVEFUVVNzcQB+AAtq/VUNdAACIyNzcQB+AAuO9PlWdAAIZmluYWxpemVzcQB+AAvOaxmddAATU0VSVklDRV9VTkFWQUlMQUJMRXNxAH4AC0ZG4B90AA5wcm9kdWN0RWxlbWVudHNxAH4AC5XX0kV0AAhoYXNoQ29kZXNxAH4ACx7A4uR0AAZTdGF0dXNzcQB+AAs88TQSdAALd2l0aEhlYWRlcnNzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgJZeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAXY29udHJvbGxlcnMuQXBwbGljYXRpb251cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AnJ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AnEBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AllMAAlpbmhlcml0ZWRxAH4CWUwAB3BhcmVudHNxAH4CWXhxAH4CenNxAH4CcQF1cQB+AlQAAAAAcHNxAH4CcQF1cQB+AlQAAAAAcHNxAH4CcQF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAADHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+Anl0AApDb250cm9sbGVyc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgJ5c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARwbGF5c3EAfgKSdAADYXBpc3EAfgKSdAADbXZjc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+ApNzcQB+AoZ0AAlSZW5kZXJpbmdxAH4CjHNxAH4ChnQAEVJlcXVlc3RFeHRyYWN0b3JzcQB+AoxzcQB+AoZ0ABBBY2NlcHRFeHRyYWN0b3JzcQB+AoxzcQB+AoZ0AAxDb250ZW50VHlwZXNzcQB+AopzcQB+Ao11cQB+ApAAAAAEc3EAfgKSdAAEcGxheXNxAH4CknEAfgKXc3EAfgKSdAAEaHR0cHEAfgKbc3EAfgKGdAALSGVhZGVyTmFtZXNxAH4CpHNxAH4ChnQABlN0YXR1c3EAfgKkc3EAfgKGdAAMSHR0cFByb3RvY29scQB+AqRzcQB+AoZ0AAtCb2R5UGFyc2Vyc3EAfgKMc3EAfgKGdAAHUmVzdWx0c3EAfgKMc3EAfgKGdAAGT2JqZWN0c3EAfgKKc3EAfgKNdXEAfgKQAAAAA3NxAH4CknQABGphdmFzcQB+ApJ0AARsYW5ncQB+AptzcQB+AoZ0AANBbnlzcQB+AopzcQB+Ao11cQB+ApAAAAACc3EAfgKSdAAFc2NhbGFxAH4Cm3BwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAALY29udHJvbGxlcnNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU3Xt59ndXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUxMLeFIFwqVtxK6Mkfy3kRdoTLUo=
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC3x6QZAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwU+cKn3QABHNlbGZzcQB+AAvCca8DdAAHY29udGV4dHVxAH4ACQAAADRzcQB+AAuPM1LrdAAGbm90aWZ5c3EAfgAL8abyuHQAB1JlY2VpdmVzcQB+AAttXMMpdAAEbmFtZXNxAH4AC1euHlF0AAR3YWl0c3EAfgAL31gZxnQAFXVwZGF0ZVJvb21Vc2VyTWFwcGluZ3NxAH4AC/w8uQJ0AA5jb3B5JGRlZmF1bHQkMnNxAH4AC1aWLBl0AA0kYXNJbnN0YW5jZU9mc3EAfgALsPPobXQADHByb2R1Y3RBcml0eXNxAH4AC190Jgp0AAZlcXVhbHNzcQB+AAtdH0sNdAAMYXNJbnN0YW5jZU9mc3EAfgALavbmRnQADHN5bmNocm9uaXplZHNxAH4ACxsIQ8Z0AA0kaXNJbnN0YW5jZU9mc3EAfgALQ+qx0HQAB3JlY2VpdmVzcQB+AAvC8EMhdAAKcHJlUmVzdGFydHNxAH4AC0rvWOV0AA1hcm91bmRSZWNlaXZlc3EAfgALdTAam3QACGNhbkVxdWFsc3EAfgALv57PIXQAC3Bvc3RSZXN0YXJ0c3EAfgAL/7d+lXQACHBvc3RTdG9wc3EAfgALTKXycnQADXByb2R1Y3RQcmVmaXhzcQB+AAt7ruupdAAJbm90aWZ5QWxsc3EAfgAL3car9XQAD3VzZXJSb29tTWFwcGluZ3NxAH4AC3Kx2SV0ABFhcm91bmRQb3N0UmVzdGFydHNxAH4ACw6sVSF0AAxpc0luc3RhbmNlT2ZzcQB+AAtHMG5idAAQYXJvdW5kUHJlUmVzdGFydHNxAH4AC246+4R0AA5hcm91bmRQb3N0U3RvcHNxAH4AC5znRYd0AAY8aW5pdD5zcQB+AAtEQ9yWdAAIcHJlU3RhcnRzcQB+AAvuNNKMdAAIUm9vbURhdGFzcQB+AAslpy9rdAAJVXNlckFjdG9yc3EAfgALamq4LHQACXVuaGFuZGxlZHNxAH4ACw3dZmB0AAI9PXNxAH4AC0yqyAN0AAVjbG9uZXNxAH4AC/jmJ4Z0AAdNZXNzYWdlc3EAfgALFY3KCHQAA3VpZHNxAH4ACx4VHm10AARjb3B5c3EAfgALnjGHHnQABnNlbmRlcnNxAH4ACwpre850AAh0b1N0cmluZ3NxAH4AC7hMWBN0AANtc2dzcQB+AAuR9TehdAACIT1zcQB+AAtWGhQndAAIZ2V0Q2xhc3NzcQB+AAuo8YPDdAAOY29weSRkZWZhdWx0JDFzcQB+AAtOjA0PdAAFcHJvcHNzcQB+AAu1hbpsdAACbmVzcQB+AAsJowehdAASc3VwZXJ2aXNvclN0cmF0ZWd5c3EAfgAL6cFO3HQAAmVxc3EAfgALWPKjO3QAD3Byb2R1Y3RJdGVyYXRvcnNxAH4AC1FvtGJ0AANsb2dzcQB+AAvshIYWdAACIyNzcQB+AAt5X6vgdAAIZmluYWxpemVzcQB+AAsYQPvBdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAsUfTtQdAAIaGFzaENvZGVzcQB+AAsrTHIbdAAOYXJvdW5kUHJlU3RhcnRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAAEc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCDeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAQbW9kZWxzLlVzZXJBY3RvcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AnHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AmwFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4Ag0wACWluaGVyaXRlZHEAfgCDTAAHcGFyZW50c3EAfgCDeHEAfgCkc3EAfgCbAXVxAH4AfgAAAABwc3EAfgCbAXVxAH4AfgAAAABwc3EAfgCbAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ao3QADEFjdG9yTG9nZ2luZ3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ao3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEYWtrYXNxAH4AvHQABWFjdG9yc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AL1zcQB+ALB0AAVBY3RvcnEAfgC2c3EAfgCwdAAGT2JqZWN0c3EAfgC0c3EAfgC3dXEAfgC6AAAAA3NxAH4AvHQABGphdmFzcQB+ALx0AARsYW5ncQB+AMNzcQB+ALB0AANBbnlzcQB+ALRzcQB+ALd1cQB+ALoAAAACc3EAfgC8dAAFc2NhbGFxAH4Aw3Bwc3EAfgCAcQB+AI11cQB+AI4AAAAAc3EAfgCQAHQAD21vZGVscy5Sb29tRGF0YXVxAH4AkwAAAABxAH4Al3VxAH4AmQAAAABzcQB+AJsAcHNxAH4AoHEAfgClc3EAfgCbAXNxAH4Ap3NxAH4AmwF1cQB+AH4AAAAAcHNxAH4AmwF1cQB+AH4AAAAAcHNxAH4AmwF1cQB+AK4AAAAGc3EAfgCwdAAMU2VyaWFsaXphYmxlc3EAfgC0c3EAfgC3dXEAfgC6AAAAAnNxAH4AvHEAfgDVcQB+AMNzcQB+ALBxAH4A53NxAH4AtHNxAH4At3VxAH4AugAAAANzcQB+ALxxAH4AzHNxAH4AvHQAAmlvcQB+AMNzcQB+ALB0AAdQcm9kdWN0cQB+AOhzcQB+ALB0AAZFcXVhbHNxAH4A6HNxAH4AsHEAfgDHc3EAfgC0c3EAfgC3dXEAfgC6AAAAA3NxAH4AvHEAfgDMc3EAfgC8cQB+AM5xAH4Aw3NxAH4AsHEAfgDQcQB+AOhwcHNxAH4AgHEAfgCNdXEAfgCOAAAAAHNxAH4AkAB0AA5tb2RlbHMuTWVzc2FnZXVxAH4AkwAAAABxAH4Al3VxAH4AmQAAAABzcQB+AJsAcHNxAH4AoHEAfgClc3EAfgCbAXNxAH4Ap3NxAH4AmwF1cQB+AH4AAAAAcHNxAH4AmwF1cQB+AH4AAAAAcHNxAH4AmwF1cQB+AK4AAAAGc3EAfgCwcQB+AOdzcQB+ALRzcQB+ALd1cQB+ALoAAAACc3EAfgC8cQB+ANVxAH4Aw3NxAH4AsHEAfgDnc3EAfgC0c3EAfgC3dXEAfgC6AAAAA3NxAH4AvHEAfgDMc3EAfgC8dAACaW9xAH4Aw3NxAH4AsHEAfgD0cQB+AQ9zcQB+ALB0AAZFcXVhbHNxAH4BD3NxAH4AsHEAfgDHc3EAfgC0c3EAfgC3dXEAfgC6AAAAA3NxAH4AvHEAfgDMc3EAfgC8cQB+AM5xAH4Aw3NxAH4AsHEAfgDQcQB+AQ9wcHNxAH4AgHEAfgCNdXEAfgCOAAAAAHNxAH4AkAB0ABBtb2RlbHMuVXNlckFjdG9ydXEAfgCTAAAAAH5xAH4AlXQABk1vZHVsZXVxAH4AmQAAAABzcQB+AJsAcHNxAH4AoHEAfgClc3EAfgCbAXNxAH4Ap3NxAH4AmwF1cQB+AH4AAAAAcHNxAH4AmwF1cQB+AH4AAAAAcHNxAH4AmwF1cQB+AK4AAAACc3EAfgCwcQB+AMdzcQB+ALRzcQB+ALd1cQB+ALoAAAADc3EAfgC8cQB+AMxzcQB+ALxxAH4AznEAfgDDc3EAfgCwcQB+ANBzcQB+ALRzcQB+ALd1cQB+ALoAAAACc3EAfgC8cQB+ANVxAH4Aw3BwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAAGbW9kZWxzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFN17efZ3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AEovVXNlcnMvTUFDL0RvY3VtZW50cy9QbGF5RXhwZXJpbWVudC9IYXNoSXRUYWxrSXQvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFPpQImzR78sbF+/2/gtpXvCiBvAz
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHARQ8NYAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLX/hn90AAZub3RpZnlzcQB+AAwNY54RdAAOX2RlZmF1bHRQcmVmaXhzcQB+AAye/yeIdAAEd2FpdHNxAH4ADDF3VQd0AA0kYXNJbnN0YW5jZU9mc3EAfgAMEwx+KHQABmVxdWFsc3NxAH4ADARE58l0AAxhc0luc3RhbmNlT2ZzcQB+AAz9wkazdAAMc3luY2hyb25pemVkc3EAfgAMIbmbEnQADSRpc0luc3RhbmNlT2ZzcQB+AAzUgtJXdAANUmV2ZXJzZUFzc2V0c3NxAH4ADBxbhjF0AAlub3RpZnlBbGxzcQB+AAzoG7L5dAAMaXNJbnN0YW5jZU9mc3EAfgAMjSp76HQABGNoYXRzcQB+AAzIpS7udAAEaG9tZXNxAH4ADMa8Lyd0AAY8aW5pdD5zcQB+AAyVATo5dAACYXRzcQB+AAzTKuCGdAACPT1zcQB+AAz+MmCKdAAFY2xvbmVzcQB+AAzyIVZndAAOYWRkUm9vbURldGFpbHNzcQB+AAyqMRBIdAAIdG9TdHJpbmdzcQB+AAyG7xytdAACIT1zcQB+AAymOOgCdAAIZ2V0Q2xhc3NzcQB+AAzJwdHQdAACbmVzcQB+AAwi+2TtdAACd3NzcQB+AAyg1lXtdAACZXFzcQB+AAxhFaA5dAASUmV2ZXJzZUFwcGxpY2F0aW9uc3EAfgAMpzysgnQAAiMjc3EAfgAMHhOtjHQACGZpbmFsaXplc3EAfgAMxblRIHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AT3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAGWNvbnRyb2xsZXJzLlJldmVyc2VBc3NldHN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGh4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGcBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AE9MAAlpbmhlcml0ZWRxAH4AT0wAB3BhcmVudHNxAH4AT3hxAH4AcHNxAH4AZwF1cQB+AEoAAAAAcHNxAH4AZwF1cQB+AEoAAAAAcHNxAH4AZwF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AG90AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AG9zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AIh0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIlzcQB+AHx0AANBbnlzcQB+AIBzcQB+AIN1cQB+AIYAAAACc3EAfgCIdAAFc2NhbGFxAH4Aj3Bwc3EAfgBMcQB+AFl1cQB+AFoAAAAAc3EAfgBcAHQAHmNvbnRyb2xsZXJzLlJldmVyc2VBcHBsaWNhdGlvbnVxAH4AXwAAAABxAH4AY3VxAH4AZQAAAABzcQB+AGcAcHNxAH4AbHEAfgBxc3EAfgBnAXNxAH4Ac3NxAH4AZwF1cQB+AEoAAAAAcHNxAH4AZwF1cQB+AEoAAAAAcHNxAH4AZwF1cQB+AHoAAAACc3EAfgB8cQB+AH9zcQB+AIBzcQB+AIN1cQB+AIYAAAADc3EAfgCIcQB+AItzcQB+AIhxAH4AjXEAfgCPc3EAfgB8cQB+AJFzcQB+AIBzcQB+AIN1cQB+AIYAAAACc3EAfgCIcQB+AJZxAH4Aj3BwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAALY29udHJvbGxlcnNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU3XoGordXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUxP+hUjrIS+Q7AkT/ZMAT1eSU1jk=
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBtGHk1AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPRE0t90AAZub3RpZnlzcQB+AAyxPWrLdAAOX2RlZmF1bHRQcmVmaXhzcQB+AAzERvmXdAAEd2FpdHNxAH4ADN9I65p0AA0kYXNJbnN0YW5jZU9mc3EAfgAM41Q68nQABmVxdWFsc3NxAH4ADMuWmTh0AAxhc0luc3RhbmNlT2ZzcQB+AAxNPNdadAAMc3luY2hyb25pemVkc3EAfgAMEhXDgXQADSRpc0luc3RhbmNlT2ZzcQB+AAym6BizdAANUmV2ZXJzZUFzc2V0c3NxAH4ADFm+j6l0AAlub3RpZnlBbGxzcQB+AAy84Ph3dAAMaXNJbnN0YW5jZU9mc3EAfgAMdVOCSnQABGNoYXRzcQB+AAyQ5h2xdAAEaG9tZXNxAH4ADEdbUlx0AAY8aW5pdD5zcQB+AAwinbQNdAACYXRzcQB+AAzfKMr4dAACPT1zcQB+AAw/LvpCdAAFY2xvbmVzcQB+AAzBgMZzdAAOYWRkUm9vbURldGFpbHNzcQB+AAxBAerYdAAIdG9TdHJpbmdzcQB+AAybJvCKdAACIT1zcQB+AAxgi93ddAAIZ2V0Q2xhc3NzcQB+AAzkLF3mdAACbmVzcQB+AAyyCI9kdAACd3NzcQB+AAzg47ZtdAACZXFzcQB+AAyVAhMGdAASUmV2ZXJzZUFwcGxpY2F0aW9uc3EAfgAMu6njEHQAAiMjc3EAfgAMk+e/LnQACGZpbmFsaXplc3EAfgAMWKzHGXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AT3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAJGNvbnRyb2xsZXJzLmphdmFzY3JpcHQuUmV2ZXJzZUFzc2V0c3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AaHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AZwFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AT0wACWluaGVyaXRlZHEAfgBPTAAHcGFyZW50c3EAfgBPeHEAfgBwc3EAfgBnAXVxAH4ASgAAAABwc3EAfgBnAXVxAH4ASgAAAABwc3EAfgBnAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ab3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ab3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AiHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AiXNxAH4AfHQAA0FueXNxAH4AgHNxAH4Ag3VxAH4AhgAAAAJzcQB+AIh0AAVzY2FsYXEAfgCPcHBzcQB+AExxAH4AWXVxAH4AWgAAAABzcQB+AFwAdAApY29udHJvbGxlcnMuamF2YXNjcmlwdC5SZXZlcnNlQXBwbGljYXRpb251cQB+AF8AAAAAcQB+AGN1cQB+AGUAAAAAc3EAfgBnAHBzcQB+AGxxAH4AcXNxAH4AZwFzcQB+AHNzcQB+AGcBdXEAfgBKAAAAAHBzcQB+AGcBdXEAfgBKAAAAAHBzcQB+AGcBdXEAfgB6AAAAAnNxAH4AfHEAfgB/c3EAfgCAc3EAfgCDdXEAfgCGAAAAA3NxAH4AiHEAfgCLc3EAfgCIcQB+AI1xAH4Aj3NxAH4AfHEAfgCRc3EAfgCAc3EAfgCDdXEAfgCGAAAAAnNxAH4AiHEAfgCWcQB+AI9wcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAFmNvbnRyb2xsZXJzLmphdmFzY3JpcHRzcQB+ALR0AAtjb250cm9sbGVyc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdegait1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABKL1VzZXJzL01BQy9Eb2N1bWVudHMvUGxheUV4cGVyaW1lbnQvSGFzaEl0VGFsa0l0L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSGO22MdWJZiVXpY7r/LgHwJVoRDg==
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/routes.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAIl4F+AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAADHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDWEMsN0AAZub3RpZnlzcQB+AAwiIU/tdAAGQXNzZXRzc3EAfgAMbXrq1HQABHdhaXRzcQB+AAwfqLrQdAAGcm91dGVzc3EAfgAMVTZc4nQABmVxdWFsc3NxAH4ADNzwkR50ABFyb3V0ZXMkamF2YXNjcmlwdHNxAH4ADH5hOHh0AAlub3RpZnlBbGxzcQB+AAzRnyHkdAAGPGluaXQ+c3EAfgAMS1Yq5HQAC0FwcGxpY2F0aW9uc3EAfgAMVarO+HQACHRvU3RyaW5nc3EAfgAMIQt8cHQACGdldENsYXNzc3EAfgAMHufqNnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AL3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAEmNvbnRyb2xsZXJzLnJvdXRlc3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADHNjYWxhLnRocm93c3NyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBIAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgAvTAAJaW5oZXJpdGVkcQB+AC9MAAdwYXJlbnRzcQB+AC94cQB+AE9zcQB+AEgBdXEAfgAqAAAAAHBzcQB+AEgBdXEAfgAqAAAAAHBzcQB+AEgBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBOdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBOc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgBndAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgBocHBzcQB+ACxxAH4AOXEAfgA7cQB+AD1xAH4APnEAfgBAfnEAfgBBdAAGTW9kdWxldXEAfgBFAAAAAHNxAH4ASAFxAH4AUHBzcQB+AEgBc3EAfgBSc3EAfgBIAXVxAH4AKgAAAABwc3EAfgBIAXVxAH4AKgAAAABwc3EAfgBIAXVxAH4AWQAAAABwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAC2NvbnRyb2xsZXJzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFN16BqK3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEovVXNlcnMvTUFDL0RvY3VtZW50cy9QbGF5RXhwZXJpbWVudC9IYXNoSXRUYWxrSXQvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFP/mjiz8lIArin3L0YdvP5/orj3o
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAk6XMBAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAKnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cE2B+bZ0AAZub3RpZnlzcQB+AAxlm95SdAAKYmFkUmVxdWVzdHNxAH4ADKjpu4V0AC9jb250cm9sbGVyc19BcHBsaWNhdGlvbl9hZGRSb29tRGV0YWlsczRfaW52b2tlcnNxAH4ADICYB9J0AAR3YWl0c3EAfgAMcvaVfXQADSRhc0luc3RhbmNlT2ZzcQB+AAxJNkt3dAAGcm91dGVzc3EAfgAMnnvHSXQADWNyZWF0ZUludm9rZXJzcQB+AAw6Cm0edAAGZXF1YWxzc3EAfgAMqUpVIXQAI2NvbnRyb2xsZXJzX0FwcGxpY2F0aW9uX3dzM19pbnZva2Vyc3EAfgAMVMff73QABnByZWZpeHNxAH4ADO6xBt50AAxhc0luc3RhbmNlT2ZzcQB+AAwCT/NKdAANZG9jdW1lbnRhdGlvbnNxAH4ADMgBwOB0AAxzeW5jaHJvbml6ZWRzcQB+AAzaUbeFdAANJGlzSW5zdGFuY2VPZnNxAH4ADKMOD+p0ACNjb250cm9sbGVyc19BcHBsaWNhdGlvbl9jaGF0MF9yb3V0ZXNxAH4ADEOocK90AApoYW5kbGVyRm9yc3EAfgAM8U1QMnQACW5vdGlmeUFsbHNxAH4ADMhmhNR0AAxpc0luc3RhbmNlT2ZzcQB+AAzOS0WodAAMZXJyb3JIYW5kbGVyc3EAfgAM1TW9JnQAHmNvbnRyb2xsZXJzX0Fzc2V0c19hdDFfaW52b2tlcnNxAH4ADGN5c1x0AAY8aW5pdD5zcQB+AAxc3eiFdAAcY29udHJvbGxlcnNfQXNzZXRzX2F0MV9yb3V0ZXNxAH4ADC08IBJ0ACVjb250cm9sbGVyc19BcHBsaWNhdGlvbl9jaGF0MF9pbnZva2Vyc3EAfgAMun+nMnQAIWNvbnRyb2xsZXJzX0FwcGxpY2F0aW9uX3dzM19yb3V0ZXNxAH4ADG5okA90AC1jb250cm9sbGVyc19BcHBsaWNhdGlvbl9hZGRSb29tRGV0YWlsczRfcm91dGVzcQB+AAxa6Ge3dAACPT1zcQB+AAwx3cesdAAFY2xvbmVzcQB+AAySJupEdAAGUm91dGVzc3EAfgAMt0jr8HQACHRvU3RyaW5nc3EAfgAMyb8nyHQAAiE9c3EAfgAMylHjK3QACWZha2VWYWx1ZXNxAH4ADHSi/xh0AAhnZXRDbGFzc3NxAH4ADNHU6cV0ACVjb250cm9sbGVyc19BcHBsaWNhdGlvbl9ob21lMl9pbnZva2Vyc3EAfgAMhSav2HQAI2NvbnRyb2xsZXJzX0FwcGxpY2F0aW9uX2hvbWUyX3JvdXRlc3EAfgAMMmBJpHQAAm5lc3EAfgAMBXHxLHQACndpdGhQcmVmaXhzcQB+AAyTLj6ydAAEY2FsbHNxAH4ADPdUv350AAJlcXNxAH4ADMXuRTh0AA1kZWZhdWx0UHJlZml4c3EAfgAM91K9EHQAAiMjc3EAfgAMbQP1nXQACGZpbmFsaXplc3EAfgAMhbNRb3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Aa3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQADXJvdXRlci5Sb3V0ZXN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0ABNqYXZheC5pbmplY3QuSW5qZWN0c3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AIQBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGtMAAlpbmhlcml0ZWRxAH4Aa0wAB3BhcmVudHNxAH4Aa3hxAH4Ai3NxAH4AhAF1cQB+AGYAAAAAcHNxAH4AhAF1cQB+AGYAAAAAcHNxAH4AhAF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AIp0AA9HZW5lcmF0ZWRSb3V0ZXJzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AIpzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAARzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABHBsYXlzcQB+AKN0AARjb3Jlc3EAfgCjdAAHcm91dGluZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCkc3EAfgCXdAAGUm91dGVyc3EAfgCbc3EAfgCedXEAfgChAAAABHNxAH4Ao3QABHBsYXlzcQB+AKN0AANhcGlzcQB+AKN0AAdyb3V0aW5ncQB+AKxzcQB+AJd0AAZPYmplY3RzcQB+AJtzcQB+AJ51cQB+AKEAAAADc3EAfgCjdAAEamF2YXNxAH4Ao3QABGxhbmdxAH4ArHNxAH4Al3QAA0FueXNxAH4Am3NxAH4AnnVxAH4AoQAAAAJzcQB+AKN0AAVzY2FsYXEAfgCscHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZyb3V0ZXJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU3XoGordXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUsRPZxXpO1PygIkdho5wfEp1uv3A=
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBcdvxBAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cN0jWmN0AAZub3RpZnlzcQB+AAw6mfPpdAAMYnlOYW1lUHJlZml4c3EAfgAMGqAuKnQABHdhaXRzcQB+AAwiihQedAANJGFzSW5zdGFuY2VPZnNxAH4ADGlC0gh0AAZlcXVhbHNzcQB+AAxzjiBXdAAGcHJlZml4c3EAfgAMoe4en3QADGFzSW5zdGFuY2VPZnNxAH4ADLjZuch0AAxSb3V0ZXNQcmVmaXhzcQB+AAzBVSPudAAMc3luY2hyb25pemVkc3EAfgAM3PW0o3QADSRpc0luc3RhbmNlT2ZzcQB+AAxQkfPHdAAHX3ByZWZpeHNxAH4ADL28U7F0AAlub3RpZnlBbGxzcQB+AAz/ysYxdAAMaXNJbnN0YW5jZU9mc3EAfgAM2W34NHQAAj09c3EAfgAMxTNSy3QABWNsb25lc3EAfgAM+6h7k3QACHRvU3RyaW5nc3EAfgAMjL/9EnQAAiE9c3EAfgAMFWcPZ3QACGdldENsYXNzc3EAfgAMRJBH63QACXNldFByZWZpeHNxAH4ADA44Ta90AAJuZXNxAH4ADBnhnUh0AAJlcXNxAH4ADBp2Pzd0AAIjI3NxAH4ADAff5nh0AAhmaW5hbGl6ZXNxAH4ADIIAnnp0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABNyb3V0ZXIuUm91dGVzUHJlZml4dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBfAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGZzcQB+AF8BdXEAfgBCAAAAAHBzcQB+AF8BdXEAfgBCAAAAAHBzcQB+AF8BdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBldAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBlc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB+dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB/c3EAfgBydAADQW55c3EAfgB2c3EAfgB5dXEAfgB8AAAAAnNxAH4AfnQABXNjYWxhcQB+AIVwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABnJvdXRlcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdegait1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABKL1VzZXJzL01BQy9Eb2N1bWVudHMvUGxheUV4cGVyaW1lbnQvSGFzaEl0VGFsa0l0L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTiyBOPPTU9XTyLI1iDP4JyIFEajQ==
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHADdmWjAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cE2ALNZ0AAZub3RpZnlzcQB+AAx/y8ZIdAAGZm9ybWF0c3EAfgAMaQYvPHQABHdhaXRzcQB+AAzrXasTdAANJGFzSW5zdGFuY2VPZnNxAH4ADElrj/90AAtjaGF0X1Njb3BlMHNxAH4ADIQtBQ50AAxwcm9kdWN0QXJpdHlzcQB+AAwH8jxpdAAGZXF1YWxzc3EAfgAM6vkSenQADGFzSW5zdGFuY2VPZnNxAH4ADO9qOph0AAFmc3EAfgAMNQjERXQADHN5bmNocm9uaXplZHNxAH4ADAFvnnR0AAlfZGlzcGxheV9zcQB+AAzMphVvdAANJGlzSW5zdGFuY2VPZnNxAH4ADI2vo9t0AANyZWZzcQB+AAx5PxEEdAAIY2FuRXF1YWxzcQB+AAyuzTBidAANcHJvZHVjdFByZWZpeHNxAH4ADDU7dmt0AAlub3RpZnlBbGxzcQB+AAxQRKGIdAALcmVhZFJlc29sdmVzcQB+AAxdcAOgdAAMaXNJbnN0YW5jZU9mc3EAfgAMXQYz8nQAC2NoYXRfU2NvcGUxc3EAfgAMsS+K/XQABGNoYXRzcQB+AAy5OsJmdAAGPGluaXQ+c3EAfgAMkh8qBHQABWFwcGx5c3EAfgAM41C9PHQAAj09c3EAfgAMdg/vUHQABWNsb25lc3EAfgAMN23vVHQABGNvcHlzcQB+AAzY+wRsdAAIdG9TdHJpbmdzcQB+AAw6ttZUdAACIT1zcQB+AAwDXjI4dAAIZ2V0Q2xhc3NzcQB+AAwzqZrudAAOY29weSRkZWZhdWx0JDFzcQB+AAz5WFQJdAAGcmVuZGVyc3EAfgAMhiZQ7HQAAm5lc3EAfgAMIpeOeHQAAmVxc3EAfgAM1uOD9nQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADDFZOCl0AAIjI3NxAH4ADIbbJpt0AAhmaW5hbGl6ZXNxAH4ADGSf3Kx0AA5wcm9kdWN0RWxlbWVudHNxAH4ADJdoExd0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABZ2aWV3cy5odG1sLmNoYXRfU2NvcGUwdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgB5AXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBhTAAJaW5oZXJpdGVkcQB+AGFMAAdwYXJlbnRzcQB+AGF4cQB+AIBzcQB+AHkBdXEAfgBcAAAAAHBzcQB+AHkBdXEAfgBcAAAAAHBzcQB+AHkBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB/dAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB/c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCYdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCZc3EAfgCMdAADQW55c3EAfgCQc3EAfgCTdXEAfgCWAAAAAnNxAH4AmHQABXNjYWxhcQB+AJ9wcHNxAH4AXnEAfgBrdXEAfgBsAAAAAHNxAH4AbgB0AA92aWV3cy5odG1sLmNoYXR1cQB+AHEAAAAAcQB+AHV1cQB+AHcAAAAAc3EAfgB5AXEAfgCBcHNxAH4AeQFzcQB+AINzcQB+AHkBdXEAfgBcAAAAAHBzcQB+AHkBdXEAfgBcAAAAAHBzcQB+AHkBdXEAfgCKAAAACXNxAH4AjHQABGNoYXRzcQB+AIx0AAtjaGF0X1Njb3BlMXNxAH4AjHQAC2NoYXRfU2NvcGUwc3EAfgCQc3EAfgCTdXEAfgCWAAAAA3NxAH4AmHQABXZpZXdzc3EAfgCYdAAEaHRtbHEAfgCfc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCNWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgB/c3EAfgCMdAAJVGVtcGxhdGUyc3EAfgCQc3EAfgCTdXEAfgCWAAAABHNxAH4AmHQABHBsYXlzcQB+AJh0AAV0d2lybHNxAH4AmHQAA2FwaXEAfgCfdXEAfgCKAAAAA3NxAH4AjHQABlN0cmluZ3NxAH4AkHNxAH4Ak3VxAH4AlgAAAANzcQB+AJhxAH4Am3NxAH4AmHEAfgCdcQB+AJ9zcQB+AIx0AA1SZXF1ZXN0SGVhZGVyc3EAfgCQc3EAfgCTdXEAfgCWAAAABHNxAH4AmHQABHBsYXlzcQB+AJhxAH4A0HNxAH4AmHQAA212Y3EAfgCfc3EAfgCMdAAESHRtbHEAfgDIc3EAfgDDc3EAfgCMdAARQmFzZVNjYWxhVGVtcGxhdGVxAH4AyHVxAH4AigAAAAJxAH4A43NxAH4Aw3NxAH4AjHQABkZvcm1hdHEAfgDIdXEAfgCKAAAAAXEAfgDjc3EAfgCMdAAMU2VyaWFsaXphYmxlc3EAfgCQc3EAfgCTdXEAfgCWAAAAAnNxAH4AmHEAfgCmcQB+AJ9zcQB+AIxxAH4A7nNxAH4AkHNxAH4Ak3VxAH4AlgAAAANzcQB+AJhxAH4Am3NxAH4AmHQAAmlvcQB+AJ9zcQB+AIx0AAdQcm9kdWN0cQB+AO9zcQB+AIx0AAZFcXVhbHNxAH4A73NxAH4AjHEAfgCPcQB+ANRzcQB+AIxxAH4AoXEAfgDvcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAV2aWV3c3NxAH4BAnQACnZpZXdzLmh0bWxzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU3bUYVfdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUb7+KpM4VzUmS7Wgao9Xd6omeXuE=
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCb4HcOAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cNZ6Cwh0AAZub3RpZnlzcQB+AAz9ATWbdAAGZm9ybWF0c3EAfgAMxjOzMnQABHdhaXRzcQB+AAyNedRPdAANJGFzSW5zdGFuY2VPZnNxAH4ADBU5D/x0AAxwcm9kdWN0QXJpdHlzcQB+AAzJpAgEdAAGZXF1YWxzc3EAfgAMNPzV4nQADGFzSW5zdGFuY2VPZnNxAH4ADO9zHF90AAFmc3EAfgAM8euiwHQADHN5bmNocm9uaXplZHNxAH4ADAG//UR0AAlfZGlzcGxheV9zcQB+AAwg0KGldAALaG9tZV9TY29wZTBzcQB+AAyS26stdAANJGlzSW5zdGFuY2VPZnNxAH4ADLGS72R0AANyZWZzcQB+AAz0uLXMdAAIY2FuRXF1YWxzcQB+AAz2NE/idAANcHJvZHVjdFByZWZpeHNxAH4ADCc75pB0AAlub3RpZnlBbGxzcQB+AAxg124qdAALcmVhZFJlc29sdmVzcQB+AAwt5hKkdAAMaXNJbnN0YW5jZU9mc3EAfgAMfYW/WnQABGhvbWVzcQB+AAxmh1qydAAGPGluaXQ+c3EAfgAM08MBW3QABWFwcGx5c3EAfgAMZ1trzHQAAj09c3EAfgAMBj8G3XQABWNsb25lc3EAfgAMzJYlr3QABGNvcHlzcQB+AAzIHF3WdAAIdG9TdHJpbmdzcQB+AAw9qkbFdAACIT1zcQB+AAxBLoCPdAAIZ2V0Q2xhc3NzcQB+AAykYdxhdAAOY29weSRkZWZhdWx0JDFzcQB+AAxtkDvPdAAGcmVuZGVyc3EAfgAMdoCBNXQAAm5lc3EAfgAMFqUei3QAAmVxc3EAfgAMd/bZDXQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADDYgjNt0AAIjI3NxAH4ADL4k/Ex0AAhmaW5hbGl6ZXNxAH4ADJkBLCN0AA5wcm9kdWN0RWxlbWVudHNxAH4ADB9u2K50AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AF94cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABZ2aWV3cy5odG1sLmhvbWVfU2NvcGUwdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgB3AXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBfTAAJaW5oZXJpdGVkcQB+AF9MAAdwYXJlbnRzcQB+AF94cQB+AH5zcQB+AHcBdXEAfgBaAAAAAHBzcQB+AHcBdXEAfgBaAAAAAHBzcQB+AHcBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB9dAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB9c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCWdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCXc3EAfgCKdAADQW55c3EAfgCOc3EAfgCRdXEAfgCUAAAAAnNxAH4AlnQABXNjYWxhcQB+AJ1wcHNxAH4AXHEAfgBpdXEAfgBqAAAAAHNxAH4AbAB0AA92aWV3cy5odG1sLmhvbWV1cQB+AG8AAAAAcQB+AHN1cQB+AHUAAAAAc3EAfgB3AXEAfgB/cHNxAH4AdwFzcQB+AIFzcQB+AHcBdXEAfgBaAAAAAHBzcQB+AHcBdXEAfgBaAAAAAHBzcQB+AHcBdXEAfgCIAAAACXNxAH4AinQABGhvbWVzcQB+AIp0AAtob21lX1Njb3BlMHNxAH4AjnNxAH4AkXVxAH4AlAAAAANzcQB+AJZ0AAV2aWV3c3NxAH4AlnQABGh0bWxxAH4AnXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ai1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AfXNxAH4AinQACVRlbXBsYXRlMnNxAH4AjnNxAH4AkXVxAH4AlAAAAARzcQB+AJZ0AARwbGF5c3EAfgCWdAAFdHdpcmxzcQB+AJZ0AANhcGlxAH4AnXVxAH4AiAAAAANzcQB+AL9zcQB+AIp0AARGb3Jtc3EAfgCOc3EAfgCRdXEAfgCUAAAABHNxAH4AlnQABHBsYXlzcQB+AJZxAH4AzHNxAH4AlnQABGRhdGFxAH4AnXVxAH4AiAAAAAFzcQB+AIp0AAhSb29tRGF0YXNxAH4AjnNxAH4AkXVxAH4AlAAAAAJzcQB+AJZ0AAZtb2RlbHNxAH4AnXNxAH4AinQACE1lc3NhZ2Vzc3EAfgCOc3EAfgCRdXEAfgCUAAAABHNxAH4AlnQABHBsYXlzcQB+AJZxAH4AzHNxAH4AlnQABGkxOG5xAH4AnXNxAH4AinQABEh0bWxxAH4AxHNxAH4Av3NxAH4AinQAEUJhc2VTY2FsYVRlbXBsYXRlcQB+AMR1cQB+AIgAAAACcQB+AOtzcQB+AL9zcQB+AIp0AAZGb3JtYXRxAH4AxHVxAH4AiAAAAAFxAH4A63NxAH4AinQADFNlcmlhbGl6YWJsZXNxAH4AjnNxAH4AkXVxAH4AlAAAAAJzcQB+AJZxAH4ApHEAfgCdc3EAfgCKcQB+APZzcQB+AI5zcQB+AJF1cQB+AJQAAAADc3EAfgCWcQB+AJlzcQB+AJZ0AAJpb3EAfgCdc3EAfgCKdAAHUHJvZHVjdHEAfgD3c3EAfgCKdAAGRXF1YWxzcQB+APdzcQB+AIpxAH4AjXNxAH4AjnNxAH4AkXVxAH4AlAAAAANzcQB+AJZxAH4AmXNxAH4AlnEAfgCbcQB+AJ1zcQB+AIpxAH4An3EAfgD3cHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAV2aWV3c3NxAH4BD3QACnZpZXdzLmh0bWxzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU3XoGordXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUm0wP7isydTn7qnREbzlgDxaVwVI=
+external apis:
+0 items
+source infos:
+9 items
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/controllers/Application.scala -> 
+AAAAAAAAAAA=
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/models/UserActor.scala -> 
+AAAAAgAAAQAAACgARSAgICAgICAgY2FzZSB1c2VycyA6IExpc3RbQWN0b3JSZWZdID0+IHVzZXJzLnRvTGlzdC5tYXAoeCA9PiB4ICEgbXNnKQEAAAR7AQAAABUBABUgICAgICAgICAgICAgICAgICAgICABAEsvVXNlcnMvTUFDL0RvY3VtZW50cy9QbGF5RXhwZXJpbWVudC9IYXNoSXRUYWxrSXQvYXBwL21vZGVscy9Vc2VyQWN0b3Iuc2NhbGEBAEsvVXNlcnMvTUFDL0RvY3VtZW50cy9QbGF5RXhwZXJpbWVudC9IYXNoSXRUYWxrSXQvYXBwL21vZGVscy9Vc2VyQWN0b3Iuc2NhbGEAn2ZydWl0bGVzcyB0eXBlIHRlc3Q6IGEgdmFsdWUgb2YgdHlwZSBPcHRpb25bTGlzdFtha2thLmFjdG9yLkFjdG9yUmVmXV0gY2Fubm90IGFsc28gYmUgYSBMaXN0W2Fra2EuYWN0b3IuQWN0b3JSZWZdICh0aGUgdW5kZXJseWluZyBvZiBMaXN0W2Fra2EuYWN0b3IuQWN0b3JSZWZdKQEAAAEAAAAnADUgICAgICBVc2VyQWN0b3IudXNlclJvb21NYXBwaW5nLmdldChyb29tTmFtZSkgbWF0Y2ggewEAAARTAQAAACMBACMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAEASy9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC9hcHAvbW9kZWxzL1VzZXJBY3Rvci5zY2FsYQEASy9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC9hcHAvbW9kZWxzL1VzZXJBY3Rvci5zY2FsYQBKbWF0Y2ggbWF5IG5vdCBiZSBleGhhdXN0aXZlLgpJdCB3b3VsZCBmYWlsIG9uIHRoZSBmb2xsb3dpbmcgaW5wdXQ6IFNvbWUoXykBAAAAAA==
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> 
+AAAAAAAAAAA=
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> 
+AAAAAAAAAAA=
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/controllers/routes.java -> 
+AAAAAAAAAAA=
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/Routes.scala -> 
+AAAAAAAAAAA=
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> 
+AAAAAAAAAAA=
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/chat.template.scala -> 
+AAAAAAAAAAA=
+/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/twirl/main/views/html/home.template.scala -> 
+AAAAAAAAAAA=
+compilations:
+17 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdavxFd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdbFNZd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdbI2Dx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdbL+h51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdbsHoh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdeX/xt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdeYGnt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdegait1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTde3n2d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTde7ea11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTde/5TJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdtGOqd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdtIAfZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdtJy9Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdtK+6h1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+15 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdtMkvV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+16 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdtRhV91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9NQUMvRG9jdW1lbnRzL1BsYXlFeHBlcmltZW50L0hhc2hJdFRhbGtJdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==

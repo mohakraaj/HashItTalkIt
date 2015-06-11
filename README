@@ -1,0 +1,11 @@
+HashItTalkIt
+=================================
+
+App to provide secure/secret chat
+
+
+Usage
+----------------------------------
+
+1. User enters room details
+2. User is provided with page to Enter password ( Password remains in the user browser, is not sent to server)
