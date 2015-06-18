@@ -7,13 +7,17 @@ import models.RoomData
 import play.api.Logger
 import play.api.data.Forms._
 import play.api.data._
-import play.api.libs.json.JsValue
+import play.api.libs.json._
 import play.api.mvc._
 import play.api.i18n.Messages.Implicits._
 import play.api.Play.current
 import play.api.mvc.WebSocket
-
+import scala.collection.mutable.{HashMap,Set}
 import scala.concurrent.Future
+
+//TODO : roomnames should be unique
+// TODO: Page refresh creates stale data in userRoomMapping (may be lazy val or streams )
+// TODO : On refresh uid to roommapping is gone. "Couldn decoe the cookie error"
 
 class Application extends Controller {
 
@@ -27,6 +31,9 @@ class Application extends Controller {
 
   val logger = Logger(this.getClass())
 
+  // Maping uid to List of Rooms
+  val uidToRoomMap = HashMap[String, Set[String]]().withDefaultValue(Set())
+
   // Form structure to collect Room details
   val roomDetailsForm = Form(
     mapping(
@@ -36,66 +43,62 @@ class Application extends Controller {
 
   //Load home page with Room details form
   // TODO : Redirect to chat room if the user has already added Room
-  def home() = Action { implicit request =>
+  def chat() = Action { implicit request =>
     val uid = request.session.get(UID).getOrElse {
       counter = counter + 1
       counter.toString()
     }
     logger.debug("User uid: " + uid + " has started the application")
-    Ok(views.html.home(roomDetailsForm)).withSession(request.session + (UID -> uid))
+    Ok(views.html.chat("Success")).withSession(request.session + (UID -> uid))
   }
 
-  // Sets up page for chatting with the webSocket
-  def chat = Action { implicit request =>
-    request.session.get(roomName) match {
-      case (Some(room: String)) =>  {
-        logger.debug("Sending user uid : "+ request.session.get(UID) +" to chat room")
-        Ok(views.html.chat("Your new application is ready."))
-      }
-      case None => {
-        logger.debug("Redirecting user to home page")
-        Redirect(routes.Application.home())
-      }
-    }
-  }
 
   // Bind user form to room details and store it in hashmap
   //TODO : Make room details as FlashScope
+  //TODO : Make this asynchronous call
   def addRoomDetails() = Action { implicit request =>
+    val uid = request.session.get(UID).getOrElse{ logger.error(" Request has no user Id attached"); " "}
     roomDetailsForm.bindFromRequest.fold(
       formWithErrors => {
-        logger.error("User has entered in compatible form values")
+        logger.error("User has entered incompatible form values")
         BadRequest(views.html.home(formWithErrors))
       },
       RoomData => {
-        logger.debug("Redirecting user to chat room")
-        Redirect(routes.Application.chat()).withSession(request.session + (roomName -> RoomData.name))
+        logger.debug("Room Form is in acceptable format")
+        if (uidToRoomMap(uid).add(RoomData.name)) {
+          userRoomMapping(RoomData.name) =  uidToUserActor(uid) ::  userRoomMapping(RoomData.name)
+          Ok(RoomData.name)
+        }
+        else
+          BadRequest("Duplicate roomname")
       }
     )
   }
 
+  // Method to return Json val of the list of rooms
+  def getRoomDetails() = Action { implicit request =>
+    val uid = request.session.get(UID).getOrElse{ logger.error(" Request has no user Id attached"); " "}
+
+    val roomListJson = Json.toJson(uidToRoomMap(uid))
+
+    Ok(roomListJson)
+  }
+
+  // Add method to describe the usefullness of the app
+  def about = TODO
+
   // Method to attach websockets with Actor class
   def ws = WebSocket.tryAcceptWithActor[JsValue, JsValue] { implicit request =>
     logger.debug("Initiating websockets with session value :" + request.session.get(UID))
-    logger.debug("Initiating websockets with roomName : " + request.session.get(roomName))
+    Future.successful((request.session.get(UID)) match {
+      case (Some(uid: String)) => Right {
+        UserActor.props(uid)
+      }
+      case (None) => {
+        logger.error("Session has no user Id ")
+        Left(Forbidden)
+      }
 
-    Future.successful((request.session.get(UID), request.session.get(roomName)) match {
-      case (Some(uid: String), Some(room: String)) => Right {
-        UserActor.props(uid, room)
-      }
-      case (None, x) => {
-        logger.error("Session has no Room name, but has userId: " + x)
-        Left(Forbidden)
-      }
-      case (x, None) => {
-        logger.error("Session has no UserID, but has roomName: " + x)
-        Left(Forbidden)
-      }
-      case (None, None) => {
-        logger.error("No session values are available")
-        //TODO : Warn user about cookies
-        Left(Forbidden)
-      }
     })
 
   }

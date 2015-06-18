@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/conf/routes
-// @DATE:Tue Jun 09 02:21:34 PDT 2015
+// @DATE:Wed Jun 17 20:03:19 PDT 2015
 
 package controllers;
 

@@ -345,6 +345,10 @@
 [debug] == resolving dependencies org.scalamacros#quasiquotes_2.10;2.0.1->org.scala-lang#scala-library;2.10.4 [runtime->compile]
 [debug] == resolving dependencies org.scalamacros#quasiquotes_2.10;2.0.1->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalamacros#quasiquotes_2.10;2.0.1->org.scala-lang#scala-reflect;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-pickling_2.10;0.10.0->org.scalamacros#quasiquotes_2.10;2.0.1 [compile->default(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-pickling_2.10;0.10.0->org.scalamacros#quasiquotes_2.10;2.0.1 [compile->runtime]
+[debug] == resolving dependencies org.scala-lang.modules#scala-pickling_2.10;0.10.0->org.scalamacros#quasiquotes_2.10;2.0.1 [compile->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-pickling_2.10;0.10.0->org.scalamacros#quasiquotes_2.10;2.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-lang.modules#scala-pickling_2.10;0.10.0->org.scala-lang#scala-compiler;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-pickling_2.10;0.10.0->org.scala-lang#scala-compiler;2.10.4 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang.modules#scala-pickling_2.10;0.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
@@ -361,16 +365,11 @@
 [debug] 	found org.json4s#json4s-core_2.10;3.2.10 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#serialization_2.10;0.1.1->org.json4s#json4s-core_2.10;3.2.10 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#serialization_2.10;0.1.1->org.json4s#json4s-core_2.10;3.2.10 [compile->compile]
-[debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
-[debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
-[debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.json4s#json4s-ast_2.10;3.2.10 [compile->master(*)]
-[debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
-[debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
 [info] Resolving org.json4s#json4s-ast_2.10;3.2.10 ...
 [debug] sbt-chain: Checking cache for: dependency: org.json4s#json4s-ast_2.10;3.2.10 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-ast_2.10;3.2.10
@@ -385,9 +384,11 @@
 [debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.10->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.10->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.10->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.json4s#json4s-ast_2.10;3.2.10 [compile->default(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.json4s#json4s-ast_2.10;3.2.10 [compile->runtime]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.json4s#json4s-ast_2.10;3.2.10 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.json4s#json4s-ast_2.10;3.2.10 [compile->master]
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->master(*)]
-[debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
-[debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
 [info] Resolving com.thoughtworks.paranamer#paranamer;2.6 ...
 [debug] sbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.6
@@ -395,7 +396,25 @@
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)]
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->runtime(*)]
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile]
-[debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->default(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->runtime]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->master]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->master(*)]
+[info] Resolving org.scala-lang#scalap;2.10.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.10.0
+[debug] 	found org.scala-lang#scalap;2.10.0 in sbt-chain
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.4 [runtime->compile]
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scala-library;2.10.4 [runtime->compile]
@@ -403,6 +422,8 @@
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.json4s#json4s-ast_2.10;3.2.10 [runtime->compile]
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [runtime->compile]
 [debug] == resolving dependencies org.scala-sbt#serialization_2.10;0.1.1->org.json4s#json4s-core_2.10;3.2.10 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#serialization_2.10;0.1.1->org.spire-math#jawn-parser_2.10;0.6.0 [compile->default(compile)]
 [info] Resolving org.spire-math#jawn-parser_2.10;0.6.0 ...
@@ -3811,6 +3832,54 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.webjars#diff;1.0.7 [default->runtime]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.webjars#diff;1.0.7 [default->compile]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.webjars#diff;1.0.7 [default->master]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.scala-sbt#sbt-core-next;0.1.1 [default->default(compile)]
+[info] Resolving org.scala-sbt#sbt-core-next;0.1.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt-core-next;0.1.1 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt-core-next;0.1.1
+[debug] 	found org.scala-sbt#sbt-core-next;0.1.1 in sbt-chain
+[debug] 	[0.1.1] org.scala-sbt#sbt-core-next;0.1.1
+[debug] == resolving dependencies org.scala-sbt#sbt-core-next;0.1.1->org.scala-sbt#core-next_2.10;0.1.1 [compile->default(compile)]
+[info] Resolving org.scala-sbt#core-next_2.10;0.1.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#core-next_2.10;0.1.1 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#core-next_2.10;0.1.1
+[debug] 	found org.scala-sbt#core-next_2.10;0.1.1 in sbt-chain
+[debug] == resolving dependencies org.scala-sbt#core-next_2.10;0.1.1->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies org.scala-sbt#core-next_2.10;0.1.1->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies org.scala-sbt#core-next_2.10;0.1.1->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies org.scala-sbt#core-next_2.10;0.1.1->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies org.scala-sbt#core-next_2.10;0.1.1->org.scala-sbt#serialization_2.10;0.1.0 [compile->default(compile)]
+[debug] == resolving dependencies org.scala-sbt#core-next_2.10;0.1.1->org.scala-sbt#serialization_2.10;0.1.1 [compile->default(compile)]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.scala-sbt#core-next_2.10;0.1.1 [default->default(compile)]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.scala-sbt#serialization_2.10;0.1.0 [default->default(compile)]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.scala-sbt#serialization_2.10;0.1.1 [default->default(compile)]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [default->default(compile)]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [default->runtime]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [default->compile]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [default->master]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.scalamacros#quasiquotes_2.10;2.0.1 [default->default(compile)]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.scalamacros#quasiquotes_2.10;2.0.1 [default->runtime]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.scalamacros#quasiquotes_2.10;2.0.1 [default->master]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.json4s#json4s-core_2.10;3.2.10 [default->default(compile)]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.json4s#json4s-core_2.10;3.2.10 [default->runtime]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.json4s#json4s-core_2.10;3.2.10 [default->compile]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.json4s#json4s-core_2.10;3.2.10 [default->master]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.json4s#json4s-ast_2.10;3.2.10 [default->default(compile)]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.json4s#json4s-ast_2.10;3.2.10 [default->runtime]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.json4s#json4s-ast_2.10;3.2.10 [default->compile]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.json4s#json4s-ast_2.10;3.2.10 [default->master]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.6 [default->default(compile)]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.6 [default->runtime]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.6 [default->compile]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.6 [default->master]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.spire-math#jawn-parser_2.10;0.6.0 [default->default(compile)]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.spire-math#jawn-parser_2.10;0.6.0 [default->runtime]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.spire-math#jawn-parser_2.10;0.6.0 [default->master]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.spire-math#json4s-support_2.10;0.6.0 [default->default(compile)]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.spire-math#json4s-support_2.10;0.6.0 [default->runtime]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.spire-math#json4s-support_2.10;0.6.0 [default->compile]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT->org.spire-math#json4s-support_2.10;0.6.0 [default->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar
@@ -3920,6 +3989,15 @@
 [debug] 	[NOT REQUIRED] org.webjars#mocha;1.17.1!mocha.jar
 [debug] 	[NOT REQUIRED] org.webjars#debug;0.7.4!debug.jar
 [debug] 	[NOT REQUIRED] org.webjars#diff;1.0.7!diff.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#sbt-core-next;0.1.1!sbt-core-next.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#core-next_2.10;0.1.1!core-next_2.10.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-pickling_2.10;0.10.0!scala-pickling_2.10.jar
+[debug] 	[NOT REQUIRED] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar
+[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.10;3.2.10!json4s-core_2.10.jar
+[debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.10;3.2.10!json4s-ast_2.10.jar
+[debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.6!paranamer.jar
+[debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.10;0.6.0!jawn-parser_2.10.jar
+[debug] 	[NOT REQUIRED] org.spire-math#json4s-support_2.10;0.6.0!json4s-support_2.10.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.8!main.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-src.jar
@@ -3959,13 +4037,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f!ivy.jar
 [debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.46!jsch.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#serialization_2.10;0.1.1!serialization_2.10.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-pickling_2.10;0.10.0!scala-pickling_2.10.jar
-[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.10;3.2.10!json4s-core_2.10.jar
-[debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.10;0.6.0!jawn-parser_2.10.jar
-[debug] 	[NOT REQUIRED] org.spire-math#json4s-support_2.10;0.6.0!json4s-support_2.10.jar
-[debug] 	[NOT REQUIRED] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar
-[debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.10;3.2.10!json4s-ast_2.10.jar
-[debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.6!paranamer.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scalap;2.10.0!scalap.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#cache;0.13.8!cache.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
@@ -3976,9 +4048,9 @@
 [debug] 	[NOT REQUIRED] asm#asm;3.1!asm.jar
 [debug] 	[NOT REQUIRED] jfree#jcommon;1.0.12!jcommon.jar
 [debug] 	[NOT REQUIRED] jfree#jfreechart;1.0.8a!jfreechart.jar
-[debug] :: resolution report :: resolve 4233ms :: artifacts dl 146ms
+[debug] :: resolution report :: resolve 4915ms :: artifacts dl 152ms
 [debug] 	report for hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT default produced in /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/resolution-cache/reports/hashittalkit-hashittalkit$sbt_2.11-default.xml
-[debug] 	resolve done (4233ms resolve - 146ms download)
+[debug] 	resolve done (4915ms resolve - 152ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: hashittalkit#hashittalkit$sources_2.11;1.0-SNAPSHOT
 [debug] 	confs: [default]
@@ -4194,6 +4266,14 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_2.11;1.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.6 [default->runtime]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_2.11;1.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.6 [default->compile]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_2.11;1.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.6 [default->master]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sources_2.11;1.0-SNAPSHOT->org.scala-lang#scalap;2.10.0 [default->default(compile)]
+[info] Resolving org.scala-lang#scalap;2.10.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scalap;2.10.0 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.10.0
+[debug] 	found org.scala-lang#scalap;2.10.0 in sbt-chain
+[debug] == resolving dependencies hashittalkit#hashittalkit$sources_2.11;1.0-SNAPSHOT->org.scala-lang#scalap;2.10.0 [default->runtime]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sources_2.11;1.0-SNAPSHOT->org.scala-lang#scalap;2.10.0 [default->compile]
+[debug] == resolving dependencies hashittalkit#hashittalkit$sources_2.11;1.0-SNAPSHOT->org.scala-lang#scalap;2.10.0 [default->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_2.11;1.0-SNAPSHOT->org.spire-math#jawn-parser_2.10;0.6.0 [default->default(compile)]
 [info] Resolving org.spire-math#jawn-parser_2.10;0.6.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.spire-math#jawn-parser_2.10;0.6.0 {default=[default(compile)]}
@@ -4975,6 +5055,17 @@
 [debug] sbt-chain: module revision found in cache: com.typesafe.sbt#sbt-mocha;1.1.0
 [debug] 	found com.typesafe.sbt#sbt-mocha;1.1.0 in sbt-chain
 [debug] 	[1.1.0] com.typesafe.sbt#sbt-mocha;1.1.0
+[debug] == resolving dependencies hashittalkit#hashittalkit$sources_2.11;1.0-SNAPSHOT->org.scala-sbt#sbt-core-next;0.1.1 [default->default(compile)]
+[info] Resolving org.scala-sbt#sbt-core-next;0.1.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt-core-next;0.1.1 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt-core-next;0.1.1
+[debug] 	found org.scala-sbt#sbt-core-next;0.1.1 in sbt-chain
+[debug] 	[0.1.1] org.scala-sbt#sbt-core-next;0.1.1
+[debug] == resolving dependencies hashittalkit#hashittalkit$sources_2.11;1.0-SNAPSHOT->org.scala-sbt#core-next_2.10;0.1.1 [default->default(compile)]
+[info] Resolving org.scala-sbt#core-next_2.10;0.1.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#core-next_2.10;0.1.1 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#core-next_2.10;0.1.1
+[debug] 	found org.scala-sbt#core-next_2.10;0.1.1 in sbt-chain
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar(src)
@@ -5012,6 +5103,7 @@
 [debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.10;3.2.10!json4s-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.10;3.2.10!json4s-ast_2.10.jar(src)
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.6!paranamer.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scalap;2.10.0!scalap.jar(src)
 [debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.10;0.6.0!jawn-parser_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.spire-math#json4s-support_2.10;0.6.0!json4s-support_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#run;0.13.8!run.jar(src)
@@ -5118,6 +5210,8 @@
 [debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-rjs;1.0.7!sbt-rjs.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-digest;1.1.0!sbt-digest.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-mocha;1.1.0!sbt-mocha.jar(src)
-[debug] :: resolution report :: resolve 7687ms :: artifacts dl 1305ms
+[debug] 	[NOT REQUIRED] org.scala-sbt#sbt-core-next;0.1.1!sbt-core-next.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#core-next_2.10;0.1.1!core-next_2.10.jar(src)
+[debug] :: resolution report :: resolve 2762ms :: artifacts dl 107ms
 [debug] 	report for hashittalkit#hashittalkit$sources_2.11;1.0-SNAPSHOT default produced in /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/resolution-cache/reports/hashittalkit-hashittalkit$sources_2.11-default.xml
-[debug] 	resolve done (7687ms resolve - 1305ms download)
+[debug] 	resolve done (2762ms resolve - 107ms download)

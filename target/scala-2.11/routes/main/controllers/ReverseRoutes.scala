@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/conf/routes
-// @DATE:Tue Jun 09 02:21:34 PDT 2015
+// @DATE:Wed Jun 17 20:03:19 PDT 2015
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }
@@ -34,10 +34,10 @@ package controllers {
     }
 
   
-    // @LINE:11
-    def home(): Call = {
+    // @LINE:17
+    def addRoomDetails(): Call = {
       import ReverseRouteContext.empty
-      Call("GET", _prefix)
+      Call("POST", _prefix + { _defaultPrefix } + "addroomdetails")
     }
   
     // @LINE:13
@@ -47,15 +47,29 @@ package controllers {
     }
   
     // @LINE:15
-    def addRoomDetails(): Call = {
+    def about(): Call = {
       import ReverseRouteContext.empty
-      Call("POST", _prefix + { _defaultPrefix } + "addroomdetails")
+      Call("GET", _prefix + { _defaultPrefix } + "about")
     }
   
     // @LINE:6
     def chat(): Call = {
+    
+      () match {
+      
+        // @LINE:6
+        case ()  =>
+          import ReverseRouteContext.empty
+          Call("GET", _prefix + { _defaultPrefix } + "chat")
+      
+      }
+    
+    }
+  
+    // @LINE:19
+    def getRoomDetails(): Call = {
       import ReverseRouteContext.empty
-      Call("GET", _prefix + { _defaultPrefix } + "chat")
+      Call("GET", _prefix + { _defaultPrefix } + "getroomdetails")
     }
   
   }

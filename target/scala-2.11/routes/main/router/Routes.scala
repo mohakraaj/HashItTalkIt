@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/conf/routes
-// @DATE:Tue Jun 09 02:21:34 PDT 2015
+// @DATE:Wed Jun 17 20:03:19 PDT 2015
 
 package router
 
@@ -44,9 +44,11 @@ class Routes(
   def documentation = List(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """chat""", """controllers.Application.chat"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""", """controllers.Assets.at(path:String = "/public", file:String)"""),
-    ("""GET""", this.prefix, """controllers.Application.home"""),
+    ("""GET""", this.prefix, """controllers.Application.chat()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """ws""", """controllers.Application.ws"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """about""", """controllers.Application.about"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """addroomdetails""", """controllers.Application.addRoomDetails"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """getroomdetails""", """controllers.Application.getRoomDetails"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -89,15 +91,15 @@ class Routes(
   )
 
   // @LINE:11
-  private[this] lazy val controllers_Application_home2_route = Route("GET",
+  private[this] lazy val controllers_Application_chat2_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix)))
   )
-  private[this] lazy val controllers_Application_home2_invoker = createInvoker(
-    Application_1.home,
+  private[this] lazy val controllers_Application_chat2_invoker = createInvoker(
+    Application_1.chat(),
     HandlerDef(this.getClass.getClassLoader,
       "router",
       "controllers.Application",
-      "home",
+      "chat",
       Nil,
       "GET",
       """""",
@@ -123,10 +125,27 @@ class Routes(
   )
 
   // @LINE:15
-  private[this] lazy val controllers_Application_addRoomDetails4_route = Route("POST",
+  private[this] lazy val controllers_Application_about4_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("about")))
+  )
+  private[this] lazy val controllers_Application_about4_invoker = createInvoker(
+    Application_1.about,
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "about",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """about"""
+    )
+  )
+
+  // @LINE:17
+  private[this] lazy val controllers_Application_addRoomDetails5_route = Route("POST",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("addroomdetails")))
   )
-  private[this] lazy val controllers_Application_addRoomDetails4_invoker = createInvoker(
+  private[this] lazy val controllers_Application_addRoomDetails5_invoker = createInvoker(
     Application_1.addRoomDetails,
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -136,6 +155,23 @@ class Routes(
       "POST",
       """ Post request to get Room Name""",
       this.prefix + """addroomdetails"""
+    )
+  )
+
+  // @LINE:19
+  private[this] lazy val controllers_Application_getRoomDetails6_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("getroomdetails")))
+  )
+  private[this] lazy val controllers_Application_getRoomDetails6_invoker = createInvoker(
+    Application_1.getRoomDetails,
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "getRoomDetails",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """getroomdetails"""
     )
   )
 
@@ -155,9 +191,9 @@ class Routes(
       }
   
     // @LINE:11
-    case controllers_Application_home2_route(params) =>
+    case controllers_Application_chat2_route(params) =>
       call { 
-        controllers_Application_home2_invoker.call(Application_1.home)
+        controllers_Application_chat2_invoker.call(Application_1.chat())
       }
   
     // @LINE:13
@@ -167,9 +203,21 @@ class Routes(
       }
   
     // @LINE:15
-    case controllers_Application_addRoomDetails4_route(params) =>
+    case controllers_Application_about4_route(params) =>
       call { 
-        controllers_Application_addRoomDetails4_invoker.call(Application_1.addRoomDetails)
+        controllers_Application_about4_invoker.call(Application_1.about)
+      }
+  
+    // @LINE:17
+    case controllers_Application_addRoomDetails5_route(params) =>
+      call { 
+        controllers_Application_addRoomDetails5_invoker.call(Application_1.addRoomDetails)
+      }
+  
+    // @LINE:19
+    case controllers_Application_getRoomDetails6_route(params) =>
+      call { 
+        controllers_Application_getRoomDetails6_invoker.call(Application_1.getRoomDetails)
       }
   }
 }

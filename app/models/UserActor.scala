@@ -17,23 +17,25 @@ import scala.xml.Utility
   * This can  be copied and/or distributed without the express
   * permission of anyone
   * ******************************************************/
-class UserActor(uid : String, roomName: String, out: ActorRef) extends Actor with ActorLogging {
+class UserActor(uid : String, out: ActorRef) extends Actor with ActorLogging {
 
   val logger = Logger(this.getClass())
 
   override def preStart =  {
-    logger.info("Creating new instance of UserActor for roomName: "+ roomName + " and UID: " + uid)
-    UserActor.updateRoomUserMapping(this.self , roomName)
+    UserActor.uidToUserActor(uid) = this.self
+    logger.info("Creating new instance of UserActor for  UID: " + uid)
   }
 
   def receive() = LoggingReceive {
-    case Message(uid,msg) => {
-      logger.debug("User: " + uid+ " has received the message")
-      out ! Json.obj("type" -> "message", "uid" -> uid, "msg" -> msg)
+    case Message(uid, msg, roomname) => {
+      logger.info("User: " + uid+ " has received the message" + " to room : "+ roomname)
+      out ! Json.obj("type" -> "message", "uid" -> uid, "msg" -> msg, "roomname" -> roomname)
     }
     case js: JsValue =>  {
       logger.debug("User uid: "+ uid +" has sent the message" )
-      logger.debug("Retrieving all the users mapped to the room name: " + roomName)
+      //logger.debug("Retrieving all the users mapped to the room name: " + roomName)
+
+      val roomName= Utility.escape((js \ "roomname").as[String])
 
       UserActor.userRoomMapping.get(roomName) match {
         case Some(users: List[ActorRef]) => {
@@ -55,39 +57,31 @@ class UserActor(uid : String, roomName: String, out: ActorRef) extends Actor wit
   }
 
   private def createMessageObject(jsValue: JsValue): Message = {
-    return Message(uid, Utility.escape((jsValue\ "msg").as[String]))
+    val msg = Utility.escape((jsValue \ "msg").as[String])
+    val roomName = Utility.escape((jsValue\ "roomname").as[String])
+    return Message(this.uid, msg, roomName)
   }
 }
 
 case class RoomData(name: String)
 
-case class Message(uid: String, msg: String)
+case class Message(uid: String, msg: String, roomname: String)
 
 object UserActor {
 
   val logger = Logger(this.getClass())
 
   // HashMap of (RoomName) -> List[UserActors]
-  val userRoomMapping = HashMap[String, List[ActorRef]]().withDefaultValue(List())
+  val userRoomMapping = HashMap[String, List[ActorRef]]().withDefaultValue(List[ActorRef]())
 
+  //HashMap uid -> user Actor instance
+
+  val uidToUserActor = HashMap[String, ActorRef]()
   // method to create an Actor for user Instance
-  def props(uid: String, roomName: String)(out: ActorRef) = Props(new UserActor(uid,roomName,out))
+  def props(uid: String)(out: ActorRef) = Props(new UserActor(uid,out))
 
-  //Method to update HashMap for roomName -> userActor
-  def updateRoomUserMapping(user: ActorRef, roomName: String) = {
 
-    logger.info("Updating user mapping for room name: " + roomName)
 
-    //Restrain user from adding himself to multiple rooms
-    if (userRoomMapping.exists(_._2.exists(_ == user))) {
-      logger.error("User can participate in only one secret conversation")
-    }
-    else {
-      // Create a new Map if roomName is not already mapped, orelse add to the existing list
-        logger.info("Updating useractor to the existing mapping, for room name :" + roomName)
-        userRoomMapping(roomName) = user :: userRoomMapping(roomName)
-    }
-  }
 }
 
 

@@ -31,53 +31,90 @@ Seq[Any](format.raw/*3.52*/("""
 
 
 <html>
-  <head>
-    <title>Anonymous Chat</title>
-    <link rel='stylesheet' href='"""),_display_(/*11.35*/routes/*11.41*/.Assets.at("stylesheets/bootstrap-min.css")),format.raw/*11.84*/("""'>
-    <link rel='stylesheet' href='"""),_display_(/*12.35*/routes/*12.41*/.Assets.at("stylesheets/bootstrap-theme.css")),format.raw/*12.86*/("""'>
-    <link rel="stylesheet" media="screen" href=""""),_display_(/*13.50*/routes/*13.56*/.Assets.at("stylesheets/main.css")),format.raw/*13.90*/("""">
-    <script type='text/javascript'
-    src='"""),_display_(/*15.11*/routes/*15.17*/.Assets.at("javascripts/jquery.min.js")),format.raw/*15.56*/("""'></script>
-    <script type='text/javascript'
-    src='"""),_display_(/*17.11*/routes/*17.17*/.Assets.at("javascripts/jquery.flot.js")),format.raw/*17.57*/("""'></script>
-    <script type='text/javascript' src='"""),_display_(/*18.42*/routes/*18.48*/.Assets.at("javascripts/index.js")),format.raw/*18.82*/("""'></script>
-  </head>
+    <head>
+        <title>HashItTalkIt</title>
 
-  <body data-ws-url=""""),_display_(/*21.23*/routes/*21.29*/.Application.ws().webSocketURL()),format.raw/*21.61*/("""" class="bg-primary" >
+        <link rel='stylesheet' href='"""),_display_(/*12.39*/routes/*12.45*/.Assets.at("stylesheets/slate-bootstrap.min.css")),format.raw/*12.94*/("""' >
+        <link rel='stylesheet' href='"""),_display_(/*13.39*/routes/*13.45*/.Assets.at("stylesheets/bootstrap-theme.css")),format.raw/*13.90*/("""' >
+        <link rel="stylesheet" href=""""),_display_(/*14.39*/routes/*14.45*/.Assets.at("stylesheets/main.css")),format.raw/*14.79*/("""" >
+        <link rel="shortcut icon" type="image/png" href=""""),_display_(/*15.59*/routes/*15.65*/.Assets.at("images/chat.png")),format.raw/*15.94*/("""" >
 
-    <div class="container ">
-      <div class="row">
-        <div class="col-xs-12">\
-          <table id="board" class="col-xs-12 table table-bordered info">
-            <thead>
-              <tr>
-                <th class="col-xs-3 text-center" >user</th>
-                <th class="col-xs-9" >message</th>
-              </tr>
-            </thead>
-            <tbody>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-3 strong text-right ">
-          User """),_display_(/*40.17*/message),format.raw/*40.24*/("""
-        """),format.raw/*41.9*/("""</div>
-        <div class="col-xs-9">
-          <form id="msgform" class="form-horizontal" >
-            <div class="col-xs-8">
-              <input id="msgtext" type="text"  class="form-control"
-              placeholder="please type a message" />
+        <script type='text/javascript' src='"""),_display_(/*17.46*/routes/*17.52*/.Assets.at("javascripts/jquery.min.js")),format.raw/*17.91*/("""'> </script>
+        <script type='text/javascript' src='"""),_display_(/*18.46*/routes/*18.52*/.Assets.at("javascripts/bootstrap.min.js")),format.raw/*18.94*/("""'> </script>
+        <script type='text/javascript' src='"""),_display_(/*19.46*/routes/*19.52*/.Assets.at("javascripts/aes.js")),format.raw/*19.84*/("""'></script>
+        <script type='text/javascript' src='"""),_display_(/*20.46*/routes/*20.52*/.Assets.at("javascripts/index.js")),format.raw/*20.86*/("""'></script>
+
+        <script>
+
+    </script>
+    </head>
+
+    <body data-ws-url=""""),_display_(/*27.25*/routes/*27.31*/.Application.ws().webSocketURL()),format.raw/*27.63*/("""" class="bg-primary" >
+        <div class="container-fluid navbar navbar-primary navbar-fixed-top">
+            <div class="row">
+                <ul class="nav">
+                    <li class="col-md-6 col-sm-6 col-xs-6 nav active" ><a href="/"><h4>HashTalk</h4></a></li>
+                    <li class="col-md-6 col-sm-6 col-xs-6 nav"><a href="/about"> <h4>About</h4></a></li>
+                </ul>
             </div>
-            <div class="col-xs-1">
-              <button type="submit" class="btn btn-default ">Submit</button>
-            </div>
-          </form>
         </div>
-      </div>
-    </div>
-  </body>
+            <!--            <div id="passworddiv" >
+
+
+                <p> Password : <input id="password" type=password placeholder="password" value=""/> </p>
+                <p> <input type="submit" id="encryptbutton"  value="Encrypt" onclick="EnableChat()" class="btn btn-primary"> </p>
+            </div> -->
+        <div class="container-fluid"></div>
+        <div class="row">
+            <div id="rooms" class="col-md-4">
+                <table id="roomList" data-click-to-select="true" class="table table-hover" data-search="true">
+                    <thead>
+                        <th>
+                            <a href="#" class="btn btn-large btn-primary" rel="popover" data-toggle="popover"
+                            data-content='<form id="addroom" action=""""),_display_(/*49.71*/routes/*49.77*/.Application.addRoomDetails()),format.raw/*49.106*/("""" method="post" class="form-inline">
+                                               <input type="text" name="name" class="form-control" placeholder="Room Name"/>
+                                               <button type="submit" class="btn btn-primary editable-submit"><span class="glyphicon glyphicon-ok "></span></button>
+                                            </form>'
+                            data-placement="bottom" data-html="true" >Add Rooms </a>
+
+                        </th>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class=" col-md-8 ">
+                <table id="board" class="col-xs-12 table table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th class="col-xs-3 text-center" >user</th>
+                            <th class="col-xs-9" >Message</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="chatform" class="row" style="display: none">
+            <div class="col-xs-3 strong text-right ">
+                        User """),_display_(/*77.31*/message),format.raw/*77.38*/("""
+            """),format.raw/*78.13*/("""</div>
+            <div class="col-xs-9">
+                <form id="msgform" class="form-horizontal" >
+                    <div class="col-xs-8">
+                        <input id="msgtext" type="text" class="form-control"
+                        placeholder="please type a message" />
+                    </div>
+                    <div class="col-xs-1">
+                        <button type="submit" class="btn btn-primary ">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </body>
 </html>"""))
       }
     }
@@ -99,11 +136,11 @@ Seq[Any](format.raw/*3.52*/("""
 object chat extends chat_Scope0.chat_Scope1.chat
               /*
                   -- GENERATED --
-                  DATE: Tue Jun 09 19:34:12 PDT 2015
+                  DATE: Wed Jun 17 21:04:01 PDT 2015
                   SOURCE: /Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/views/chat.scala.html
-                  HASH: f9946082d1525bfdb76eac18e3d1293ac3f614ba
-                  MATRIX: 600->37|745->87|773->89|902->191|917->197|981->240|1045->277|1060->283|1126->328|1205->380|1220->386|1275->420|1350->468|1365->474|1425->513|1509->570|1524->576|1585->616|1665->669|1680->675|1735->709|1807->754|1822->760|1875->792|2454->1344|2482->1351|2518->1360
-                  LINES: 23->3|28->3|30->5|36->11|36->11|36->11|37->12|37->12|37->12|38->13|38->13|38->13|40->15|40->15|40->15|42->17|42->17|42->17|43->18|43->18|43->18|46->21|46->21|46->21|65->40|65->40|66->41
+                  HASH: 99b254880db8bd6aa9f4ad7d4d2b94947daba3a0
+                  MATRIX: 600->37|745->87|773->89|911->200|926->206|996->255|1065->297|1080->303|1146->348|1215->390|1230->396|1285->430|1374->492|1389->498|1439->527|1516->577|1531->583|1591->622|1676->680|1691->686|1754->728|1839->786|1854->792|1907->824|1991->881|2006->887|2061->921|2170->1003|2185->1009|2238->1041|3475->2251|3490->2257|3541->2286|4837->3555|4865->3562|4906->3575
+                  LINES: 23->3|28->3|30->5|37->12|37->12|37->12|38->13|38->13|38->13|39->14|39->14|39->14|40->15|40->15|40->15|42->17|42->17|42->17|43->18|43->18|43->18|44->19|44->19|44->19|45->20|45->20|45->20|52->27|52->27|52->27|74->49|74->49|74->49|102->77|102->77|103->78
                   -- GENERATED --
               */
           

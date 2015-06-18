@@ -7,10 +7,32 @@
 		revision="1.0-SNAPSHOT"
 		conf="default"
 		confs="default"
-		date="20150609025355"/>
+		date="20150614123532"/>
 	<dependencies>
+		<module organisation="org.scala-sbt" name="sbt-core-next">
+			<revision name="0.1.1" status="integration" pubdate="20150209153731" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="142">
+				<metadata-artifact status="no" details="" size="1710" time="0" location="/Users/MAC/.ivy2/cache/scala_2.10/sbt_0.13/org.scala-sbt/sbt-core-next/ivy-0.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-core-next/scala_2.10/sbt_0.13/0.1.1/ivys/ivy.xml"/>
+				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.1.1" rev-constraint-default="0.1.1" rev-constraint-dynamic="0.1.1" callerrev="1.0-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<artifacts>
+					<artifact name="sbt-core-next" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4481" time="0" location="/Users/MAC/.ivy2/cache/scala_2.10/sbt_0.13/org.scala-sbt/sbt-core-next/srcs/sbt-core-next-0.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-core-next/scala_2.10/sbt_0.13/0.1.1/srcs/sbt-core-next-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="core-next_2.10">
+			<revision name="0.1.1" status="integration" pubdate="20150209153731" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="143">
+				<metadata-artifact status="no" details="" size="1405" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/core-next_2.10/ivy-0.1.1.xml" searched="false" origin-is-local="false" origin-location="file:/Users/MAC/CleanHome/activator-1.3.2/repository/org.scala-sbt/core-next_2.10/0.1.1/ivys/ivy.xml"/>
+				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.1.1" rev-constraint-default="0.1.1" rev-constraint-dynamic="0.1.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="core-next_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6424" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/core-next_2.10/srcs/core-next_2.10-0.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/core-next_2.10/0.1.1/srcs/core-next_2.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-mocha">
-			<revision name="1.1.0" status="release" pubdate="20150507145500" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/sbt-mocha" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="140">
+			<revision name="1.1.0" status="release" pubdate="20150507145500" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/sbt-mocha" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="141">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="2063" time="0" location="/Users/MAC/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-mocha/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-mocha/scala_2.10/sbt_0.13/1.1.0/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.0-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
@@ -22,7 +44,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-digest">
-			<revision name="1.1.0" status="release" pubdate="20141029141102" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="139">
+			<revision name="1.1.0" status="release" pubdate="20141029141102" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="140">
 				<metadata-artifact status="no" details="" size="1570" time="0" location="/Users/MAC/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-digest/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-digest/scala_2.10/sbt_0.13/1.1.0/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.0-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
@@ -33,7 +55,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-rjs">
-			<revision name="1.0.7" status="release" pubdate="20141022105304" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="138">
+			<revision name="1.0.7" status="release" pubdate="20141022105304" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="139">
 				<metadata-artifact status="no" details="" size="1652" time="0" location="/Users/MAC/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-rjs/ivy-1.0.7.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-rjs/scala_2.10/sbt_0.13/1.0.7/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.0.7" rev-constraint-default="1.0.7" rev-constraint-dynamic="1.0.7" callerrev="1.0-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
@@ -44,7 +66,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-jshint">
-			<revision name="1.0.3" status="release" pubdate="20150127110254" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="137">
+			<revision name="1.0.3" status="release" pubdate="20150127110254" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="138">
 				<metadata-artifact status="no" details="" size="1782" time="0" location="/Users/MAC/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-jshint/ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-jshint/scala_2.10/sbt_0.13/1.0.3/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.0-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
@@ -55,7 +77,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-less">
-			<revision name="1.0.6" status="release" pubdate="20150105160308" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="136">
+			<revision name="1.0.6" status="release" pubdate="20150105160308" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="137">
 				<metadata-artifact status="no" details="" size="1951" time="0" location="/Users/MAC/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-less/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-less/scala_2.10/sbt_0.13/1.0.6/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="1.0-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
@@ -66,7 +88,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-coffeescript">
-			<revision name="1.0.0" status="release" pubdate="20140528152306" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="135">
+			<revision name="1.0.0" status="release" pubdate="20140528152306" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="136">
 				<metadata-artifact status="no" details="" size="1804" time="0" location="/Users/MAC/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-coffeescript/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-coffeescript/scala_2.10/sbt_0.13/1.0.0/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
@@ -77,7 +99,7 @@
 			</revision>
 		</module>
 		<module organisation="org.sonatype.plexus" name="plexus-cipher">
-			<revision name="1.7" status="release" pubdate="20110726110634" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spice.sonatype.org/${project.artifactId}" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="80">
+			<revision name="1.7" status="release" pubdate="20110726110634" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spice.sonatype.org/${project.artifactId}" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="81">
 				<metadata-artifact status="no" details="" size="5662" time="0" location="/Users/MAC/.ivy2/cache/org.sonatype.plexus/plexus-cipher/ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.7/plexus-cipher-1.7.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -88,7 +110,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="sbt-plugin">
-			<revision name="2.4.0" status="release" pubdate="20150526221158" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="52">
+			<revision name="2.4.0" status="release" pubdate="20150526221158" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="53">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3522" time="0" location="/Users/MAC/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.play/sbt-plugin/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.4.0/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
@@ -100,7 +122,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-js-engine">
-			<revision name="1.1.2" status="release" pubdate="20150519131404" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/sbt-js-engine" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="112">
+			<revision name="1.1.2" status="release" pubdate="20150519131404" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/sbt-js-engine" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="113">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="2358" time="0" location="/Users/MAC/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-js-engine/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-js-engine/scala_2.10/sbt_0.13/1.1.2/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="1.0-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
@@ -112,7 +134,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe" name="npm_2.10">
-			<revision name="1.1.0" status="release" pubdate="20150413203235" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/npm" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="134">
+			<revision name="1.1.0" status="release" pubdate="20150413203235" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/npm" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="135">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3303" time="0" location="/Users/MAC/.ivy2/cache/com.typesafe/npm_2.10/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/npm_2.10/1.1.0/npm_2.10-1.1.0.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.0-SNAPSHOT"/>
@@ -124,7 +146,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe" name="jse_2.10">
-			<revision name="1.1.1" status="release" pubdate="20150506161219" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/js-engine" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="113">
+			<revision name="1.1.1" status="release" pubdate="20150506161219" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/js-engine" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="114">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3759" time="0" location="/Users/MAC/.ivy2/cache/com.typesafe/jse_2.10/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/jse_2.10/1.1.1/jse_2.10-1.1.1.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0-SNAPSHOT"/>
@@ -136,7 +158,7 @@
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="slf4j-simple">
-			<revision name="1.7.12" status="release" pubdate="20150326135021" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="132">
+			<revision name="1.7.12" status="release" pubdate="20150326135021" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="133">
 				<metadata-artifact status="no" details="" size="4877" time="0" location="/Users/MAC/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -147,7 +169,7 @@
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="slf4j-api">
-			<revision name="1.7.12" status="release" pubdate="20150326135005" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="133">
+			<revision name="1.7.12" status="release" pubdate="20150326135005" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="134">
 				<metadata-artifact status="no" details="" size="4832" time="0" location="/Users/MAC/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -158,7 +180,7 @@
 			</revision>
 		</module>
 		<module organisation="io.spray" name="spray-json_2.10">
-			<revision name="1.3.2" status="release" pubdate="20150506070102" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="131">
+			<revision name="1.3.2" status="release" pubdate="20150506070102" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="132">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2957" time="0" location="/Users/MAC/.ivy2/cache/io.spray/spray-json_2.10/ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.3.2/spray-json_2.10-1.3.2.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.0-SNAPSHOT"/>
@@ -170,7 +192,7 @@
 			</revision>
 		</module>
 		<module organisation="io.apigee.trireme" name="trireme-node10src">
-			<revision name="0.8.5" status="release" pubdate="20141214124644" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="130">
+			<revision name="0.8.5" status="release" pubdate="20141214124644" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="131">
 				<metadata-artifact status="no" details="" size="6963" time="0" location="/Users/MAC/.ivy2/cache/io.apigee.trireme/trireme-node10src/ivy-0.8.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/apigee/trireme/trireme-node10src/0.8.5/trireme-node10src-0.8.5.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.8.5" rev-constraint-default="0.8.5" rev-constraint-dynamic="0.8.5" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -181,7 +203,7 @@
 			</revision>
 		</module>
 		<module organisation="io.apigee.trireme" name="trireme-core">
-			<revision name="0.8.5" status="release" pubdate="20141214124546" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="128">
+			<revision name="0.8.5" status="release" pubdate="20141214124546" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="129">
 				<metadata-artifact status="no" details="" size="6205" time="0" location="/Users/MAC/.ivy2/cache/io.apigee.trireme/trireme-core/ivy-0.8.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/apigee/trireme/trireme-core/0.8.5/trireme-core-0.8.5.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.8.5" rev-constraint-default="0.8.5" rev-constraint-dynamic="0.8.5" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -192,7 +214,7 @@
 			</revision>
 		</module>
 		<module organisation="io.apigee" name="rhino">
-			<revision name="1.7R5pre4" status="release" pubdate="20141014171202" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="129">
+			<revision name="1.7R5pre4" status="release" pubdate="20141014171202" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="130">
 				<license name="Mozilla Public License 2.0" url="http://www.mozilla.org/MPL/2.0/"/>
 				<metadata-artifact status="no" details="" size="2718" time="0" location="/Users/MAC/.ivy2/cache/io.apigee/rhino/ivy-1.7R5pre4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.7R5pre4" rev-constraint-default="1.7R5pre4" rev-constraint-dynamic="1.7R5pre4" callerrev="1.0-SNAPSHOT"/>
@@ -204,7 +226,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-contrib_2.10">
-			<revision name="2.3.9" status="release" pubdate="20150119221400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="114">
+			<revision name="2.3.9" status="release" pubdate="20150119221400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="115">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3895" time="0" location="/Users/MAC/.ivy2/cache/com.typesafe.akka/akka-contrib_2.10/ivy-2.3.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.3.9/akka-contrib_2.10-2.3.9.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="1.0-SNAPSHOT"/>
@@ -216,7 +238,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-persistence-experimental_2.10">
-			<revision name="2.3.9" status="release" pubdate="20150119221209" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="122">
+			<revision name="2.3.9" status="release" pubdate="20150119221209" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="123">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="4226" time="0" location="/Users/MAC/.ivy2/cache/com.typesafe.akka/akka-persistence-experimental_2.10/ivy-2.3.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence-experimental_2.10/2.3.9/akka-persistence-experimental_2.10-2.3.9.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="1.0-SNAPSHOT"/>
@@ -228,7 +250,7 @@
 			</revision>
 		</module>
 		<module organisation="org.fusesource.leveldbjni" name="leveldbjni-all">
-			<revision name="1.7" status="release" pubdate="20130513091202" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="125">
+			<revision name="1.7" status="release" pubdate="20130513091202" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="126">
 				<metadata-artifact status="no" details="" size="3343" time="0" location="/Users/MAC/.ivy2/cache/org.fusesource.leveldbjni/leveldbjni-all/ivy-1.7.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.fusesource.leveldbjni/leveldbjni-all/1.7/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -239,7 +261,7 @@
 			</revision>
 		</module>
 		<module organisation="org.fusesource.leveldbjni" name="leveldbjni">
-			<revision name="1.7" status="release" pubdate="20130513091129" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="126">
+			<revision name="1.7" status="release" pubdate="20130513091129" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="127">
 				<metadata-artifact status="no" details="" size="2678" time="0" location="/Users/MAC/.ivy2/cache/org.fusesource.leveldbjni/leveldbjni/ivy-1.7.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.fusesource.leveldbjni/leveldbjni/1.7/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -250,7 +272,7 @@
 			</revision>
 		</module>
 		<module organisation="org.fusesource.hawtjni" name="hawtjni-runtime">
-			<revision name="1.8" status="release" pubdate="20130513085423" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="127">
+			<revision name="1.8" status="release" pubdate="20130513085423" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="128">
 				<metadata-artifact status="no" details="" size="2276" time="0" location="/Users/MAC/.ivy2/cache/org.fusesource.hawtjni/hawtjni-runtime/ivy-1.8.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.fusesource.hawtjni/hawtjni-runtime/1.8/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -261,7 +283,7 @@
 			</revision>
 		</module>
 		<module organisation="org.iq80.leveldb" name="leveldb">
-			<revision name="0.5" status="release" pubdate="20130122134104" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="123">
+			<revision name="0.5" status="release" pubdate="20130122134104" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="124">
 				<metadata-artifact status="no" details="" size="3100" time="0" location="/Users/MAC/.ivy2/cache/org.iq80.leveldb/leveldb/ivy-0.5.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.iq80.leveldb/leveldb/0.5/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.5" rev-constraint-default="0.5" rev-constraint-dynamic="0.5" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -272,7 +294,7 @@
 			</revision>
 		</module>
 		<module organisation="org.iq80.leveldb" name="leveldb-api">
-			<revision name="0.5" status="release" pubdate="20130122133949" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="124">
+			<revision name="0.5" status="release" pubdate="20130122133949" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="125">
 				<metadata-artifact status="no" details="" size="2236" time="0" location="/Users/MAC/.ivy2/cache/org.iq80.leveldb/leveldb-api/ivy-0.5.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.iq80.leveldb/leveldb-api/0.5/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.5" rev-constraint-default="0.5" rev-constraint-dynamic="0.5" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -283,7 +305,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-cluster_2.10">
-			<revision name="2.3.9" status="release" pubdate="20150119221315" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="121">
+			<revision name="2.3.9" status="release" pubdate="20150119221315" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="122">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3180" time="0" location="/Users/MAC/.ivy2/cache/com.typesafe.akka/akka-cluster_2.10/ivy-2.3.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.3.9/akka-cluster_2.10-2.3.9.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="1.0-SNAPSHOT"/>
@@ -295,7 +317,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-remote_2.10">
-			<revision name="2.3.9" status="release" pubdate="20150119221105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="115">
+			<revision name="2.3.9" status="release" pubdate="20150119221105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="116">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3822" time="0" location="/Users/MAC/.ivy2/cache/com.typesafe.akka/akka-remote_2.10/ivy-2.3.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.3.9/akka-remote_2.10-2.3.9.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="1.0-SNAPSHOT"/>
@@ -307,7 +329,7 @@
 			</revision>
 		</module>
 		<module organisation="org.uncommons.maths" name="uncommons-maths">
-			<revision name="1.2.2a" status="release" pubdate="20110408095605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maths.uncommons.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="118">
+			<revision name="1.2.2a" status="release" pubdate="20110408095605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maths.uncommons.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="119">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="2727" time="0" location="/Users/MAC/.ivy2/cache/org.uncommons.maths/uncommons-maths/ivy-1.2.2a.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.uncommons.maths/uncommons-maths/1.2.2a/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.2.2a" rev-constraint-default="1.2.2a" rev-constraint-dynamic="1.2.2a" callerrev="1.0-SNAPSHOT"/>
@@ -319,7 +341,7 @@
 			</revision>
 		</module>
 		<module organisation="jfree" name="jfreechart">
-			<revision name="1.0.8a" status="release" pubdate="20080102124337" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jfree.org/jfreechart/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="120">
+			<revision name="1.0.8a" status="release" pubdate="20080102124337" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jfree.org/jfreechart/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="121">
 				<license name="GNU Lesser General Public Licence" url="http://www.gnu.org/licenses/lgpl.txt"/>
 				<metadata-artifact status="no" details="" size="3049" time="0" location="/Users/MAC/.ivy2/cache/jfree/jfreechart/ivy-1.0.8a.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jfree/jfreechart/1.0.8a/jfreechart-1.0.8a.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.0.8a" rev-constraint-default="1.0.8a" rev-constraint-dynamic="1.0.8a" callerrev="1.0-SNAPSHOT"/>
@@ -331,7 +353,7 @@
 			</revision>
 		</module>
 		<module organisation="jfree" name="jcommon">
-			<revision name="1.0.12" status="release" pubdate="20071115200725" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jfree.org/jcommon/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="119">
+			<revision name="1.0.12" status="release" pubdate="20071115200725" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jfree.org/jcommon/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="120">
 				<license name="GNU Lesser General Public Licence" url="http://www.gnu.org/licenses/lgpl.txt"/>
 				<metadata-artifact status="no" details="" size="2739" time="0" location="/Users/MAC/.ivy2/cache/jfree/jcommon/ivy-1.0.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jfree/jcommon/1.0.12/jcommon-1.0.12.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.0.12" rev-constraint-default="1.0.12" rev-constraint-dynamic="1.0.12" callerrev="1.0-SNAPSHOT"/>
@@ -343,7 +365,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty">
-			<revision name="3.8.0.Final" status="release" pubdate="20131107042312" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="116">
+			<revision name="3.8.0.Final" status="release" pubdate="20131107042312" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="117">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="5415" time="0" location="/Users/MAC/.ivy2/cache/io.netty/netty/ivy-3.8.0.Final.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/io.netty/netty/3.8.0.Final/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="3.8.0.Final" rev-constraint-default="3.8.0.Final" rev-constraint-dynamic="3.8.0.Final" callerrev="1.0-SNAPSHOT"/>
@@ -355,7 +377,7 @@
 			</revision>
 		</module>
 		<module organisation="com.google.protobuf" name="protobuf-java">
-			<revision name="2.5.0" status="release" pubdate="20130307191811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="117">
+			<revision name="2.5.0" status="release" pubdate="20130307191811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="118">
 				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
 				<metadata-artifact status="no" details="" size="2803" time="0" location="/Users/MAC/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="file:/Users/MAC/CleanHome/activator-1.3.2/repository/com.google.protobuf/protobuf-java/2.5.0/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="1.0-SNAPSHOT"/>
@@ -367,7 +389,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-web">
-			<revision name="1.2.0" status="release" pubdate="20150414151637" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/sbt-web" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="106">
+			<revision name="1.2.0" status="release" pubdate="20150414151637" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/sbt-web" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="107">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="2199" time="0" location="/Users/MAC/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-web/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.10/sbt_0.13/1.2.0/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.0-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
@@ -379,7 +401,7 @@
 			</revision>
 		</module>
 		<module organisation="org.webjars" name="webjars-locator">
-			<revision name="0.21" status="release" pubdate="20150218062510" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="108">
+			<revision name="0.21" status="release" pubdate="20150218062510" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="109">
 				<license name="MIT" url="https://github.com/webjars/webjars-locator/blob/master/LICENSE.md"/>
 				<metadata-artifact status="no" details="" size="5075" time="0" location="/Users/MAC/.ivy2/cache/org.webjars/webjars-locator/ivy-0.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/webjars-locator/0.21/webjars-locator-0.21.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.21" rev-constraint-default="0.21" rev-constraint-dynamic="0.21" callerrev="1.0-SNAPSHOT"/>
@@ -391,7 +413,7 @@
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
-			<revision name="2.3.3" status="release" pubdate="20140410125535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="109">
+			<revision name="2.3.3" status="release" pubdate="20140410125535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="110">
 				<metadata-artifact status="no" details="" size="3123" time="0" location="/Users/MAC/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.3.3.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/com.fasterxml.jackson.core/jackson-databind/2.3.3/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.3.3" rev-constraint-default="2.3.3" rev-constraint-dynamic="2.3.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -402,7 +424,7 @@
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
-			<revision name="2.3.3" status="release" pubdate="20140410124708" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="111">
+			<revision name="2.3.3" status="release" pubdate="20140410124708" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="112">
 				<metadata-artifact status="no" details="" size="2458" time="0" location="/Users/MAC/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.3.3.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/com.fasterxml.jackson.core/jackson-core/2.3.3/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.3.3" rev-constraint-default="2.3.3" rev-constraint-dynamic="2.3.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -413,7 +435,7 @@
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
-			<revision name="2.3.0" status="release" pubdate="20131113235645" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="110">
+			<revision name="2.3.0" status="release" pubdate="20131113235645" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="111">
 				<metadata-artifact status="no" details="" size="2349" time="0" location="/Users/MAC/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.3.0.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/com.fasterxml.jackson.core/jackson-annotations/2.3.0/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -424,7 +446,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-actor_2.10">
-			<revision name="2.3.9" status="release" pubdate="20150119220859" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="107">
+			<revision name="2.3.9" status="release" pubdate="20150119220859" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="108">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2666" time="0" location="/Users/MAC/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/ivy-2.3.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.9/akka-actor_2.10-2.3.9.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="1.0-SNAPSHOT"/>
@@ -436,7 +458,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-native-packager">
-			<revision name="1.0.1" status="release" pubdate="20150429191840" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="68">
+			<revision name="1.0.1" status="release" pubdate="20150429191840" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="69">
 				<metadata-artifact status="no" details="" size="2105" time="0" location="/Users/MAC/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-native-packager/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.0.1/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
@@ -447,7 +469,7 @@
 			</revision>
 		</module>
 		<module organisation="org.vafer" name="jdeb">
-			<revision name="1.3" status="release" pubdate="20140728032531" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/tcurdt/jdeb" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="69">
+			<revision name="1.3" status="release" pubdate="20140728032531" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/tcurdt/jdeb" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="70">
 				<license name="Apache License 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="4611" time="0" location="/Users/MAC/.ivy2/cache/org.vafer/jdeb/ivy-1.3.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.vafer/jdeb/1.3/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.0-SNAPSHOT"/>
@@ -459,7 +481,7 @@
 			</revision>
 		</module>
 		<module organisation="org.bouncycastle" name="bcpg-jdk15on">
-			<revision name="1.51" status="release" pubdate="20140727225411" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="104">
+			<revision name="1.51" status="release" pubdate="20140727225411" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="105">
 				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
 				<license name="Apache Software License, Version 1.1" url="http://www.apache.org/licenses/LICENSE-1.1"/>
 				<metadata-artifact status="no" details="" size="2861" time="0" location="/Users/MAC/.ivy2/cache/org.bouncycastle/bcpg-jdk15on/ivy-1.51.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.bouncycastle/bcpg-jdk15on/1.51/ivys/ivy.xml"/>
@@ -472,7 +494,7 @@
 			</revision>
 		</module>
 		<module organisation="org.bouncycastle" name="bcprov-jdk15on">
-			<revision name="1.51" status="release" pubdate="20140727215910" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="105">
+			<revision name="1.51" status="release" pubdate="20140727215910" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="106">
 				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
 				<metadata-artifact status="no" details="" size="2539" time="0" location="/Users/MAC/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/ivy-1.51.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.bouncycastle/bcprov-jdk15on/1.51/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.51" rev-constraint-default="1.51" rev-constraint-dynamic="1.51" callerrev="1.0-SNAPSHOT"/>
@@ -484,7 +506,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.ant" name="ant">
-			<revision name="1.9.3" status="release" pubdate="20131223112635" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ant.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="102">
+			<revision name="1.9.3" status="release" pubdate="20131223112635" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ant.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="103">
 				<metadata-artifact status="no" details="" size="2848" time="0" location="/Users/MAC/.ivy2/cache/org.apache.ant/ant/ivy-1.9.3.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.apache.ant/ant/1.9.3/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.9.3" rev-constraint-default="1.9.3" rev-constraint-dynamic="1.9.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -495,7 +517,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.ant" name="ant-launcher">
-			<revision name="1.9.3" status="release" pubdate="20131223113149" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ant.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="103">
+			<revision name="1.9.3" status="release" pubdate="20131223113149" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ant.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="104">
 				<metadata-artifact status="no" details="" size="2531" time="0" location="/Users/MAC/.ivy2/cache/org.apache.ant/ant-launcher/ivy-1.9.3.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.apache.ant/ant-launcher/1.9.3/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.9.3" rev-constraint-default="1.9.3" rev-constraint-dynamic="1.9.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -506,7 +528,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.maven" name="maven-core">
-			<revision name="3.2.2" status="release" pubdate="20140617095214" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="72">
+			<revision name="3.2.2" status="release" pubdate="20140617095214" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="73">
 				<metadata-artifact status="no" details="" size="18456" time="0" location="/Users/MAC/.ivy2/cache/org.apache.maven/maven-core/ivy-3.2.2.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.apache.maven/maven-core/3.2.2/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -517,7 +539,7 @@
 			</revision>
 		</module>
 		<module organisation="org.codehaus.plexus" name="plexus-classworlds">
-			<revision name="2.5.1" status="release" pubdate="20130815163022" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="95">
+			<revision name="2.5.1" status="release" pubdate="20130815163022" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="96">
 				<metadata-artifact status="no" details="" size="7993" time="0" location="/Users/MAC/.ivy2/cache/org.codehaus.plexus/plexus-classworlds/ivy-2.5.1.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.codehaus.plexus/plexus-classworlds/2.5.1/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.5.1" rev-constraint-default="2.5.1" rev-constraint-dynamic="2.5.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -528,7 +550,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.maven" name="maven-aether-provider">
-			<revision name="3.2.2" status="release" pubdate="20140617095137" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="97">
+			<revision name="3.2.2" status="release" pubdate="20140617095137" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="98">
 				<metadata-artifact status="no" details="" size="17814" time="0" location="/Users/MAC/.ivy2/cache/org.apache.maven/maven-aether-provider/ivy-3.2.2.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.apache.maven/maven-aether-provider/3.2.2/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -539,7 +561,7 @@
 			</revision>
 		</module>
 		<module organisation="org.sonatype.sisu" name="sisu-guice">
-			<revision name="3.1.3" status="release" pubdate="20130131201432" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="89">
+			<revision name="3.1.3" status="release" pubdate="20130131201432" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="90">
 				<metadata-artifact status="no" details="" size="5449" time="0" location="/Users/MAC/.ivy2/cache/org.sonatype.sisu/sisu-guice/ivy-3.1.3.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.sonatype.sisu/sisu-guice/3.1.3/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="3.1.3" rev-constraint-default="3.1.3" rev-constraint-dynamic="3.1.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -550,7 +572,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.aether" name="aether-impl">
-			<revision name="0.9.0.M2" status="release" pubdate="20130216145613" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="101">
+			<revision name="0.9.0.M2" status="release" pubdate="20130216145613" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="102">
 				<metadata-artifact status="no" details="" size="8359" time="0" location="/Users/MAC/.ivy2/cache/org.eclipse.aether/aether-impl/ivy-0.9.0.M2.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.eclipse.aether/aether-impl/0.9.0.M2/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.9.0.M2" rev-constraint-default="0.9.0.M2" rev-constraint-dynamic="0.9.0.M2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -561,7 +583,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.aether" name="aether-util">
-			<revision name="0.9.0.M2" status="release" pubdate="20130216145542" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="100">
+			<revision name="0.9.0.M2" status="release" pubdate="20130216145542" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="101">
 				<metadata-artifact status="no" details="" size="7455" time="0" location="/Users/MAC/.ivy2/cache/org.eclipse.aether/aether-util/ivy-0.9.0.M2.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.eclipse.aether/aether-util/0.9.0.M2/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.9.0.M2" rev-constraint-default="0.9.0.M2" rev-constraint-dynamic="0.9.0.M2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -572,7 +594,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.aether" name="aether-spi">
-			<revision name="0.9.0.M2" status="release" pubdate="20130216145505" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="99">
+			<revision name="0.9.0.M2" status="release" pubdate="20130216145505" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="100">
 				<metadata-artifact status="no" details="" size="7249" time="0" location="/Users/MAC/.ivy2/cache/org.eclipse.aether/aether-spi/ivy-0.9.0.M2.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.eclipse.aether/aether-spi/0.9.0.M2/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.9.0.M2" rev-constraint-default="0.9.0.M2" rev-constraint-dynamic="0.9.0.M2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -583,7 +605,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.aether" name="aether-api">
-			<revision name="0.9.0.M2" status="release" pubdate="20130216145440" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="98">
+			<revision name="0.9.0.M2" status="release" pubdate="20130216145440" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="99">
 				<metadata-artifact status="no" details="" size="7174" time="0" location="/Users/MAC/.ivy2/cache/org.eclipse.aether/aether-api/ivy-0.9.0.M2.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.eclipse.aether/aether-api/0.9.0.M2/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.9.0.M2" rev-constraint-default="0.9.0.M2" rev-constraint-dynamic="0.9.0.M2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -594,7 +616,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.maven" name="maven-model-builder">
-			<revision name="3.2.2" status="release" pubdate="20140617095101" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="96">
+			<revision name="3.2.2" status="release" pubdate="20140617095101" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="97">
 				<metadata-artifact status="no" details="" size="16590" time="0" location="/Users/MAC/.ivy2/cache/org.apache.maven/maven-model-builder/ivy-3.2.2.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.apache.maven/maven-model-builder/3.2.2/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -605,7 +627,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.maven" name="maven-plugin-api">
-			<revision name="3.2.2" status="release" pubdate="20140617095047" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="83">
+			<revision name="3.2.2" status="release" pubdate="20140617095047" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="84">
 				<metadata-artifact status="no" details="" size="16175" time="0" location="/Users/MAC/.ivy2/cache/org.apache.maven/maven-plugin-api/ivy-3.2.2.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.apache.maven/maven-plugin-api/3.2.2/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -616,7 +638,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.sisu" name="org.eclipse.sisu.plexus">
-			<revision name="0.0.0.M5" status="release" pubdate="20130725192947" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="84">
+			<revision name="0.0.0.M5" status="release" pubdate="20130725192947" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="85">
 				<metadata-artifact status="no" details="" size="5183" time="0" location="/Users/MAC/.ivy2/cache/org.eclipse.sisu/org.eclipse.sisu.plexus/ivy-0.0.0.M5.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.eclipse.sisu/org.eclipse.sisu.plexus/0.0.0.M5/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.0.0.M5" rev-constraint-default="0.0.0.M5" rev-constraint-dynamic="0.0.0.M5" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -627,7 +649,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.sisu" name="org.eclipse.sisu.inject">
-			<revision name="0.0.0.M5" status="release" pubdate="20130725192046" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="91">
+			<revision name="0.0.0.M5" status="release" pubdate="20130725192046" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="92">
 				<metadata-artifact status="no" details="" size="3500" time="0" location="/Users/MAC/.ivy2/cache/org.eclipse.sisu/org.eclipse.sisu.inject/ivy-0.0.0.M5.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.eclipse.sisu/org.eclipse.sisu.inject/0.0.0.M5/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.0.0.M5" rev-constraint-default="0.0.0.M5" rev-constraint-dynamic="0.0.0.M5" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -638,7 +660,7 @@
 			</revision>
 		</module>
 		<module organisation="com.google.inject" name="guice">
-			<revision name="3.0" status="release" pubdate="20110325111947" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="92">
+			<revision name="3.0" status="release" pubdate="20110325111947" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="93">
 				<metadata-artifact status="no" details="" size="3997" time="0" location="/Users/MAC/.ivy2/cache/com.google.inject/guice/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -649,7 +671,7 @@
 			</revision>
 		</module>
 		<module organisation="org.sonatype.sisu.inject" name="cglib">
-			<revision name="2.2.1-v20090111" status="release" pubdate="20110104051244" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://sourceforge.net/projects/cglib/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="93">
+			<revision name="2.2.1-v20090111" status="release" pubdate="20110104051244" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://sourceforge.net/projects/cglib/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="94">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3800" time="0" location="/Users/MAC/.ivy2/cache/org.sonatype.sisu.inject/cglib/ivy-2.2.1-v20090111.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/sisu/inject/cglib/2.2.1-v20090111/cglib-2.2.1-v20090111.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.2.1-v20090111" rev-constraint-default="2.2.1-v20090111" rev-constraint-dynamic="2.2.1-v20090111" callerrev="1.0-SNAPSHOT"/>
@@ -661,7 +683,7 @@
 			</revision>
 		</module>
 		<module organisation="asm" name="asm">
-			<revision name="3.1" status="release" pubdate="20080120023126" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="94">
+			<revision name="3.1" status="release" pubdate="20080120023126" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="95">
 				<metadata-artifact status="no" details="" size="2800" time="0" location="/Users/MAC/.ivy2/cache/asm/asm/ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -672,7 +694,7 @@
 			</revision>
 		</module>
 		<module organisation="aopalliance" name="aopalliance">
-			<revision name="1.0" status="release" pubdate="20070226174340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="90">
+			<revision name="1.0" status="release" pubdate="20070226174340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="91">
 				<license name="Public Domain"/>
 				<metadata-artifact status="no" details="" size="2280" time="0" location="/Users/MAC/.ivy2/cache/aopalliance/aopalliance/ivy-1.0.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/aopalliance/aopalliance/1.0/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0-SNAPSHOT"/>
@@ -684,7 +706,7 @@
 			</revision>
 		</module>
 		<module organisation="javax.enterprise" name="cdi-api">
-			<revision name="1.0" status="release" pubdate="20091108174421" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="85">
+			<revision name="1.0" status="release" pubdate="20091108174421" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="86">
 				<metadata-artifact status="no" details="" size="11055" time="0" location="/Users/MAC/.ivy2/cache/javax.enterprise/cdi-api/ivy-1.0.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/javax.enterprise/cdi-api/1.0/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -695,7 +717,7 @@
 			</revision>
 		</module>
 		<module organisation="javax.annotation" name="jsr250-api">
-			<revision name="1.0" status="release" pubdate="20070515162559" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="87">
+			<revision name="1.0" status="release" pubdate="20070515162559" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="88">
 				<license name="COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
 				<metadata-artifact status="no" details="" size="2454" time="0" location="/Users/MAC/.ivy2/cache/javax.annotation/jsr250-api/ivy-1.0.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/javax.annotation/jsr250-api/1.0/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0-SNAPSHOT"/>
@@ -707,7 +729,7 @@
 			</revision>
 		</module>
 		<module organisation="org.jboss.interceptor" name="jboss-interceptor-api">
-			<revision name="1.1" status="release" pubdate="20100719202027" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="86">
+			<revision name="1.1" status="release" pubdate="20100719202027" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="87">
 				<metadata-artifact status="no" details="" size="2483" time="0" location="/Users/MAC/.ivy2/cache/org.jboss.interceptor/jboss-interceptor-api/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jboss/interceptor/jboss-interceptor-api/1.1/jboss-interceptor-api-1.1.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -718,7 +740,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.maven" name="maven-artifact">
-			<revision name="3.2.2" status="release" pubdate="20140617095037" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="82">
+			<revision name="3.2.2" status="release" pubdate="20140617095037" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="83">
 				<metadata-artifact status="no" details="" size="15685" time="0" location="/Users/MAC/.ivy2/cache/org.apache.maven/maven-artifact/ivy-3.2.2.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.apache.maven/maven-artifact/3.2.2/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -729,7 +751,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.maven" name="maven-repository-metadata">
-			<revision name="3.2.2" status="release" pubdate="20140617095127" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="81">
+			<revision name="3.2.2" status="release" pubdate="20140617095127" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="82">
 				<metadata-artifact status="no" details="" size="15773" time="0" location="/Users/MAC/.ivy2/cache/org.apache.maven/maven-repository-metadata/ivy-3.2.2.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.apache.maven/maven-repository-metadata/3.2.2/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -740,7 +762,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.maven" name="maven-settings-builder">
-			<revision name="3.2.2" status="release" pubdate="20140617095119" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="76">
+			<revision name="3.2.2" status="release" pubdate="20140617095119" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="77">
 				<metadata-artifact status="no" details="" size="16504" time="0" location="/Users/MAC/.ivy2/cache/org.apache.maven/maven-settings-builder/ivy-3.2.2.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.apache.maven/maven-settings-builder/3.2.2/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -751,7 +773,7 @@
 			</revision>
 		</module>
 		<module organisation="org.sonatype.plexus" name="plexus-sec-dispatcher">
-			<revision name="1.3" status="release" pubdate="20090429130532" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spice.sonatype.org/${project.artifactId}" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="79">
+			<revision name="1.3" status="release" pubdate="20090429130532" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spice.sonatype.org/${project.artifactId}" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="80">
 				<metadata-artifact status="no" details="" size="6669" time="0" location="/Users/MAC/.ivy2/cache/org.sonatype.plexus/plexus-sec-dispatcher/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -762,7 +784,7 @@
 			</revision>
 		</module>
 		<module organisation="org.codehaus.plexus" name="plexus-component-annotations">
-			<revision name="1.5.5" status="release" pubdate="20100930131459" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="78">
+			<revision name="1.5.5" status="release" pubdate="20100930131459" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="79">
 				<metadata-artifact status="no" details="" size="6209" time="0" location="/Users/MAC/.ivy2/cache/org.codehaus.plexus/plexus-component-annotations/ivy-1.5.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.5.5" rev-constraint-default="1.5.5" rev-constraint-dynamic="1.5.5" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -773,7 +795,7 @@
 			</revision>
 		</module>
 		<module organisation="org.codehaus.plexus" name="plexus-interpolation">
-			<revision name="1.19" status="release" pubdate="20130806155710" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="77">
+			<revision name="1.19" status="release" pubdate="20130806155710" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="78">
 				<metadata-artifact status="no" details="" size="7028" time="0" location="/Users/MAC/.ivy2/cache/org.codehaus.plexus/plexus-interpolation/ivy-1.19.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.codehaus.plexus/plexus-interpolation/1.19/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.19" rev-constraint-default="1.19" rev-constraint-dynamic="1.19" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -784,7 +806,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.maven" name="maven-settings">
-			<revision name="3.2.2" status="release" pubdate="20140617095111" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="75">
+			<revision name="3.2.2" status="release" pubdate="20140617095111" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="76">
 				<metadata-artifact status="no" details="" size="15721" time="0" location="/Users/MAC/.ivy2/cache/org.apache.maven/maven-settings/ivy-3.2.2.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.apache.maven/maven-settings/3.2.2/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -795,7 +817,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.maven" name="maven-model">
-			<revision name="3.2.2" status="release" pubdate="20140617095027" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="73">
+			<revision name="3.2.2" status="release" pubdate="20140617095027" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="74">
 				<metadata-artifact status="no" details="" size="15786" time="0" location="/Users/MAC/.ivy2/cache/org.apache.maven/maven-model/ivy-3.2.2.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.apache.maven/maven-model/3.2.2/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -806,7 +828,7 @@
 			</revision>
 		</module>
 		<module organisation="org.codehaus.plexus" name="plexus-utils">
-			<revision name="3.0.17" status="release" pubdate="20140127101020" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://plexus.codehaus.org/plexus-utils" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="74">
+			<revision name="3.0.17" status="release" pubdate="20140127101020" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://plexus.codehaus.org/plexus-utils" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="75">
 				<metadata-artifact status="no" details="" size="7955" time="0" location="/Users/MAC/.ivy2/cache/org.codehaus.plexus/plexus-utils/ivy-3.0.17.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.codehaus.plexus/plexus-utils/3.0.17/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="3.0.17" rev-constraint-default="3.0.17" rev-constraint-dynamic="3.0.17" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -817,7 +839,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.commons" name="commons-compress">
-			<revision name="1.7" status="release" pubdate="20140116143531" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-compress/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="70">
+			<revision name="1.7" status="release" pubdate="20140116143531" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-compress/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="71">
 				<metadata-artifact status="no" details="" size="9883" time="0" location="/Users/MAC/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.7.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.apache.commons/commons-compress/1.7/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -828,7 +850,7 @@
 			</revision>
 		</module>
 		<module organisation="org.tukaani" name="xz">
-			<revision name="1.4" status="release" pubdate="20130922061433" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="71">
+			<revision name="1.4" status="release" pubdate="20130922061433" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="72">
 				<license name="Public Domain"/>
 				<metadata-artifact status="no" details="" size="2266" time="0" location="/Users/MAC/.ivy2/cache/org.tukaani/xz/ivy-1.4.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/org.tukaani/xz/1.4/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.0-SNAPSHOT"/>
@@ -840,7 +862,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-twirl">
-			<revision name="1.1.1" status="release" pubdate="20150514150137" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/twirl" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="65">
+			<revision name="1.1.1" status="release" pubdate="20150514150137" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/twirl" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="66">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="2331" time="0" location="/Users/MAC/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-twirl/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.1.1/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
@@ -852,7 +874,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="twirl-compiler_2.10">
-			<revision name="1.1.1" status="release" pubdate="20150513220129" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/twirl" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="66">
+			<revision name="1.1.1" status="release" pubdate="20150513220129" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/twirl" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="67">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3003" time="0" location="/Users/MAC/.ivy2/cache/com.typesafe.play/twirl-compiler_2.10/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.10/1.1.1/twirl-compiler_2.10-1.1.1.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0-SNAPSHOT"/>
@@ -864,7 +886,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="twirl-parser_2.10">
-			<revision name="1.1.1" status="release" pubdate="20150513220119" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/twirl" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="67">
+			<revision name="1.1.1" status="release" pubdate="20150513220119" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/twirl" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="68">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3036" time="0" location="/Users/MAC/.ivy2/cache/com.typesafe.play/twirl-parser_2.10/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/twirl-parser_2.10/1.1.1/twirl-parser_2.10-1.1.1.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0-SNAPSHOT"/>
@@ -876,7 +898,7 @@
 			</revision>
 		</module>
 		<module organisation="net.contentobjects.jnotify" name="jnotify">
-			<revision name="0.94-play-1" status="release" pubdate="20150415123211" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/jnotify" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="64">
+			<revision name="0.94-play-1" status="release" pubdate="20150415123211" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/jnotify" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="65">
 				<license name="LGPL-2.1" url="https://www.gnu.org/licenses/lgpl-2.1.html"/>
 				<metadata-artifact status="no" details="" size="1225" time="0" location="/Users/MAC/.ivy2/cache/net.contentobjects.jnotify/jnotify/ivy-0.94-play-1.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/net.contentobjects.jnotify/jnotify/0.94-play-1/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.94-play-1" rev-constraint-default="0.94-play-1" rev-constraint-dynamic="0.94-play-1" callerrev="1.0-SNAPSHOT"/>
@@ -888,7 +910,7 @@
 			</revision>
 		</module>
 		<module organisation="com.h2database" name="h2">
-			<revision name="1.4.187" status="release" pubdate="20150410093333" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="63">
+			<revision name="1.4.187" status="release" pubdate="20150410093333" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="64">
 				<metadata-artifact status="no" details="" size="2181" time="0" location="/Users/MAC/.ivy2/cache/com.h2database/h2/ivy-1.4.187.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/h2database/h2/1.4.187/h2-1.4.187.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.4.187" rev-constraint-default="1.4.187" rev-constraint-dynamic="1.4.187" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -899,7 +921,7 @@
 			</revision>
 		</module>
 		<module organisation="com.google.guava" name="guava">
-			<revision name="18.0" status="release" pubdate="20140825114834" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="62">
+			<revision name="18.0" status="release" pubdate="20140825114834" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="63">
 				<metadata-artifact status="no" details="" size="5765" time="0" location="/Users/MAC/.ivy2/cache/com.google.guava/guava/ivy-18.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="18.0" rev-constraint-default="18.0" rev-constraint-dynamic="18.0" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -910,7 +932,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe" name="config">
-			<revision name="1.3.0" status="release" pubdate="20150508084611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="61">
+			<revision name="1.3.0" status="release" pubdate="20150508084611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="62">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2749" time="0" location="/Users/MAC/.ivy2/cache/com.typesafe/config/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="1.0-SNAPSHOT"/>
@@ -922,7 +944,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="sbt-run-support_2.10">
-			<revision name="2.4.0" status="release" pubdate="20150526220943" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="57">
+			<revision name="2.4.0" status="release" pubdate="20150526220943" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="58">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3188" time="0" location="/Users/MAC/.ivy2/cache/com.typesafe.play/sbt-run-support_2.10/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/sbt-run-support_2.10/2.4.0/sbt-run-support_2.10-2.4.0.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0-SNAPSHOT"/>
@@ -934,7 +956,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="build-link">
-			<revision name="2.4.0" status="release" pubdate="20150526220928" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="58">
+			<revision name="2.4.0" status="release" pubdate="20150526220928" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="59">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="2666" time="0" location="/Users/MAC/.ivy2/cache/com.typesafe.play/build-link/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.4.0/build-link-2.4.0.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0-SNAPSHOT"/>
@@ -946,7 +968,7 @@
 			</revision>
 		</module>
 		<module organisation="org.javassist" name="javassist">
-			<revision name="3.19.0-GA" status="release" pubdate="20150106220522" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="60">
+			<revision name="3.19.0-GA" status="release" pubdate="20150106220522" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="61">
 				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
 				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
 				<license name="Apache License 2.0" url="http://www.apache.org/licenses/"/>
@@ -960,7 +982,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-exceptions">
-			<revision name="2.4.0" status="release" pubdate="20150526220933" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="59">
+			<revision name="2.4.0" status="release" pubdate="20150526220933" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="60">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="2352" time="0" location="/Users/MAC/.ivy2/cache/com.typesafe.play/play-exceptions/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.4.0/play-exceptions-2.4.0.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0-SNAPSHOT"/>
@@ -972,7 +994,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="routes-compiler_2.10">
-			<revision name="2.4.0" status="release" pubdate="20150526220935" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="53">
+			<revision name="2.4.0" status="release" pubdate="20150526220935" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="54">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3319" time="0" location="/Users/MAC/.ivy2/cache/com.typesafe.play/routes-compiler_2.10/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/routes-compiler_2.10/2.4.0/routes-compiler_2.10-2.4.0.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0-SNAPSHOT"/>
@@ -984,7 +1006,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="twirl-api_2.10">
-			<revision name="1.1.1" status="release" pubdate="20150513220104" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/twirl" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="54">
+			<revision name="1.1.1" status="release" pubdate="20150513220104" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/twirl" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="55">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3175" time="0" location="/Users/MAC/.ivy2/cache/com.typesafe.play/twirl-api_2.10/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.1.1/twirl-api_2.10-1.1.1.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0-SNAPSHOT"/>
@@ -996,7 +1018,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.commons" name="commons-lang3">
-			<revision name="3.4" status="release" pubdate="20150403053112" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="55">
+			<revision name="3.4" status="release" pubdate="20150403053112" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="56">
 				<metadata-artifact status="no" details="" size="11445" time="0" location="/Users/MAC/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="3.4" rev-constraint-default="3.4" rev-constraint-dynamic="3.4" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -1007,7 +1029,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-io" name="commons-io">
-			<revision name="2.4" status="release" pubdate="20120612182206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="56">
+			<revision name="2.4" status="release" pubdate="20120612182206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="57">
 				<metadata-artifact status="no" details="" size="8447" time="0" location="/Users/MAC/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/commons-io/commons-io/2.4/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -1029,7 +1051,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="precompiled-2_9_3">
-			<revision name="0.13.8" status="release" pubdate="20150320120726" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="51">
+			<revision name="0.13.8" status="release" pubdate="20150320120726" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="52">
 				<metadata-artifact status="no" details="" size="1486" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/precompiled-2_9_3/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -1040,7 +1062,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="precompiled-2_9_2">
-			<revision name="0.13.8" status="release" pubdate="20150320120726" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="50">
+			<revision name="0.13.8" status="release" pubdate="20150320120726" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="51">
 				<metadata-artifact status="no" details="" size="1486" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/precompiled-2_9_2/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -1051,7 +1073,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="precompiled-2_8_2">
-			<revision name="0.13.8" status="release" pubdate="20150320120726" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="49">
+			<revision name="0.13.8" status="release" pubdate="20150320120726" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="50">
 				<metadata-artifact status="no" details="" size="1492" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/precompiled-2_8_2/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -1073,7 +1095,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="logic">
-			<revision name="0.13.8" status="release" pubdate="20150320121039" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="48">
+			<revision name="0.13.8" status="release" pubdate="20150320121039" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="49">
 				<metadata-artifact status="no" details="" size="1649" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/logic/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logic/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -1084,7 +1106,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="main-settings">
-			<revision name="0.13.8" status="release" pubdate="20150320121131" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="45">
+			<revision name="0.13.8" status="release" pubdate="20150320121131" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="46">
 				<metadata-artifact status="no" details="" size="2687" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/main-settings/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main-settings/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -1095,7 +1117,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="command">
-			<revision name="0.13.8" status="release" pubdate="20150320121128" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="47">
+			<revision name="0.13.8" status="release" pubdate="20150320121128" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="48">
 				<metadata-artifact status="no" details="" size="2168" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/command/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/command/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -1106,7 +1128,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="apply-macro">
-			<revision name="0.13.8" status="release" pubdate="20150320121022" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="46">
+			<revision name="0.13.8" status="release" pubdate="20150320121022" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="47">
 				<metadata-artifact status="no" details="" size="1677" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/apply-macro/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/apply-macro/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -1128,7 +1150,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="testing">
-			<revision name="0.13.8" status="release" pubdate="20150320121046" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="42">
+			<revision name="0.13.8" status="release" pubdate="20150320121046" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="43">
 				<metadata-artifact status="no" details="" size="1775" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/testing/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/testing/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -1139,7 +1161,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="test-agent">
-			<revision name="0.13.8" status="release" pubdate="20150320121048" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="43">
+			<revision name="0.13.8" status="release" pubdate="20150320121048" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="44">
 				<metadata-artifact status="no" details="" size="1291" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/test-agent/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/test-agent/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -1150,7 +1172,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="test-interface">
-			<revision name="1.0" status="release" pubdate="20130628154435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="44">
+			<revision name="1.0" status="release" pubdate="20130628154435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="45">
 				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
 				<metadata-artifact status="no" details="" size="2589" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/test-interface/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0-SNAPSHOT"/>
@@ -1162,7 +1184,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="tracking">
-			<revision name="0.13.8" status="release" pubdate="20150320121054" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="40">
+			<revision name="0.13.8" status="release" pubdate="20150320121054" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="41">
 				<metadata-artifact status="no" details="" size="1369" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/tracking/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tracking/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -1173,7 +1195,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="cache">
-			<revision name="0.13.8" status="release" pubdate="20150320121052" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="41">
+			<revision name="0.13.8" status="release" pubdate="20150320121052" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="42">
 				<metadata-artifact status="no" details="" size="1581" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/cache/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cache/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -1184,7 +1206,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="task-system">
-			<revision name="0.13.8" status="release" pubdate="20150320121050" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="38">
+			<revision name="0.13.8" status="release" pubdate="20150320121050" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="39">
 				<metadata-artifact status="no" details="" size="1967" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/task-system/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/task-system/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -1195,7 +1217,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="tasks">
-			<revision name="0.13.8" status="release" pubdate="20150320121049" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="39">
+			<revision name="0.13.8" status="release" pubdate="20150320121049" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="40">
 				<metadata-artifact status="no" details="" size="1648" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/tasks/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tasks/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -1206,7 +1228,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="run">
-			<revision name="0.13.8" status="release" pubdate="20150320121055" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="37">
+			<revision name="0.13.8" status="release" pubdate="20150320121055" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="38">
 				<metadata-artifact status="no" details="" size="1849" time="0" location="/Users/MAC/.ivy2/cache/org.scala-sbt/run/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/run/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -1250,7 +1272,7 @@
 			</revision>
 		</module>
 		<module organisation="org.spire-math" name="json4s-support_2.10">
-			<revision name="0.6.0" status="release" pubdate="20140923130847" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/non/jawn/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="36">
+			<revision name="0.6.0" status="release" pubdate="20140923130847" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/non/jawn/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="37">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
 				<metadata-artifact status="no" details="" size="3031" time="0" location="/Users/MAC/.ivy2/cache/org.spire-math/json4s-support_2.10/ivy-0.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/json4s-support_2.10/0.6.0/json4s-support_2.10-0.6.0.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="1.0-SNAPSHOT"/>
@@ -1262,7 +1284,7 @@
 			</revision>
 		</module>
 		<module organisation="org.spire-math" name="jawn-parser_2.10">
-			<revision name="0.6.0" status="release" pubdate="20140923130838" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/non/jawn/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="35">
+			<revision name="0.6.0" status="release" pubdate="20140923130838" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/non/jawn/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="36">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
 				<metadata-artifact status="no" details="" size="2740" time="0" location="/Users/MAC/.ivy2/cache/org.spire-math/jawn-parser_2.10/ivy-0.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.10/0.6.0/jawn-parser_2.10-0.6.0.pom"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="1.0-SNAPSHOT"/>
@@ -1285,6 +1307,18 @@
 				</artifacts>
 			</revision>
 		</module>
+		<module organisation="org.scala-lang" name="scalap">
+			<revision name="2.10.0" status="release" pubdate="20121219233017" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="35">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2518" time="0" location="/Users/MAC/.ivy2/cache/org.scala-lang/scalap/ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom"/>
+				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalap" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="40814" time="0" location="/Users/MAC/.ivy2/cache/org.scala-lang/scalap/srcs/scalap-2.10.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.thoughtworks.paranamer" name="paranamer">
 			<revision name="2.6" status="release" pubdate="20131008205654" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="34">
 				<metadata-artifact status="no" details="" size="4124" time="0" location="/Users/MAC/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom"/>
@@ -1297,7 +1331,7 @@
 			</revision>
 		</module>
 		<module organisation="javax.inject" name="javax.inject">
-			<revision name="1" status="release" pubdate="20091013193500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="88">
+			<revision name="1" status="release" pubdate="20091013193500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="89">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2369" time="0" location="/Users/MAC/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="true" origin-location="/Users/MAC/CleanHome/activator-1.3.2/repository/javax.inject/javax.inject/1/ivys/ivy.xml"/>
 				<caller organisation="hashittalkit" name="hashittalkit$sources_2.11" conf="default" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="1.0-SNAPSHOT"/>

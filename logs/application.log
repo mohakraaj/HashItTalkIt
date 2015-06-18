@@ -1,2 +1,721 @@
-2015-06-11 03:45:47,147 [INFO] from play.api.libs.concurrent.ActorSystemProvider in pool-7-thread-2 - Starting application default Akka system: application
-2015-06-11 03:45:48,015 [INFO] from play.core.server.NettyServer$ in pool-7-thread-2 - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+2015-06-17 20:28:10,949 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 - Slf4jLogger started
+2015-06-17 20:28:10,956 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-5 - Starting application default Akka system: application
+2015-06-17 20:29:15,640 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-5 - Application started (Dev)
+2015-06-17 20:29:15,768 [DEBUG] from play.api.libs.CryptoConfigParser in application-akka.actor.default-dispatcher-3 - Generated dev mode secret b9f15e1051b793f6f149d2f6fef55286 for app at file:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/application.conf
+2015-06-17 20:29:15,774 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-4 - User uid: 1 has started the application
+2015-06-17 20:29:15,774 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-3 - User uid: 1 has started the application
+2015-06-17 20:29:15,801 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-4 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:29:15,804 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-3 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:29:17,116 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-4 - Initiating websockets with session value :Some(1)
+2015-06-17 20:29:17,140 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-3 - Creating new instance of UserActor for  UID: 1
+2015-06-17 20:29:35,047 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-4 - User uid: 1 has started the application
+2015-06-17 20:29:35,050 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-4 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:29:42,919 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-9 - Initiating websockets with session value :Some(1)
+2015-06-17 20:29:55,958 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-11 - Creating new instance of UserActor for  UID: 1
+2015-06-17 20:30:45,485 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-9 - Room Form is in acceptable format
+2015-06-17 20:31:20,077 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-9 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:31:20,131 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-9 - User uid: 1 has started the application
+2015-06-17 20:31:20,135 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-9 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:31:34,779 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-8 - Initiating websockets with session value :Some(1)
+2015-06-17 20:31:35,362 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-8 - Creating new instance of UserActor for  UID: 1
+2015-06-17 20:32:32,172 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-7 - Only user available on chat room : helloworld1
+2015-06-17 20:33:23,199 [INFO] from akka.actor.LocalActorRef in application-akka.actor.default-dispatcher-8 - Message [models.Message] from Actor[akka://application/system/websockets/136/handler#-904229063] to Actor[akka://application/system/websockets/123/handler#1514559510] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2015-06-17 20:39:57,157 [ERROR] from application in New I/O worker #2 - 
+
+! @6mfpcilhc - Internal server error, for (GET) [/chat] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[type mismatch;
+ found   : akka.actor.Actor
+ required: akka.actor.ActorRef]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-06-17 20:40:32,932 [ERROR] from application in New I/O worker #2 - 
+
+! @6mfpckmgo - Internal server error, for (GET) [/chat] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[missing parameter type]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-06-17 20:40:39,054 [ERROR] from application in New I/O worker #3 - 
+
+! @6mfpcl5hg - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[missing parameter type]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-06-17 20:40:44,165 [ERROR] from application in New I/O worker #4 - 
+
+! @6mfpcld6n - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[missing parameter type]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-06-17 20:40:50,066 [ERROR] from application in New I/O worker #1 - 
+
+! @6mfpclm0e - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[missing parameter type]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-06-17 20:41:00,566 [ERROR] from application in New I/O worker #2 - 
+
+! @6mfpcmbe3 - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[missing parameter type]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-06-17 20:42:07,518 [ERROR] from application in New I/O worker #2 - 
+
+! @6mfpd06bf - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[value ! is not a member of akka.actor.Actor]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$2$$anonfun$apply$3.apply(PlayReload.scala:20) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$2$$anonfun$apply$3.apply(PlayReload.scala:20) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$2.apply(PlayReload.scala:20) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$2.apply(PlayReload.scala:18) ~[na:na]
+	at scala.util.Either$RightProjection.map(Either.scala:536) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:18) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-06-17 20:42:13,421 [ERROR] from application in New I/O worker #1 - 
+
+! @6mfpd0f89 - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[value ! is not a member of akka.actor.Actor]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-06-17 20:42:18,805 [ERROR] from application in New I/O worker #4 - 
+
+! @6mfpd0n7f - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[value ! is not a member of akka.actor.Actor]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-06-17 20:46:28,781 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-17 - Shutdown application default Akka system: application
+2015-06-17 20:46:30,208 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 - Slf4jLogger started
+2015-06-17 20:46:30,224 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-17 - Starting application default Akka system: application
+2015-06-17 20:46:30,532 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-17 - Application started (Dev)
+2015-06-17 20:46:30,585 [DEBUG] from play.api.libs.CryptoConfigParser in application-akka.actor.default-dispatcher-3 - Generated dev mode secret b9f15e1051b793f6f149d2f6fef55286 for app at file:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/application.conf
+2015-06-17 20:46:30,588 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-3 - User uid: 1 has started the application
+2015-06-17 20:46:30,620 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-3 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:46:33,935 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-3 - Initiating websockets with session value :Some(1)
+2015-06-17 20:46:33,958 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-2 - Creating new instance of UserActor for  UID: 1
+2015-06-17 20:46:40,879 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-2 - Room Form is in acceptable format
+2015-06-17 20:46:40,881 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-2 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:46:41,029 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-3 - User uid: 1 has started the application
+2015-06-17 20:46:41,031 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-3 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:46:42,341 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-2 - Initiating websockets with session value :Some(1)
+2015-06-17 20:46:42,345 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-2 - Creating new instance of UserActor for  UID: 1
+2015-06-17 20:46:46,494 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-3 - Only user available on chat room : Testttt
+2015-06-17 20:46:46,502 [INFO] from akka.actor.LocalActorRef in application-akka.actor.default-dispatcher-3 - Message [models.Message] from Actor[akka://application/system/websockets/170/handler#-941703318] to Actor[akka://application/system/websockets/157/handler#363154532] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2015-06-17 20:46:48,839 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-3 - Only user available on chat room : Testttt
+2015-06-17 20:46:48,841 [INFO] from akka.actor.LocalActorRef in application-akka.actor.default-dispatcher-6 - Message [models.Message] from Actor[akka://application/system/websockets/170/handler#-941703318] to Actor[akka://application/system/websockets/157/handler#363154532] was not delivered. [2] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2015-06-17 20:48:38,624 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-6 - Room Form is in acceptable format
+2015-06-17 20:48:38,653 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-6 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:48:38,699 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-6 - User uid: 1 has started the application
+2015-06-17 20:48:38,717 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-6 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:48:40,566 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-6 - Initiating websockets with session value :Some(1)
+2015-06-17 20:48:40,573 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-11 - Creating new instance of UserActor for  UID: 1
+2015-06-17 20:48:51,172 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-13 - User uid: 1 has started the application
+2015-06-17 20:48:51,183 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-13 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:48:54,089 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-13 - User uid: 1 has started the application
+2015-06-17 20:48:54,095 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-13 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:48:56,882 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-13 - User uid: 2 has started the application
+2015-06-17 20:48:56,893 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-13 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:48:57,435 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-15 - Initiating websockets with session value :Some(2)
+2015-06-17 20:48:57,451 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-13 - Creating new instance of UserActor for  UID: 2
+2015-06-17 20:49:02,365 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-16 - Room Form is in acceptable format
+2015-06-17 20:49:02,366 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-16 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:49:02,380 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-16 - User uid: 2 has started the application
+2015-06-17 20:49:02,381 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-16 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:49:02,599 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-16 - Initiating websockets with session value :Some(2)
+2015-06-17 20:49:02,652 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-15 - Creating new instance of UserActor for  UID: 2
+2015-06-17 20:49:08,231 [INFO] from akka.actor.LocalActorRef in application-akka.actor.default-dispatcher-16 - Message [models.Message] from Actor[akka://application/system/websockets/211/handler#-1395588048] to Actor[akka://application/system/websockets/198/handler#-533233670] was not delivered. [3] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2015-06-17 20:49:08,232 [INFO] from akka.actor.LocalActorRef in application-akka.actor.default-dispatcher-16 - Message [models.Message] from Actor[akka://application/system/websockets/211/handler#-1395588048] to Actor[akka://application/system/websockets/170/handler#-941703318] was not delivered. [4] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2015-06-17 20:49:10,070 [INFO] from akka.actor.LocalActorRef in application-akka.actor.default-dispatcher-16 - Message [models.Message] from Actor[akka://application/system/websockets/211/handler#-1395588048] to Actor[akka://application/system/websockets/198/handler#-533233670] was not delivered. [5] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2015-06-17 20:49:10,072 [INFO] from akka.actor.LocalActorRef in application-akka.actor.default-dispatcher-16 - Message [models.Message] from Actor[akka://application/system/websockets/211/handler#-1395588048] to Actor[akka://application/system/websockets/170/handler#-941703318] was not delivered. [6] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2015-06-17 20:50:00,785 [INFO] from akka.actor.LocalActorRef in application-akka.actor.default-dispatcher-12 - Message [models.Message] from Actor[akka://application/system/websockets/211/handler#-1395588048] to Actor[akka://application/system/websockets/198/handler#-533233670] was not delivered. [7] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2015-06-17 20:50:00,802 [INFO] from akka.actor.LocalActorRef in application-akka.actor.default-dispatcher-12 - Message [models.Message] from Actor[akka://application/system/websockets/211/handler#-1395588048] to Actor[akka://application/system/websockets/170/handler#-941703318] was not delivered. [8] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2015-06-17 20:50:01,703 [INFO] from akka.actor.LocalActorRef in application-akka.actor.default-dispatcher-14 - Message [models.Message] from Actor[akka://application/system/websockets/211/handler#-1395588048] to Actor[akka://application/system/websockets/198/handler#-533233670] was not delivered. [9] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2015-06-17 20:50:01,708 [INFO] from akka.actor.LocalActorRef in application-akka.actor.default-dispatcher-23 - Message [models.Message] from Actor[akka://application/system/websockets/211/handler#-1395588048] to Actor[akka://application/system/websockets/170/handler#-941703318] was not delivered. [10] dead letters encountered, no more dead letters will be logged. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2015-06-17 20:50:05,411 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-22 - User uid: 2 has started the application
+2015-06-17 20:50:05,419 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-22 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:50:05,850 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-24 - Initiating websockets with session value :Some(2)
+2015-06-17 20:50:05,869 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-24 - Creating new instance of UserActor for  UID: 2
+2015-06-17 20:50:55,646 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-19 - Room Form is in acceptable format
+2015-06-17 20:50:55,690 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-19 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:50:55,715 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-19 - User uid: 2 has started the application
+2015-06-17 20:50:55,719 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-19 - Couldn't decode the Cookie header containing: 
+2015-06-17 20:50:56,309 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-14 - Initiating websockets with session value :Some(2)
+2015-06-17 20:50:56,314 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-14 - Creating new instance of UserActor for  UID: 2
+2015-06-17 20:51:03,240 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-26 - Only user available on chat room : TTTTT
+2015-06-17 21:04:07,626 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-25 - Shutdown application default Akka system: application
+2015-06-17 21:04:08,561 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2015-06-17 21:04:08,563 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-25 - Starting application default Akka system: application
+2015-06-17 21:04:08,632 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-25 - Application started (Dev)
+2015-06-17 21:04:08,660 [DEBUG] from play.api.libs.CryptoConfigParser in application-akka.actor.default-dispatcher-7 - Generated dev mode secret b9f15e1051b793f6f149d2f6fef55286 for app at file:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/application.conf
+2015-06-17 21:04:08,663 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-7 - User uid: 1 has started the application
+2015-06-17 21:04:08,685 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-7 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:04:10,329 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-7 - Initiating websockets with session value :Some(1)
+2015-06-17 21:04:10,341 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-8 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:04:20,016 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-2 - Room Form is in acceptable format
+2015-06-17 21:04:24,201 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-9 - Initiating websockets with session value :Some(1)
+2015-06-17 21:04:24,208 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-5 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:05:13,220 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-6 - User uid: 1 has started the application
+2015-06-17 21:05:13,239 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-6 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:05:17,218 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-12 - Initiating websockets with session value :Some(1)
+2015-06-17 21:05:17,228 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-12 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:05:26,218 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-14 - Room Form is in acceptable format
+2015-06-17 21:05:31,236 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-12 - Initiating websockets with session value :Some(1)
+2015-06-17 21:05:31,243 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-12 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:07:40,562 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-13 - User uid: 1 has started the application
+2015-06-17 21:07:40,565 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-13 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:07:41,975 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-19 - Initiating websockets with session value :Some(1)
+2015-06-17 21:07:41,980 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-18 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:07:47,432 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-13 - Room Form is in acceptable format
+2015-06-17 21:07:49,943 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-19 - Initiating websockets with session value :Some(1)
+2015-06-17 21:07:49,946 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-19 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:14:00,406 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-13 - User uid: 1 has started the application
+2015-06-17 21:14:00,416 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-13 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:14:02,671 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-13 - Initiating websockets with session value :Some(1)
+2015-06-17 21:14:02,676 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-13 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:14:08,630 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-27 - User uid: 1 has started the application
+2015-06-17 21:14:08,633 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-27 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:14:09,912 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-23 - Initiating websockets with session value :Some(1)
+2015-06-17 21:14:09,927 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-25 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:14:16,352 [ERROR] from controllers.Application in application-akka.actor.default-dispatcher-27 - User has entered incompatible form values
+2015-06-17 21:14:44,060 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-28 - User uid: 1 has started the application
+2015-06-17 21:14:44,064 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-28 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:14:45,555 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-28 - Initiating websockets with session value :Some(1)
+2015-06-17 21:14:45,559 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-28 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:14:48,654 [ERROR] from controllers.Application in application-akka.actor.default-dispatcher-28 - User has entered incompatible form values
+2015-06-17 21:15:46,792 [ERROR] from controllers.Application in application-akka.actor.default-dispatcher-32 - User has entered incompatible form values
+2015-06-17 21:19:05,261 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-33 - User uid: 1 has started the application
+2015-06-17 21:19:05,268 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-34 - User uid: 1 has started the application
+2015-06-17 21:19:05,269 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-33 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:19:05,270 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-34 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:19:58,096 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-33 - User uid: 1 has started the application
+2015-06-17 21:19:58,115 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-33 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:20:02,525 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-44 - Initiating websockets with session value :Some(1)
+2015-06-17 21:20:02,530 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-44 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:20:08,958 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-42 - Room Form is in acceptable format
+2015-06-17 21:22:31,214 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-39 - Shutdown application default Akka system: application
+2015-06-17 21:22:31,757 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 - Slf4jLogger started
+2015-06-17 21:22:31,759 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-39 - Starting application default Akka system: application
+2015-06-17 21:22:31,820 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-39 - Application started (Dev)
+2015-06-17 21:22:31,838 [DEBUG] from play.api.libs.CryptoConfigParser in application-akka.actor.default-dispatcher-6 - Generated dev mode secret b9f15e1051b793f6f149d2f6fef55286 for app at file:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/application.conf
+2015-06-17 21:22:31,842 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-6 - User uid: 1 has started the application
+2015-06-17 21:22:31,856 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-6 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:22:32,921 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-6 - Initiating websockets with session value :Some(1)
+2015-06-17 21:22:32,943 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-6 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:22:47,711 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-8 - Room Form is in acceptable format
+2015-06-17 21:22:54,012 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-8 - Room Form is in acceptable format
+2015-06-17 21:24:46,625 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-9 - User uid: 1 has started the application
+2015-06-17 21:24:46,632 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-9 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:24:48,428 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-15 - Initiating websockets with session value :Some(1)
+2015-06-17 21:24:48,434 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-15 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:24:55,699 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-12 - Room Form is in acceptable format
+2015-06-17 21:25:02,488 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-9 - Room Form is in acceptable format
+2015-06-17 21:25:15,005 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-13 - Room Form is in acceptable format
+2015-06-17 21:26:38,860 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-10 - User uid: 1 has started the application
+2015-06-17 21:26:38,864 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-10 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:26:40,366 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-16 - Initiating websockets with session value :Some(1)
+2015-06-17 21:26:40,371 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-17 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:26:46,729 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-10 - Room Form is in acceptable format
+2015-06-17 21:27:07,800 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-18 - User uid: 1 has started the application
+2015-06-17 21:27:07,805 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-18 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:27:11,460 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-18 - Initiating websockets with session value :Some(1)
+2015-06-17 21:27:11,468 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-18 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:27:15,480 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-21 - Room Form is in acceptable format
+2015-06-17 21:27:18,513 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-21 - Room Form is in acceptable format
+2015-06-17 21:28:19,445 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-23 - Shutdown application default Akka system: application
+2015-06-17 21:28:19,714 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2015-06-17 21:28:19,717 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-23 - Starting application default Akka system: application
+2015-06-17 21:28:19,783 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-23 - Application started (Dev)
+2015-06-17 21:28:19,800 [DEBUG] from play.api.libs.CryptoConfigParser in application-akka.actor.default-dispatcher-2 - Generated dev mode secret b9f15e1051b793f6f149d2f6fef55286 for app at file:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/application.conf
+2015-06-17 21:28:19,803 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-2 - User uid: 1 has started the application
+2015-06-17 21:28:19,812 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-2 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:28:21,083 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-7 - Initiating websockets with session value :Some(1)
+2015-06-17 21:28:21,098 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-7 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:28:52,004 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-2 - User uid: 1 has started the application
+2015-06-17 21:28:52,012 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-2 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:28:53,418 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-9 - Initiating websockets with session value :Some(1)
+2015-06-17 21:28:53,424 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-9 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:28:59,349 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-4 - Room Form is in acceptable format
+2015-06-17 21:29:05,135 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-4 - Room Form is in acceptable format
+2015-06-17 21:29:12,446 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-4 - Only user available on chat room : Abcded
+2015-06-17 21:29:12,456 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-4 - User: 1 has received the message to room : Abcded
+2015-06-17 21:31:46,337 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-6 - Shutdown application default Akka system: application
+2015-06-17 21:31:46,625 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2015-06-17 21:31:46,626 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-6 - Starting application default Akka system: application
+2015-06-17 21:31:46,715 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-6 - Application started (Dev)
+2015-06-17 21:31:46,762 [DEBUG] from play.api.libs.CryptoConfigParser in application-akka.actor.default-dispatcher-4 - Generated dev mode secret b9f15e1051b793f6f149d2f6fef55286 for app at file:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/application.conf
+2015-06-17 21:31:46,765 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-4 - User uid: 1 has started the application
+2015-06-17 21:31:46,798 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-4 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:31:46,902 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-2 - User uid: 1 has started the application
+2015-06-17 21:31:46,903 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-2 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:31:47,645 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-3 - Initiating websockets with session value :Some(1)
+2015-06-17 21:31:47,661 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-5 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:34:20,568 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-4 - Shutdown application default Akka system: application
+2015-06-17 21:34:20,848 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2015-06-17 21:34:20,854 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-4 - Starting application default Akka system: application
+2015-06-17 21:34:20,929 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-4 - Application started (Dev)
+2015-06-17 21:34:20,948 [DEBUG] from play.api.libs.CryptoConfigParser in application-akka.actor.default-dispatcher-5 - Generated dev mode secret b9f15e1051b793f6f149d2f6fef55286 for app at file:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/application.conf
+2015-06-17 21:34:20,951 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-5 - User uid: 1 has started the application
+2015-06-17 21:34:20,962 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-5 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:34:22,099 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-6 - Initiating websockets with session value :Some(1)
+2015-06-17 21:34:22,114 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-5 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:41:10,079 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-3 - Shutdown application default Akka system: application
+2015-06-17 21:41:10,274 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 - Slf4jLogger started
+2015-06-17 21:41:10,276 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-3 - Starting application default Akka system: application
+2015-06-17 21:41:10,348 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-3 - Application started (Dev)
+2015-06-17 21:41:10,369 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-3 - User uid: 2 has started the application
+2015-06-17 21:41:10,369 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-2 - User uid: 1 has started the application
+2015-06-17 21:41:10,381 [DEBUG] from play.api.libs.CryptoConfigParser in application-akka.actor.default-dispatcher-3 - Generated dev mode secret b9f15e1051b793f6f149d2f6fef55286 for app at file:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/application.conf
+2015-06-17 21:41:10,387 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-2 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:41:10,387 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-3 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:41:11,053 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-3 - Initiating websockets with session value :Some(2)
+2015-06-17 21:41:11,067 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-8 - Creating new instance of UserActor for  UID: 2
+2015-06-17 21:44:39,955 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-4 - User uid: 2 has started the application
+2015-06-17 21:44:39,964 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-4 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:44:40,415 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-4 - Initiating websockets with session value :Some(2)
+2015-06-17 21:44:40,433 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-15 - Creating new instance of UserActor for  UID: 2
+2015-06-17 21:44:52,951 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-10 - Room Form is in acceptable format
+2015-06-17 21:44:59,894 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-10 - Room Form is in acceptable format
+2015-06-17 21:45:04,103 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-10 - Only user available on chat room : Baby
+2015-06-17 21:45:04,107 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-10 - User: 2 has received the message to room : Baby
+2015-06-17 21:45:08,828 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-11 - User uid: 2 has started the application
+2015-06-17 21:45:08,843 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-11 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:09,241 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-17 - Initiating websockets with session value :Some(2)
+2015-06-17 21:45:09,243 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-11 - Creating new instance of UserActor for  UID: 2
+2015-06-17 21:45:13,804 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-11 - User uid: 2 has started the application
+2015-06-17 21:45:13,806 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-11 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:14,115 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-11 - Initiating websockets with session value :Some(2)
+2015-06-17 21:45:14,119 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-11 - Creating new instance of UserActor for  UID: 2
+2015-06-17 21:45:15,500 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-18 - User uid: 2 has started the application
+2015-06-17 21:45:15,501 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-18 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:15,668 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-17 - Initiating websockets with session value :Some(2)
+2015-06-17 21:45:15,669 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-10 - Creating new instance of UserActor for  UID: 2
+2015-06-17 21:45:16,479 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-14 - User uid: 2 has started the application
+2015-06-17 21:45:16,481 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-14 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:16,658 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-17 - Initiating websockets with session value :Some(2)
+2015-06-17 21:45:16,660 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-17 - Creating new instance of UserActor for  UID: 2
+2015-06-17 21:45:17,277 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-12 - User uid: 2 has started the application
+2015-06-17 21:45:17,279 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-12 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:17,698 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-12 - User uid: 2 has started the application
+2015-06-17 21:45:17,699 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-18 - Initiating websockets with session value :Some(2)
+2015-06-17 21:45:17,701 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-18 - Creating new instance of UserActor for  UID: 2
+2015-06-17 21:45:17,710 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-12 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:17,813 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-18 - User uid: 2 has started the application
+2015-06-17 21:45:17,814 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-18 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:17,937 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-18 - User uid: 2 has started the application
+2015-06-17 21:45:17,938 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-18 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:18,144 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-10 - User uid: 2 has started the application
+2015-06-17 21:45:18,145 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-10 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:18,257 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-13 - Initiating websockets with session value :Some(2)
+2015-06-17 21:45:18,260 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-10 - Creating new instance of UserActor for  UID: 2
+2015-06-17 21:45:18,350 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-16 - User uid: 2 has started the application
+2015-06-17 21:45:18,353 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-16 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:18,438 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-11 - Initiating websockets with session value :Some(2)
+2015-06-17 21:45:18,441 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-11 - Creating new instance of UserActor for  UID: 2
+2015-06-17 21:45:18,606 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-18 - User uid: 2 has started the application
+2015-06-17 21:45:18,607 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-18 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:18,691 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-13 - Initiating websockets with session value :Some(2)
+2015-06-17 21:45:18,692 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-13 - Creating new instance of UserActor for  UID: 2
+2015-06-17 21:45:18,773 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-11 - User uid: 2 has started the application
+2015-06-17 21:45:18,774 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-11 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:18,883 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-18 - Initiating websockets with session value :Some(2)
+2015-06-17 21:45:18,886 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-18 - Creating new instance of UserActor for  UID: 2
+2015-06-17 21:45:19,489 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-12 - User uid: 2 has started the application
+2015-06-17 21:45:19,490 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-12 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:19,574 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-10 - Initiating websockets with session value :Some(2)
+2015-06-17 21:45:19,577 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-10 - Creating new instance of UserActor for  UID: 2
+2015-06-17 21:45:29,658 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-17 - User uid: 2 has started the application
+2015-06-17 21:45:29,659 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-17 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:29,803 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-18 - Initiating websockets with session value :Some(2)
+2015-06-17 21:45:29,805 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-18 - Creating new instance of UserActor for  UID: 2
+2015-06-17 21:45:35,188 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-20 - User uid: 2 has started the application
+2015-06-17 21:45:35,192 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-20 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:35,590 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-17 - Initiating websockets with session value :Some(2)
+2015-06-17 21:45:35,591 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-17 - Creating new instance of UserActor for  UID: 2
+2015-06-17 21:45:45,261 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-12 - User uid: 1 has started the application
+2015-06-17 21:45:45,265 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-12 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:46,004 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-12 - Initiating websockets with session value :Some(1)
+2015-06-17 21:45:46,006 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-14 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:45:54,779 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-12 - User uid: 2 has started the application
+2015-06-17 21:45:54,784 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-12 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:45:55,488 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-22 - Initiating websockets with session value :Some(2)
+2015-06-17 21:45:55,489 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-22 - Creating new instance of UserActor for  UID: 2
+2015-06-17 21:46:12,619 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-21 - User uid: 1 has started the application
+2015-06-17 21:46:12,623 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-21 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:46:13,505 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-21 - Initiating websockets with session value :Some(1)
+2015-06-17 21:46:13,512 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-24 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:46:18,803 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-12 - User uid: 1 has started the application
+2015-06-17 21:46:18,804 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-12 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:46:19,050 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-14 - Initiating websockets with session value :Some(1)
+2015-06-17 21:46:19,051 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-22 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:46:22,207 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-26 - Room Form is in acceptable format
+2015-06-17 21:46:26,673 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-22 - Room Form is in acceptable format
+2015-06-17 21:46:32,205 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-22 - Room Form is in acceptable format
+2015-06-17 21:46:37,705 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-22 - User uid: 1 has started the application
+2015-06-17 21:46:37,711 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-22 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:46:37,958 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-12 - Initiating websockets with session value :Some(1)
+2015-06-17 21:46:37,960 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-23 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:46:39,506 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-22 - User uid: 1 has started the application
+2015-06-17 21:46:39,515 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-22 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:46:39,736 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-25 - Initiating websockets with session value :Some(1)
+2015-06-17 21:46:39,738 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-22 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:46:40,289 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-22 - User uid: 1 has started the application
+2015-06-17 21:46:40,290 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-22 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:46:40,532 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-12 - Initiating websockets with session value :Some(1)
+2015-06-17 21:46:40,533 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-21 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:46:40,940 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-24 - User uid: 1 has started the application
+2015-06-17 21:46:40,941 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-24 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:46:41,236 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-21 - Initiating websockets with session value :Some(1)
+2015-06-17 21:46:41,237 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-24 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:46:41,352 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-21 - User uid: 1 has started the application
+2015-06-17 21:46:41,354 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-21 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:46:41,612 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-27 - Initiating websockets with session value :Some(1)
+2015-06-17 21:46:41,614 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-27 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:46:41,779 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-24 - User uid: 1 has started the application
+2015-06-17 21:46:41,780 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-24 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:46:42,009 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-21 - Initiating websockets with session value :Some(1)
+2015-06-17 21:46:42,010 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-12 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:46:42,096 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-27 - User uid: 1 has started the application
+2015-06-17 21:46:42,102 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-27 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:46:42,354 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-25 - Initiating websockets with session value :Some(1)
+2015-06-17 21:46:42,356 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-25 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:46:42,400 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-23 - User uid: 1 has started the application
+2015-06-17 21:46:42,402 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-23 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:46:42,510 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-12 - User uid: 1 has started the application
+2015-06-17 21:46:42,511 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-12 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:46:42,818 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-22 - User uid: 1 has started the application
+2015-06-17 21:46:42,819 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-22 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:46:42,890 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-22 - User uid: 1 has started the application
+2015-06-17 21:46:42,892 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-22 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:46:43,048 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-22 - Initiating websockets with session value :Some(1)
+2015-06-17 21:46:43,049 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-28 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:46:43,290 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-12 - Initiating websockets with session value :Some(1)
+2015-06-17 21:46:43,292 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-28 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:46:43,327 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-21 - User uid: 1 has started the application
+2015-06-17 21:46:43,328 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-21 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:46:43,635 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-27 - Initiating websockets with session value :Some(1)
+2015-06-17 21:46:43,638 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-12 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:46:44,452 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-12 - User uid: 1 has started the application
+2015-06-17 21:46:44,453 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-12 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:46:44,615 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-22 - Initiating websockets with session value :Some(1)
+2015-06-17 21:46:44,617 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-22 - Creating new instance of UserActor for  UID: 1
+2015-06-17 21:46:51,881 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-12 - User uid: 1 has started the application
+2015-06-17 21:46:51,885 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-12 - Couldn't decode the Cookie header containing: 
+2015-06-17 21:46:52,364 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-23 - Initiating websockets with session value :Some(1)
+2015-06-17 21:46:52,366 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-12 - Creating new instance of UserActor for  UID: 1
+2015-06-17 22:48:39,867 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-24 - User uid: 2 has started the application
+2015-06-17 22:48:39,877 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-24 - Couldn't decode the Cookie header containing: 
+2015-06-17 22:48:40,385 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-34 - Initiating websockets with session value :Some(2)
+2015-06-17 22:48:40,392 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-34 - Creating new instance of UserActor for  UID: 2
+2015-06-17 22:53:32,654 [ERROR] from application in New I/O worker #2 - 
+
+! @6mg046mpj - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[value add is not a member of scala.collection.mutable.Map[String,scala.collection.mutable.Set[String]]]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-06-17 22:54:03,649 [ERROR] from application in New I/O worker #2 - 
+
+! @6mg048glp - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[Cannot write an instance of Int to HTTP response. Try to define a Writeable[Int]]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-06-17 22:56:05,716 [ERROR] from application in New I/O worker #2 - 
+
+! @6mg04ffah - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[Cannot write an instance of Unit to HTTP response. Try to define a Writeable[Unit]]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-06-17 22:56:31,597 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-37 - Shutdown application default Akka system: application
+2015-06-17 22:56:31,982 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 - Slf4jLogger started
+2015-06-17 22:56:31,984 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-37 - Starting application default Akka system: application
+2015-06-17 22:56:32,219 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-37 - Application started (Dev)
+2015-06-17 22:56:32,254 [DEBUG] from play.api.libs.CryptoConfigParser in application-akka.actor.default-dispatcher-4 - Generated dev mode secret b9f15e1051b793f6f149d2f6fef55286 for app at file:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/scala-2.11/classes/application.conf
+2015-06-17 22:56:32,257 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-4 - User uid: 2 has started the application
+2015-06-17 22:56:32,275 [DEBUG] from play.api.mvc.Cookies$ in application-akka.actor.default-dispatcher-4 - Couldn't decode the Cookie header containing: 
+2015-06-17 22:56:34,066 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-2 - Initiating websockets with session value :Some(2)
+2015-06-17 22:56:34,082 [INFO] from models.UserActor in application-akka.actor.default-dispatcher-6 - Creating new instance of UserActor for  UID: 2
+2015-06-17 22:56:45,384 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-5 - Room Form is in acceptable format
+2015-06-17 22:56:59,197 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-3 - Room Form is in acceptable format
+2015-06-17 22:57:06,494 [DEBUG] from controllers.Application in application-akka.actor.default-dispatcher-9 - Room Form is in acceptable format

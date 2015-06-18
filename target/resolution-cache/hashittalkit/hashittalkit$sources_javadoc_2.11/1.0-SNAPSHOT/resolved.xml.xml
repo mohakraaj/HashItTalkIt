@@ -4,7 +4,7 @@
 		module="hashittalkit$sources_javadoc_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20150609025409"
+		publication="20150614123536"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -258,19 +258,15 @@
 		</dependency>
 		<dependency org="org.webjars" name="jquery" rev="1.11.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="jquery" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="jquery" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.webjars" name="flot" rev="0.8.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="flot" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="flot" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.webjars" name="jquery-colorhelpers" rev="1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="jquery-colorhelpers" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="jquery-colorhelpers" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.webjars" name="explorercanvas" rev="r3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="explorercanvas" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="explorercanvas" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-test_2.11" rev="2.4.0" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="play-test_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>

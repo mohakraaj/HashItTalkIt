@@ -9,3 +9,22 @@ Usage
 
 1. User enters room details
 2. User is provided with page to Enter password ( Password remains in the user browser, is not sent to server)
+
+
+
+Completed spec list
+
+- Chat
+- Encryption
+
+Remaining spec List (on decreasing priority)
+- UI (look/Feel)
+- Metric collection
+- Tests
+- Bug Fixing
+
+Existing bugs
+
+- Long messages flow outside the browser
+
+

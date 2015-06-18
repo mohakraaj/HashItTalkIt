@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/conf/routes
-// @DATE:Tue Jun 09 02:21:34 PDT 2015
+// @DATE:Wed Jun 17 20:03:19 PDT 2015
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -42,12 +42,12 @@ package controllers.javascript {
     }
 
   
-    // @LINE:11
-    def home: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Application.home",
+    // @LINE:17
+    def addRoomDetails: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.addRoomDetails",
       """
         function() {
-          return _wA({method:"GET", url:"""" + _prefix + """"})
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "addroomdetails"})
         }
       """
     )
@@ -63,11 +63,11 @@ package controllers.javascript {
     )
   
     // @LINE:15
-    def addRoomDetails: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Application.addRoomDetails",
+    def about: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.about",
       """
         function() {
-          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "addroomdetails"})
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "about"})
         }
       """
     )
@@ -77,7 +77,21 @@ package controllers.javascript {
       "controllers.Application.chat",
       """
         function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "chat"})
+        
+          if (true) {
+            return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "chat"})
+          }
+        
+        }
+      """
+    )
+  
+    // @LINE:19
+    def getRoomDetails: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.getRoomDetails",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "getroomdetails"})
         }
       """
     )

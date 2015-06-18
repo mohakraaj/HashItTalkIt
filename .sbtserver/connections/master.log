@@ -1,0 +1,13 @@
+New log file opened at Sat Jun 13 21:59:35 PDT 2015 by 39728@Mohak.local
+Taking next connection to: 59244
+New client attempting to connect on port: 59245-59244
+  Address = /192.168.1.64:59244
+This client on port 59245 has uuid 02176edc-13ca-4a5e-81f7-2ab7a8484aea configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-02176edc-13ca-4a5e-81f7-2ab7a8484aea
+Taking next connection to: 59244
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 39728@Mohak.local logs at Sat Jun 13 22:02:36 PDT 2015, goodbye.

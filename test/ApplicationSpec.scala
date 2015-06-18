@@ -1,9 +1,13 @@
+import models.RoomData
+import org.junit.runner._
 import org.specs2.mutable._
 import org.specs2.runner._
-import org.junit.runner._
-
-import play.api.test._
+import play.api.data.Form
+import play.api.data.Forms._
 import play.api.test.Helpers._
+import play.api.test._
+import play.api.i18n.Messages.Implicits._
+import play.api.Play.current
 
 /**
  * Add your spec here.
@@ -24,7 +28,16 @@ class ApplicationSpec extends Specification {
 
       status(home) must equalTo(OK)
       contentType(home) must beSome.which(_ == "text/html")
-      contentAsString(home) must contain ("Your new application is ready.")
+      //contentAsString(home) must contain ("Your new application is ready.")
     }
+
+    "respond to the index Action" in new WithApplication {
+      val Some(result) = route(FakeRequest(GET, "/"))
+
+      status(result) must equalTo(OK)
+      contentType(result) must beSome("text/html")
+      charset(result) must beSome("utf-8")
+    }
+
   }
 }
