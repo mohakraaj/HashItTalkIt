@@ -7,3 +7,5 @@ run
 tests
 test
 run 
+ps -a
+run 

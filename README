@@ -28,3 +28,24 @@ Existing bugs
 - Long messages flow outside the browser
 
 
+TODO:
+Strip: color based on the uid
+Place input box at the bottom the page
+Clicking without roomname should be blocked
+First room should be selected automatically
+differentiate users by alignment of text
+
+Addrooms button inactivity should be recognised
+change navigation hover, active
+
+HashMap is getting updated for all users
+
+Done:
+Clear stale user actors
+Chat table should only show messages of the room
+Clearing all cache when the user enters is wrong, should clear the cache only the person who reenters
+
+Doubts:
+
+why flat map or map is not there for list[String]
+function of rows in bootstrap

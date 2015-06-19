@@ -4,7 +4,7 @@
 		module="hashittalkit-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20150617195431"
+		publication="20150619021644"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

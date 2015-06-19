@@ -15,9 +15,10 @@ import play.api.mvc.WebSocket
 import scala.collection.mutable.{HashMap,Set}
 import scala.concurrent.Future
 
-//TODO : roomnames should be unique
+
 // TODO: Page refresh creates stale data in userRoomMapping (may be lazy val or streams )
 // TODO : On refresh uid to roommapping is gone. "Couldn decoe the cookie error"
+// TODO: Create logging Action instance
 
 class Application extends Controller {
 
@@ -31,8 +32,7 @@ class Application extends Controller {
 
   val logger = Logger(this.getClass())
 
-  // Maping uid to List of Rooms
-  val uidToRoomMap = HashMap[String, Set[String]]().withDefaultValue(Set())
+
 
   // Form structure to collect Room details
   val roomDetailsForm = Form(
@@ -44,12 +44,14 @@ class Application extends Controller {
   //Load home page with Room details form
   // TODO : Redirect to chat room if the user has already added Room
   def chat() = Action { implicit request =>
-    val uid = request.session.get(UID).getOrElse {
+    val uid = request.session.get(UID).map { id => updateStaleData(id); id}.getOrElse {
       counter = counter + 1
       counter.toString()
     }
+
+
     logger.debug("User uid: " + uid + " has started the application")
-    Ok(views.html.chat("Success")).withSession(request.session + (UID -> uid))
+    Ok(views.html.chat(uid)).withSession(request.session + (UID -> uid))
   }
 
 
@@ -61,12 +63,15 @@ class Application extends Controller {
     roomDetailsForm.bindFromRequest.fold(
       formWithErrors => {
         logger.error("User has entered incompatible form values")
-        BadRequest(views.html.home(formWithErrors))
+        BadRequest("Error in form filling")
       },
       RoomData => {
         logger.debug("Room Form is in acceptable format")
-        if (uidToRoomMap(uid).add(RoomData.name)) {
-          userRoomMapping(RoomData.name) =  uidToUserActor(uid) ::  userRoomMapping(RoomData.name)
+        logger.info("Room created by user "+ uid)
+        if (uidToRoomMap(uid).add(RoomData.name) ) {
+
+          // investigate why it is returning false. more clearly why roomToUidMap("anything") = "1"
+          roomToUidMap(RoomData.name).add(uid)
           Ok(RoomData.name)
         }
         else
@@ -78,7 +83,7 @@ class Application extends Controller {
   // Method to return Json val of the list of rooms
   def getRoomDetails() = Action { implicit request =>
     val uid = request.session.get(UID).getOrElse{ logger.error(" Request has no user Id attached"); " "}
-
+    logger.info("GetRoomdetails requested from "+ uid)
     val roomListJson = Json.toJson(uidToRoomMap(uid))
 
     Ok(roomListJson)
@@ -101,6 +106,12 @@ class Application extends Controller {
 
     })
 
+  }
+
+  // On refresh of the browser the websockets are closed and new websockets are created
+  // hence new actors are created. We need to update hashtables to link to new actors
+  def updateStaleData(uid : String) = {
+    uidToUserActor.remove(uid)
   }
 
 

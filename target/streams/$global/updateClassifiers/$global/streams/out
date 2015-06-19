@@ -13,7 +13,7 @@
 [debug] == resolving dependencies for hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e325104
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68278dcf
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
 [debug] 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
 [debug] 	[2.11.6] org.scala-lang#scala-library;2.11.6
@@ -22,7 +22,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#twirl-api_2.11;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c17bc59
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bab4a0e
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#twirl-api_2.11;1.1.1
 [debug] 	found com.typesafe.play#twirl-api_2.11;1.1.1 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime]
@@ -30,7 +30,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f3b7a1b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11ddcabc
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.4
 [debug] 	found org.apache.commons#commons-lang3;3.4 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
@@ -38,7 +38,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35df0033
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2627857
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.1 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->runtime]
@@ -46,7 +46,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-server_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1516d12f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7404871b
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-server_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-server_2.11;2.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.4.0 [compile->runtime]
@@ -54,7 +54,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@97ccdf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4211a34c
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play_2.11;2.4.0
 [debug] 	found com.typesafe.play#play_2.11;2.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play_2.11;2.4.0 [compile->runtime]
@@ -62,7 +62,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#build-link;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#build-link;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@186be746
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@508d64c
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#build-link;2.4.0
 [debug] 	found com.typesafe.play#build-link;2.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#build-link;2.4.0 [compile->runtime]
@@ -70,7 +70,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#build-link;2.4.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-exceptions;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bb51dd5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@124a7350
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-exceptions;2.4.0
 [debug] 	found com.typesafe.play#play-exceptions;2.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.4.0 [compile->runtime]
@@ -78,7 +78,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.4.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.javassist#javassist;3.19.0-GA [compile->default(compile)]
 [info] Resolving org.javassist#javassist;3.19.0-GA ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30478579
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f70d14
 [debug] sbt-chain: module revision found in cache: org.javassist#javassist;3.19.0-GA
 [debug] 	found org.javassist#javassist;3.19.0-GA in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.javassist#javassist;3.19.0-GA [compile->runtime]
@@ -86,7 +86,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.javassist#javassist;3.19.0-GA [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-iteratees_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@773230b5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21f3cb72
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-iteratees_2.11;2.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-iteratees_2.11;2.4.0 [compile->runtime]
@@ -94,7 +94,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-iteratees_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-stm#scala-stm_2.11;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.11;0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2064c5cd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5afc5151
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
@@ -102,7 +102,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe#config;1.3.0 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fda8888
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@166fc167
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
 [debug] 	found com.typesafe#config;1.3.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe#config;1.3.0 [compile->runtime]
@@ -110,7 +110,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-json_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14a70899
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e84b312
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-json_2.11;2.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-json_2.11;2.4.0 [compile->runtime]
@@ -118,7 +118,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-json_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-functional_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27a54cf7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@81ae4
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-functional_2.11;2.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-functional_2.11;2.4.0 [compile->runtime]
@@ -126,7 +126,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-functional_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-datacommons_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e4d94ea
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12f2e270
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-datacommons_2.11;2.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-datacommons_2.11;2.4.0 [compile->runtime]
@@ -134,7 +134,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-datacommons_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->joda-time#joda-time;2.7 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@557cf78a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66b12d06
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.7
 [debug] 	found joda-time#joda-time;2.7 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->joda-time#joda-time;2.7 [compile->runtime]
@@ -142,7 +142,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->joda-time#joda-time;2.7 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.joda#joda-convert;1.7 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@85a7729
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e734117
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.7
 [debug] 	found org.joda#joda-convert;1.7 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.joda#joda-convert;1.7 [compile->runtime]
@@ -150,7 +150,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.joda#joda-convert;1.7 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41380f14
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4269ae2d
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6
 [debug] 	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain
 [debug] 	[2.11.6] org.scala-lang#scala-reflect;2.11.6
@@ -159,7 +159,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.6 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.5.3 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36086aff
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5af4be67
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.5.3
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.5.3 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.5.3 [compile->runtime]
@@ -167,7 +167,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.5.3 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.5.3 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79d4f8fe
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a75d3df
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.5.3
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.5.3 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.5.3 [compile->runtime]
@@ -175,7 +175,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.5.3 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.5.3 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d409fcf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fe77158
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.5.3
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.5.3 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.5.3 [compile->runtime]
@@ -183,7 +183,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.5.3 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.3 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@218ab228
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33139c3b
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.3
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.3 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.3 [compile->runtime]
@@ -191,7 +191,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.3 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.3 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@157be384
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bf2a14b
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.3
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.3 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.3 [compile->runtime]
@@ -199,7 +199,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.3 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-utils;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-netty-utils;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a5adf42
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4da64ade
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-netty-utils;2.4.0
 [debug] 	found com.typesafe.play#play-netty-utils;2.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-utils;2.4.0 [compile->runtime]
@@ -207,7 +207,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-utils;2.4.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b0e0e39
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@793967cc
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.12
 [debug] 	found org.slf4j#slf4j-api;1.7.12 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.12 [compile->runtime]
@@ -215,7 +215,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.12 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68d5b13
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26c847b
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.12
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.12 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.12 [compile->runtime]
@@ -223,7 +223,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.12 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f031aa2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17444647
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.12
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.12 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.12 [compile->runtime]
@@ -231,7 +231,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.12 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b281923
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49505524
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->runtime]
@@ -239,7 +239,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.3 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-core;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@558700ca
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20805ff1
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.3
 [debug] 	found ch.qos.logback#logback-core;1.1.3 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.3 [compile->runtime]
@@ -247,7 +247,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.3 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.3 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-classic;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@364cab0c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c527b2
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.3
 [debug] 	found ch.qos.logback#logback-classic;1.1.3 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.3 [compile->runtime]
@@ -255,7 +255,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.3 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19fc30c4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24fdc950
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.11
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.11 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->runtime]
@@ -263,7 +263,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.11;2.3.11 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-slf4j_2.11;2.3.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5250aa98
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f72ce69
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.11;2.3.11
 [debug] 	found com.typesafe.akka#akka-slf4j_2.11;2.3.11 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.11;2.3.11 [compile->runtime]
@@ -271,7 +271,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.11;2.3.11 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35445235
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c8b5c38
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.10
 [debug] 	found commons-codec#commons-codec;1.10 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
@@ -279,7 +279,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->xerces#xercesImpl;2.11.0 [compile->default(compile)]
 [info] Resolving xerces#xercesImpl;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74b52ce5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50df6c84
 [debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.11.0
 [debug] 	found xerces#xercesImpl;2.11.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->xerces#xercesImpl;2.11.0 [compile->runtime]
@@ -287,7 +287,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->xerces#xercesImpl;2.11.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->xml-apis#xml-apis;1.4.01 [compile->default(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ef55719
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@793e11df
 [debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01
 [debug] 	found xml-apis#xml-apis;1.4.01 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->xml-apis#xml-apis;1.4.01 [compile->runtime]
@@ -295,7 +295,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->xml-apis#xml-apis;1.4.01 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->javax.transaction#jta;1.1 [compile->default(compile)]
 [info] Resolving javax.transaction#jta;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e683db7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@527340e
 [debug] sbt-chain: module revision found in cache: javax.transaction#jta;1.1
 [debug] 	found javax.transaction#jta;1.1 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->javax.transaction#jta;1.1 [compile->runtime]
@@ -303,7 +303,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->javax.transaction#jta;1.1 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.inject#guice;4.0 [compile->default(compile)]
 [info] Resolving com.google.inject#guice;4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33b4542e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@345dc0fc
 [debug] sbt-chain: module revision found in cache: com.google.inject#guice;4.0
 [debug] 	found com.google.inject#guice;4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.inject#guice;4.0 [compile->runtime]
@@ -311,7 +311,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.inject#guice;4.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->javax.inject#javax.inject;1 [compile->default(compile)]
 [info] Resolving javax.inject#javax.inject;1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ba65646
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69eb7a93
 [debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
 [debug] 	found javax.inject#javax.inject;1 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->javax.inject#javax.inject;1 [compile->runtime]
@@ -319,7 +319,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->javax.inject#javax.inject;1 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->aopalliance#aopalliance;1.0 [compile->default(compile)]
 [info] Resolving aopalliance#aopalliance;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5564cb1d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2263413a
 [debug] sbt-chain: module revision found in cache: aopalliance#aopalliance;1.0
 [debug] 	found aopalliance#aopalliance;1.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->aopalliance#aopalliance;1.0 [compile->runtime]
@@ -327,9 +327,9 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->aopalliance#aopalliance;1.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.0 [compile->default(compile)]
 [info] Resolving com.google.inject.extensions#guice-assistedinject;4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@536974e6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d0761de
 [info] Resolving com.google.inject.extensions#guice-assistedinject;4.0 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@536974e6
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@5d0761de
 [debug] 		tried /Users/MAC/.ivy2/local/com.google.inject.extensions/guice-assistedinject/4.0/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.google.inject.extensions#guice-assistedinject;4.0
 [debug] 		tried /Users/MAC/.activator/repository/com.google.inject.extensions/guice-assistedinject/4.0/ivys/ivy.xml
@@ -343,7 +343,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
-[debug] 	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (497ms)
+[debug] 	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (370ms)
 [info] Resolving com.google.inject.extensions#extensions-parent;4.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.google.inject.extensions#extensions-parent;4.0 {}
 [debug] sbt-chain: module revision found in cache: com.google.inject.extensions#extensions-parent;4.0
@@ -353,7 +353,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-netty-server_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bb63bd9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50d70ca0
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-netty-server_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-netty-server_2.11;2.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.4.0 [compile->runtime]
@@ -361,7 +361,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->io.netty#netty;3.10.3.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.10.3.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6fdde960
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1355a446
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.10.3.Final
 [debug] 	found io.netty#netty;3.10.3.Final in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->io.netty#netty;3.10.3.Final [compile->runtime]
@@ -369,7 +369,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->io.netty#netty;3.10.3.Final [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.netty#netty-http-pipelining;1.1.4 [compile->default(compile)]
 [info] Resolving com.typesafe.netty#netty-http-pipelining;1.1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@431813d3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2796a25d
 [debug] sbt-chain: module revision found in cache: com.typesafe.netty#netty-http-pipelining;1.1.4
 [debug] 	found com.typesafe.netty#netty-http-pipelining;1.1.4 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.netty#netty-http-pipelining;1.1.4 [compile->runtime]
@@ -377,7 +377,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.netty#netty-http-pipelining;1.1.4 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-jdbc_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25ecfd34
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58a28262
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-jdbc_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-jdbc_2.11;2.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.0 [compile->runtime]
@@ -385,7 +385,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-api_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-jdbc-api_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32d200c3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24f4fbd0
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-jdbc-api_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-jdbc-api_2.11;2.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-api_2.11;2.4.0 [compile->runtime]
@@ -393,7 +393,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-api_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.jolbox#bonecp;0.8.0.RELEASE [compile->default(compile)]
 [info] Resolving com.jolbox#bonecp;0.8.0.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a6e7154
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7384862a
 [debug] sbt-chain: module revision found in cache: com.jolbox#bonecp;0.8.0.RELEASE
 [debug] 	found com.jolbox#bonecp;0.8.0.RELEASE in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.jolbox#bonecp;0.8.0.RELEASE [compile->runtime]
@@ -401,7 +401,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.jolbox#bonecp;0.8.0.RELEASE [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.zaxxer#HikariCP;2.3.7 [compile->default(compile)]
 [info] Resolving com.zaxxer#HikariCP;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59625946
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a5cba24
 [debug] sbt-chain: module revision found in cache: com.zaxxer#HikariCP;2.3.7
 [debug] 	found com.zaxxer#HikariCP;2.3.7 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.zaxxer#HikariCP;2.3.7 [compile->runtime]
@@ -409,7 +409,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.zaxxer#HikariCP;2.3.7 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.h2database#h2;1.4.187 [compile->default(compile)]
 [info] Resolving com.h2database#h2;1.4.187 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5596864b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@506ed386
 [debug] sbt-chain: module revision found in cache: com.h2database#h2;1.4.187
 [debug] 	found com.h2database#h2;1.4.187 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.h2database#h2;1.4.187 [compile->runtime]
@@ -417,7 +417,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.h2database#h2;1.4.187 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-cache_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16dfa9a9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48722b23
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-cache_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-cache_2.11;2.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.0 [compile->runtime]
@@ -425,7 +425,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.sf.ehcache#ehcache-core;2.6.11 [compile->default(compile)]
 [info] Resolving net.sf.ehcache#ehcache-core;2.6.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fdd5724
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2935ea36
 [debug] sbt-chain: module revision found in cache: net.sf.ehcache#ehcache-core;2.6.11
 [debug] 	found net.sf.ehcache#ehcache-core;2.6.11 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.sf.ehcache#ehcache-core;2.6.11 [compile->runtime]
@@ -433,7 +433,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.sf.ehcache#ehcache-core;2.6.11 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-ws_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7de1cfbd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b7ea1e5
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-ws_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-ws_2.11;2.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.4.0 [compile->runtime]
@@ -441,7 +441,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.guava#guava;18.0 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;18.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@542b13e4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d98a8d3
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;18.0
 [debug] 	found com.google.guava#guava;18.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.guava#guava;18.0 [compile->runtime]
@@ -449,7 +449,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.guava#guava;18.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->default(compile)]
 [info] Resolving com.ning#async-http-client;1.9.21 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f8d9686
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54b9a4bb
 [debug] sbt-chain: module revision found in cache: com.ning#async-http-client;1.9.21
 [debug] 	found com.ning#async-http-client;1.9.21 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->runtime]
@@ -457,7 +457,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-core;1.2.1.2 [compile->default(compile)]
 [info] Resolving oauth.signpost#signpost-core;1.2.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ac1ce7b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12fcc12
 [debug] sbt-chain: module revision found in cache: oauth.signpost#signpost-core;1.2.1.2
 [debug] 	found oauth.signpost#signpost-core;1.2.1.2 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-core;1.2.1.2 [compile->runtime]
@@ -465,7 +465,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-core;1.2.1.2 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->default(compile)]
 [info] Resolving oauth.signpost#signpost-commonshttp4;1.2.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c6d5c7e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@639badc
 [debug] sbt-chain: module revision found in cache: oauth.signpost#signpost-commonshttp4;1.2.1.2
 [debug] 	found oauth.signpost#signpost-commonshttp4;1.2.1.2 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->runtime]
@@ -473,7 +473,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.0.1 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f9d3e34
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@783c6908
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.0.1
 [debug] 	found org.apache.httpcomponents#httpcore;4.0.1 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.0.1 [compile->runtime]
@@ -481,7 +481,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.0.1 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.0.1 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3675be70
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@251d2af3
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.0.1
 [debug] 	found org.apache.httpcomponents#httpclient;4.0.1 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.0.1 [compile->runtime]
@@ -489,7 +489,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.0.1 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20b8e5ee
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69cc29db
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 [debug] 	found commons-logging#commons-logging;1.1.1 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->runtime]
@@ -497,7 +497,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->default(compile)]
 [info] Resolving org.webjars#bootstrap;3.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@81b63c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@acbe083
 [debug] sbt-chain: module revision found in cache: org.webjars#bootstrap;3.2.0
 [debug] 	found org.webjars#bootstrap;3.2.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->runtime]
@@ -505,7 +505,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webjars#jquery;1.11.1 [compile->default(compile)]
 [info] Resolving org.webjars#jquery;1.11.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54a97b39
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e67b42b
 [debug] sbt-chain: module revision found in cache: org.webjars#jquery;1.11.1
 [debug] 	found org.webjars#jquery;1.11.1 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webjars#jquery;1.11.1 [compile->runtime]
@@ -513,7 +513,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webjars#jquery;1.11.1 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webjars#flot;0.8.0 [compile->default(compile)]
 [info] Resolving org.webjars#flot;0.8.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69ebe448
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cb56dd9
 [debug] sbt-chain: module revision found in cache: org.webjars#flot;0.8.0
 [debug] 	found org.webjars#flot;0.8.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webjars#flot;0.8.0 [compile->runtime]
@@ -521,7 +521,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webjars#flot;0.8.0 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webjars#jquery-colorhelpers;1.1 [compile->default(compile)]
 [info] Resolving org.webjars#jquery-colorhelpers;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f6392ea
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32ef4808
 [debug] sbt-chain: module revision found in cache: org.webjars#jquery-colorhelpers;1.1
 [debug] 	found org.webjars#jquery-colorhelpers;1.1 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webjars#jquery-colorhelpers;1.1 [compile->runtime]
@@ -529,7 +529,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webjars#jquery-colorhelpers;1.1 [compile->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webjars#explorercanvas;r3 [compile->default(compile)]
 [info] Resolving org.webjars#explorercanvas;r3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a2940ca
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@447e5c3d
 [debug] sbt-chain: module revision found in cache: org.webjars#explorercanvas;r3
 [debug] 	found org.webjars#explorercanvas;r3 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webjars#explorercanvas;r3 [compile->runtime]
@@ -1754,7 +1754,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webjars#explorercanvas;r3 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.0 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e809dff
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ff046a3
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-test_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-test_2.11;2.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.0 [test->runtime]
@@ -1762,7 +1762,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.0 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->junit#junit;4.12 [test->default(compile)]
 [info] Resolving junit#junit;4.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@784500d3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cba2c93
 [debug] sbt-chain: module revision found in cache: junit#junit;4.12
 [debug] 	found junit#junit;4.12 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->junit#junit;4.12 [test->runtime]
@@ -1770,7 +1770,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->junit#junit;4.12 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.hamcrest#hamcrest-core;1.3 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5dbd64b1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18f373cc
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.hamcrest#hamcrest-core;1.3 [test->runtime]
@@ -1778,7 +1778,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.hamcrest#hamcrest-core;1.3 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.novocode#junit-interface;0.11 [test->default(compile)]
 [info] Resolving com.novocode#junit-interface;0.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15737b7a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17dd8e2e
 [debug] sbt-chain: module revision found in cache: com.novocode#junit-interface;0.11
 [debug] 	found com.novocode#junit-interface;0.11 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.novocode#junit-interface;0.11 [test->runtime]
@@ -1786,7 +1786,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.novocode#junit-interface;0.11 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fe7b01d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@113ae6e5
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->runtime]
@@ -1794,7 +1794,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;2.0.3 [test->default(compile)]
 [info] Resolving com.google.code.findbugs#jsr305;2.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a4b4189
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c23306
 [debug] sbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;2.0.3
 [debug] 	found com.google.code.findbugs#jsr305;2.0.3 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;2.0.3 [test->runtime]
@@ -1802,7 +1802,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;2.0.3 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-core;0.10.3 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-core;0.10.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ec3cb29
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50da7a73
 [debug] sbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-core;0.10.3
 [debug] 	found org.fluentlenium#fluentlenium-core;0.10.3 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-core;0.10.3 [test->runtime]
@@ -1810,7 +1810,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-core;0.10.3 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-java;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-java;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d61ffca
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6998e381
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-java;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-java;2.44.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-java;2.44.0 [test->runtime]
@@ -1818,7 +1818,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-java;2.44.0 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7dda870e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10ac5bbb
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 [test->runtime]
@@ -1826,7 +1826,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-remote-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-remote-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@752a64f5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65c7e7be
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-remote-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-remote-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-remote-driver;2.44.0 [test->runtime]
@@ -1834,7 +1834,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-remote-driver;2.44.0 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->cglib#cglib-nodep;2.1_3 [test->default(compile)]
 [info] Resolving cglib#cglib-nodep;2.1_3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f2df6ed
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2158c7a4
 [debug] sbt-chain: module revision found in cache: cglib#cglib-nodep;2.1_3
 [debug] 	found cglib#cglib-nodep;2.1_3 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->cglib#cglib-nodep;2.1_3 [test->runtime]
@@ -1842,7 +1842,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->cglib#cglib-nodep;2.1_3 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.3 [test->default(compile)]
 [info] Resolving com.google.code.gson#gson;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d47df5e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c4aa004
 [debug] sbt-chain: module revision found in cache: com.google.code.gson#gson;2.3
 [debug] 	found com.google.code.gson#gson;2.3 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.3 [test->runtime]
@@ -1850,7 +1850,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.3 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-api;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@109b7ce2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36e001e1
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-api;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-api;2.44.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;2.44.0 [test->runtime]
@@ -1858,7 +1858,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;2.44.0 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.3.4 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55e74a27
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d4d4fae
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.3.4
 [debug] 	found org.apache.httpcomponents#httpclient;4.3.4 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.3.4 [test->runtime]
@@ -1866,7 +1866,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.3.4 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.3.2 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d412982
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f0859ea
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.3.2
 [debug] 	found org.apache.httpcomponents#httpcore;4.3.2 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.3.2 [test->runtime]
@@ -1874,7 +1874,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.3.2 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->commons-logging#commons-logging;1.1.3 [test->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d6dd007
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31ec43ff
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.3
 [debug] 	found commons-logging#commons-logging;1.1.3 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->commons-logging#commons-logging;1.1.3 [test->runtime]
@@ -1882,7 +1882,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->commons-logging#commons-logging;1.1.3 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->default(compile)]
 [info] Resolving org.apache.commons#commons-exec;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22e8f43
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f60279c
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-exec;1.1
 [debug] 	found org.apache.commons#commons-exec;1.1 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->runtime]
@@ -1890,7 +1890,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.java.dev.jna#jna;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#jna;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@612f6bd0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f690df3
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#jna;3.4.0
 [debug] 	found net.java.dev.jna#jna;3.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.java.dev.jna#jna;3.4.0 [test->runtime]
@@ -1898,7 +1898,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.java.dev.jna#jna;3.4.0 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.java.dev.jna#platform;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#platform;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30aff42
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ff67cd1
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#platform;3.4.0
 [debug] 	found net.java.dev.jna#platform;3.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.java.dev.jna#platform;3.4.0 [test->runtime]
@@ -1906,7 +1906,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.java.dev.jna#platform;3.4.0 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4215a385
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ccb2a19
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 [test->runtime]
@@ -1914,7 +1914,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit;2.15 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit;2.15 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49331c77
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2926d73c
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit;2.15
 [debug] 	found net.sourceforge.htmlunit#htmlunit;2.15 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit;2.15 [test->runtime]
@@ -1922,7 +1922,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit;2.15 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->xalan#xalan;2.7.1 [test->default(compile)]
 [info] Resolving xalan#xalan;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66f66bbe
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4906340
 [debug] sbt-chain: module revision found in cache: xalan#xalan;2.7.1
 [debug] 	found xalan#xalan;2.7.1 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->xalan#xalan;2.7.1 [test->runtime]
@@ -1930,7 +1930,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->xalan#xalan;2.7.1 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [test->default(compile)]
 [info] Resolving commons-collections#commons-collections;3.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d25e108
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6220c471
 [debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
 [debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [test->runtime]
@@ -1938,7 +1938,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpmime;4.3.3 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpmime;4.3.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bc4b894
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38ca21ce
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.3.3
 [debug] 	found org.apache.httpcomponents#httpmime;4.3.3 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpmime;4.3.3 [test->runtime]
@@ -1946,7 +1946,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpmime;4.3.3 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit-core-js;2.15 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit-core-js;2.15 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47f381b9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5306a6a0
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.15
 [debug] 	found net.sourceforge.htmlunit#htmlunit-core-js;2.15 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit-core-js;2.15 [test->runtime]
@@ -1954,7 +1954,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit-core-js;2.15 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.21 [test->default(compile)]
 [info] Resolving net.sourceforge.nekohtml#nekohtml;1.9.21 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62e380de
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e88e4c
 [debug] sbt-chain: module revision found in cache: net.sourceforge.nekohtml#nekohtml;1.9.21
 [debug] 	found net.sourceforge.nekohtml#nekohtml;1.9.21 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.21 [test->runtime]
@@ -1962,7 +1962,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.21 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.cssparser#cssparser;0.9.14 [test->default(compile)]
 [info] Resolving net.sourceforge.cssparser#cssparser;0.9.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b29b3ca
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@485338f0
 [debug] sbt-chain: module revision found in cache: net.sourceforge.cssparser#cssparser;0.9.14
 [debug] 	found net.sourceforge.cssparser#cssparser;0.9.14 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.cssparser#cssparser;0.9.14 [test->runtime]
@@ -1970,7 +1970,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.cssparser#cssparser;0.9.14 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.w3c.css#sac;1.3 [test->default(compile)]
 [info] Resolving org.w3c.css#sac;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bdb6e7b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66b7aa90
 [debug] sbt-chain: module revision found in cache: org.w3c.css#sac;1.3
 [debug] 	found org.w3c.css#sac;1.3 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.w3c.css#sac;1.3 [test->runtime]
@@ -1978,7 +1978,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.w3c.css#sac;1.3 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->commons-io#commons-io;2.4 [test->default(compile)]
 [info] Resolving commons-io#commons-io;2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74e14fa7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ae44c4c
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.4
 [debug] 	found commons-io#commons-io;2.4 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->commons-io#commons-io;2.4 [test->runtime]
@@ -1986,7 +1986,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->commons-io#commons-io;2.4 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ce547bf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b9c33ab
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-websocket;8.1.15.v20140411
 [debug] 	found org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 [test->runtime]
@@ -1994,7 +1994,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.15.v20140411 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;8.1.15.v20140411 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2156f351
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70bd1f55
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.15.v20140411
 [debug] 	found org.eclipse.jetty#jetty-util;8.1.15.v20140411 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.15.v20140411 [test->runtime]
@@ -2002,7 +2002,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.15.v20140411 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.15.v20140411 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;8.1.15.v20140411 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@119bb708
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3982c14f
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.15.v20140411
 [debug] 	found org.eclipse.jetty#jetty-io;8.1.15.v20140411 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.15.v20140411 [test->runtime]
@@ -2010,7 +2010,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.15.v20140411 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.15.v20140411 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-http;8.1.15.v20140411 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@502c5bf7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2bb108ed
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.15.v20140411
 [debug] 	found org.eclipse.jetty#jetty-http;8.1.15.v20140411 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.15.v20140411 [test->runtime]
@@ -2018,7 +2018,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.15.v20140411 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fba2393
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@387ff9bc
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 [test->runtime]
@@ -2026,7 +2026,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-ie-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-ie-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29358849
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75720ae7
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-ie-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-ie-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-ie-driver;2.44.0 [test->runtime]
@@ -2034,7 +2034,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-ie-driver;2.44.0 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-safari-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-safari-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@162d8366
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@749fbd0b
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-safari-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-safari-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-safari-driver;2.44.0 [test->runtime]
@@ -2042,7 +2042,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-safari-driver;2.44.0 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webbitserver#webbit;0.4.14 [test->default(compile)]
 [info] Resolving org.webbitserver#webbit;0.4.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19d4cc01
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@120a8ef1
 [debug] sbt-chain: module revision found in cache: org.webbitserver#webbit;0.4.14
 [debug] 	found org.webbitserver#webbit;0.4.14 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webbitserver#webbit;0.4.14 [test->runtime]
@@ -2050,7 +2050,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.webbitserver#webbit;0.4.14 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-support;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-support;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@609bd968
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62242484
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-support;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-support;2.44.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-support;2.44.0 [test->runtime]
@@ -2058,7 +2058,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-support;2.44.0 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-specs2_2.11;2.4.0 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-specs2_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1526bf5f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7033e902
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-specs2_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-specs2_2.11;2.4.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-specs2_2.11;2.4.0 [test->runtime]
@@ -2066,7 +2066,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-specs2_2.11;2.4.0 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-core_2.11;3.6 [test->default(compile)]
 [info] Resolving org.specs2#specs2-core_2.11;3.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ac9a239
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@505c6075
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-core_2.11;3.6
 [debug] 	found org.specs2#specs2-core_2.11;3.6 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-core_2.11;3.6 [test->runtime]
@@ -2074,7 +2074,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-core_2.11;3.6 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-matcher_2.11;3.6 [test->default(compile)]
 [info] Resolving org.specs2#specs2-matcher_2.11;3.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29255e2c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@395df30d
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-matcher_2.11;3.6
 [debug] 	found org.specs2#specs2-matcher_2.11;3.6 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-matcher_2.11;3.6 [test->runtime]
@@ -2082,7 +2082,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-matcher_2.11;3.6 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-common_2.11;3.6 [test->default(compile)]
 [info] Resolving org.specs2#specs2-common_2.11;3.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5cf1b520
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a856da
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-common_2.11;3.6
 [debug] 	found org.specs2#specs2-common_2.11;3.6 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-common_2.11;3.6 [test->runtime]
@@ -2090,7 +2090,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-common_2.11;3.6 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-core_2.11;7.1.1 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-core_2.11;7.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f30dd5b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78c8f9fc
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.11;7.1.1
 [debug] 	found org.scalaz#scalaz-core_2.11;7.1.1 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-core_2.11;7.1.1 [test->runtime]
@@ -2098,7 +2098,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-core_2.11;7.1.1 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [test->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5aed9dbf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@687d5a40
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [test->runtime]
@@ -2106,7 +2106,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e405768
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@137d3e9f
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
@@ -2114,7 +2114,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.1 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-concurrent_2.11;7.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2eb7b1d9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f0bce2
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.11;7.1.1
 [debug] 	found org.scalaz#scalaz-concurrent_2.11;7.1.1 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.1 [test->runtime]
@@ -2122,7 +2122,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.1 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-effect_2.11;7.1.1 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-effect_2.11;7.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b7e077e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52c03fc0
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.11;7.1.1
 [debug] 	found org.scalaz#scalaz-effect_2.11;7.1.1 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-effect_2.11;7.1.1 [test->runtime]
@@ -2130,7 +2130,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-effect_2.11;7.1.1 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz.stream#scalaz-stream_2.11;0.7a [test->default(compile)]
 [info] Resolving org.scalaz.stream#scalaz-stream_2.11;0.7a ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6235adcb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68138643
 [debug] sbt-chain: module revision found in cache: org.scalaz.stream#scalaz-stream_2.11;0.7a
 [debug] 	found org.scalaz.stream#scalaz-stream_2.11;0.7a in sbt-chain
 [debug] 	[0.7a] org.scalaz.stream#scalaz-stream_2.11;0.7a
@@ -2139,7 +2139,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz.stream#scalaz-stream_2.11;0.7a [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scodec#scodec-bits_2.11;1.0.6 [test->default(compile)]
 [info] Resolving org.scodec#scodec-bits_2.11;1.0.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2279b9e1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d7183ab
 [debug] sbt-chain: module revision found in cache: org.scodec#scodec-bits_2.11;1.0.6
 [debug] 	found org.scodec#scodec-bits_2.11;1.0.6 in sbt-chain
 [debug] 	[1.0.6] org.scodec#scodec-bits_2.11;1.0.6
@@ -2148,7 +2148,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.scodec#scodec-bits_2.11;1.0.6 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-junit_2.11;3.6 [test->default(compile)]
 [info] Resolving org.specs2#specs2-junit_2.11;3.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fd7801
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23109c31
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-junit_2.11;3.6
 [debug] 	found org.specs2#specs2-junit_2.11;3.6 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-junit_2.11;3.6 [test->runtime]
@@ -2156,7 +2156,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-junit_2.11;3.6 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-mock_2.11;3.6 [test->default(compile)]
 [info] Resolving org.specs2#specs2-mock_2.11;3.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5951a12d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d1fbc2
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-mock_2.11;3.6
 [debug] 	found org.specs2#specs2-mock_2.11;3.6 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-mock_2.11;3.6 [test->runtime]
@@ -2164,7 +2164,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-mock_2.11;3.6 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.mockito#mockito-core;1.9.5 [test->default(compile)]
 [info] Resolving org.mockito#mockito-core;1.9.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19d5cc39
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1594032f
 [debug] sbt-chain: module revision found in cache: org.mockito#mockito-core;1.9.5
 [debug] 	found org.mockito#mockito-core;1.9.5 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.mockito#mockito-core;1.9.5 [test->runtime]
@@ -2172,7 +2172,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.mockito#mockito-core;1.9.5 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.objenesis#objenesis;1.0 [test->default(compile)]
 [info] Resolving org.objenesis#objenesis;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e3071e0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@726807f4
 [debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;1.0
 [debug] 	found org.objenesis#objenesis;1.0 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.objenesis#objenesis;1.0 [test->runtime]
@@ -2180,7 +2180,7 @@
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->org.objenesis#objenesis;1.0 [test->master]
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.akka#akka-testkit_2.11;2.3.4 [test->default(compile)]
 [info] Resolving com.typesafe.akka#akka-testkit_2.11;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4104f81c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69ec4e33
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.11;2.3.4
 [debug] 	found com.typesafe.akka#akka-testkit_2.11;2.3.4 in sbt-chain
 [debug] == resolving dependencies hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.akka#akka-testkit_2.11;2.3.4 [test->runtime]
@@ -5563,7 +5563,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(doc)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(doc)
-[debug] :: resolution report :: resolve 12479ms :: artifacts dl 446ms
+[debug] :: resolution report :: resolve 13391ms :: artifacts dl 548ms
 [debug] 	report for hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT compile produced in /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/resolution-cache/reports/hashittalkit-hashittalkit$sources_javadoc_2.11-compile.xml
 [debug] 	report for hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT runtime produced in /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/resolution-cache/reports/hashittalkit-hashittalkit$sources_javadoc_2.11-runtime.xml
 [debug] 	report for hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT test produced in /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/resolution-cache/reports/hashittalkit-hashittalkit$sources_javadoc_2.11-test.xml
@@ -5577,4 +5577,4 @@
 [debug] 	report for hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT docs produced in /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/resolution-cache/reports/hashittalkit-hashittalkit$sources_javadoc_2.11-docs.xml
 [debug] 	report for hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT pom produced in /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/resolution-cache/reports/hashittalkit-hashittalkit$sources_javadoc_2.11-pom.xml
 [debug] 	report for hashittalkit#hashittalkit$sources_javadoc_2.11;1.0-SNAPSHOT scala-tool produced in /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/resolution-cache/reports/hashittalkit-hashittalkit$sources_javadoc_2.11-scala-tool.xml
-[debug] 	resolve done (12479ms resolve - 446ms download)
+[debug] 	resolve done (13391ms resolve - 548ms download)

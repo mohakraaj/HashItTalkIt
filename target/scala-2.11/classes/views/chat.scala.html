@@ -1,0 +1,93 @@
+@import play.api.mvc.RequestHeader
+
+@(message: String)(implicit request: RequestHeader)
+
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>HashItTalkIt</title>
+
+        <link rel='stylesheet' href='@routes.Assets.at("stylesheets/slate-bootstrap.min.css")' >
+        <link rel='stylesheet' href='@routes.Assets.at("stylesheets/bootstrap-theme.css")' >
+        <link rel="stylesheet" href="@routes.Assets.at("stylesheets/main.css")" >
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/chat.png")" >
+
+        <script type='text/javascript' src='@routes.Assets.at("javascripts/jquery.min.js")'> </script>
+        <script type='text/javascript' src='@routes.Assets.at("javascripts/bootstrap.min.js")'> </script>
+        <script type='text/javascript' src='@routes.Assets.at("javascripts/aes.js")'></script>
+        <script type='text/javascript' src='@routes.Assets.at("javascripts/index.js")'></script>
+
+        <script>
+
+    </script>
+    </head>
+
+    <body data-ws-url="@routes.Application.ws().webSocketURL()" class="bg-primary" >
+        <div class="container-fluid navbar navbar-primary navbar-fixed-top">
+            <div class="row">
+                <ul class="nav">
+                    <li class="col-md-6 col-sm-6 col-xs-6 nav active" ><a href="/"><h4>HashTalk</h4></a></li>
+                    <li class="col-md-6 col-sm-6 col-xs-6 nav"><a href="/about"> <h4>About</h4></a></li>
+                </ul>
+            </div>
+        </div>
+            <!--            <div id="passworddiv" >
+
+
+                <p> Password : <input id="password" type=password placeholder="password" value=""/> </p>
+                <p> <input type="submit" id="encryptbutton"  value="Encrypt" onclick="EnableChat()" class="btn btn-primary"> </p>
+            </div> -->
+        <div class="container-fluid"></div>
+        <div class="row">
+            <div id="rooms" class="col-md-4">
+                <table id="roomList" data-click-to-select="true" class="table table-hover" data-search="true">
+                    <thead>
+                        <th>
+                            <a href="#" class="btn btn-large btn-primary" rel="popover" data-toggle="popover"
+                            data-content='<form action="@routes.Application.addRoomDetails()" method="post" class="form-inline">
+                                               <input type="text" name="name" class="form-control" placeholder="Room Name"/>
+                                               <button type="submit" class="btn btn-primary editable-submit"><span class="glyphicon glyphicon-ok "></span></button>
+                                            </form>'
+                            data-placement="bottom" data-html="true" >Add Rooms </a>
+
+                        </th>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class=" col-md-8 ">
+                <table id="board" class="col-xs-12 table table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th class="col-xs-3 text-center" >user</th>
+                            <th class="col-xs-9" >Message</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="chatform" class="row" style="display: none">
+            <div class="col-xs-3 strong text-right ">
+                        User @message
+            </div>
+            <div class="col-xs-9">
+                <form id="msgform" class="form-horizontal" >
+                    <div class="col-xs-8">
+                        <input id="msgtext" type="text" class="form-control"
+                        placeholder="please type a message" />
+                    </div>
+                    <div class="col-xs-1">
+                        <button type="submit" class="btn btn-primary ">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>
