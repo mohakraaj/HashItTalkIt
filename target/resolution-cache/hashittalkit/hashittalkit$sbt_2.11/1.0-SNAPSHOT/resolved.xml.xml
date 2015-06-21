@@ -4,7 +4,7 @@
 		module="hashittalkit$sbt_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20150619021736"
+		publication="20150620163154"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

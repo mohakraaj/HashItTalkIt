@@ -9,6 +9,7 @@ bootstrap/fonts/glyphicons-halflings-regular.eot:1403800608000:META-INF/resource
 bootstrap/less/variables.less:1403800608000:META-INF/resources/webjars/bootstrap/3.2.0/less/variables.less
 hashittalkit/stylesheets/bootstrap-theme.min.css:1426520530000:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/web/classes/main/META-INF/resources/webjars/hashittalkit/1.0-SNAPSHOT/stylesheets/bootstrap-theme.min.css
 bootstrap/less/mixins/clearfix.less:1403800608000:META-INF/resources/webjars/bootstrap/3.2.0/less/mixins/clearfix.less
+hashittalkit/stylesheets/Cerulean-bootstrap.min.css:1434699244000:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/web/classes/main/META-INF/resources/webjars/hashittalkit/1.0-SNAPSHOT/stylesheets/Cerulean-bootstrap.min.css
 bootstrap/less/print.less:1403800608000:META-INF/resources/webjars/bootstrap/3.2.0/less/print.less
 bootstrap/less/navbar.less:1403800608000:META-INF/resources/webjars/bootstrap/3.2.0/less/navbar.less
 flot/jquery.flot.image.js:1362546696000:META-INF/resources/webjars/flot/0.8.0/jquery.flot.image.js
@@ -23,6 +24,7 @@ bootstrap/less/mixins/vendor-prefixes.less:1403800608000:META-INF/resources/webj
 bootstrap/less/mixins/nav-vertical-align.less:1403800608000:META-INF/resources/webjars/bootstrap/3.2.0/less/mixins/nav-vertical-align.less
 bootstrap/less/mixins/tab-focus.less:1403800608000:META-INF/resources/webjars/bootstrap/3.2.0/less/mixins/tab-focus.less
 hashittalkit/stylesheets/bootstrap-theme.css:1426520528000:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/web/classes/main/META-INF/resources/webjars/hashittalkit/1.0-SNAPSHOT/stylesheets/bootstrap-theme.css
+hashittalkit/stylesheets/flatly-bootstrap.min.css:1434699422000:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/web/classes/main/META-INF/resources/webjars/hashittalkit/1.0-SNAPSHOT/stylesheets/flatly-bootstrap.min.css
 bootstrap/css/bootstrap.css.map:1403800608000:META-INF/resources/webjars/bootstrap/3.2.0/css/bootstrap.css.map
 bootstrap/less/mixins/gradients.less:1403800608000:META-INF/resources/webjars/bootstrap/3.2.0/less/mixins/gradients.less
 bootstrap/less/mixins/center-block.less:1403800608000:META-INF/resources/webjars/bootstrap/3.2.0/less/mixins/center-block.less
@@ -56,7 +58,7 @@ flot/jquery.flot.categories.min.js:1365440502000:META-INF/resources/webjars/flot
 hashittalkit/javascripts/npm.js:1426520530000:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/web/classes/main/META-INF/resources/webjars/hashittalkit/1.0-SNAPSHOT/javascripts/npm.js
 hashittalkit/stylesheets/slate-bootstrap.min.css:1434319484000:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/web/classes/main/META-INF/resources/webjars/hashittalkit/1.0-SNAPSHOT/stylesheets/slate-bootstrap.min.css
 bootstrap/less/tables.less:1403800608000:META-INF/resources/webjars/bootstrap/3.2.0/less/tables.less
-hashittalkit/stylesheets/main.css:1434319177000:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/web/classes/main/META-INF/resources/webjars/hashittalkit/1.0-SNAPSHOT/stylesheets/main.css
+hashittalkit/stylesheets/main.css:1434701149000:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/web/classes/main/META-INF/resources/webjars/hashittalkit/1.0-SNAPSHOT/stylesheets/main.css
 bootstrap/less/mixins/grid.less:1403800608000:META-INF/resources/webjars/bootstrap/3.2.0/less/mixins/grid.less
 bootstrap/less/breadcrumbs.less:1403800608000:META-INF/resources/webjars/bootstrap/3.2.0/less/breadcrumbs.less
 flot/jquery.flot.selection.js:1362546696000:META-INF/resources/webjars/flot/0.8.0/jquery.flot.selection.js
@@ -132,7 +134,7 @@ bootstrap/less/pagination.less:1403800608000:META-INF/resources/webjars/bootstra
 bootstrap/less/mixins/responsive-visibility.less:1403800608000:META-INF/resources/webjars/bootstrap/3.2.0/less/mixins/responsive-visibility.less
 flot/jquery.flot.fillbetween.min.js:1365440540000:META-INF/resources/webjars/flot/0.8.0/jquery.flot.fillbetween.min.js
 bootstrap/less/mixins/list-group.less:1403800608000:META-INF/resources/webjars/bootstrap/3.2.0/less/mixins/list-group.less
-hashittalkit/javascripts/index.js:1434524183000:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/web/classes/main/META-INF/resources/webjars/hashittalkit/1.0-SNAPSHOT/javascripts/index.js
+hashittalkit/javascripts/index.js:1434702914000:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/web/classes/main/META-INF/resources/webjars/hashittalkit/1.0-SNAPSHOT/javascripts/index.js
 bootstrap/less/mixins/opacity.less:1403800608000:META-INF/resources/webjars/bootstrap/3.2.0/less/mixins/opacity.less
 hashittalkit/javascripts/bootstrap.js:1426520530000:/Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/web/classes/main/META-INF/resources/webjars/hashittalkit/1.0-SNAPSHOT/javascripts/bootstrap.js
 explorercanvas/excanvas.min.js:1351168646000:META-INF/resources/webjars/explorercanvas/r3/excanvas.min.js

@@ -10,9 +10,9 @@ $(function () {
             case "message":
                 console.log($("#msgtext").val() + "recieved");
                 if(message.uid != $("#uid").val())
-                  return $("#board tbody").append("<tr  class=\"text-right "+ message.roomname+" \" ><td>" + DecryptText(message.msg).toString() + "</td></tr>");
+                  return $("#board tbody").append("<tr  class=\"text-right "+ message.roomname+" \" ><td>" + DecryptText(message.msg,message.roomname).toString() + "</td></tr>");
                 else
-                    return $("#board tbody").append("<tr  class=\"text-left "+ message.roomname+" \" ><td>" + DecryptText(message.msg).toString() + "</td></tr>");
+                    return $("#board tbody").append("<tr  class=\"text-left "+ message.roomname+" \" ><td>" + DecryptText(message.msg, message.roomname).toString() + "</td></tr>");
             default:
                 return console.log(message);
         }
@@ -32,8 +32,11 @@ $(function () {
 
 function EncryptText(text) {
     //var password = document.getElementById("password").value
-    var password ="password"
-    if (password.length == 0 ) { console.log("password is not set"); return ""; }
+    var password =$("#"+roomName).val();
+    console.log(password);
+    if (typeof password === 'undefined') {
+        console.log("password is not set"); return "";
+    }
     else {
         console.log("Encrypting text " + text);
         var encrypted = CryptoJS.AES.encrypt(text, password);
@@ -41,10 +44,13 @@ function EncryptText(text) {
     }
 }
 
-function DecryptText(encrypted){
-    //var password = document.getElementById("password").value
-    var password ="password"
-    if (password.length == 0 ) { console.log("password is not set"); return ""; }
+function DecryptText(encrypted, roomName){
+    var password =$("#"+roomName).val();
+    console.log(password);
+    if (typeof password === 'undefined') {
+        console.log("password is not set");
+        return "";
+    }
     else {
         console.log("Decrypting text "+ encrypted);
         var decrypted = CryptoJS.AES.decrypt(encrypted, password);
@@ -78,6 +84,9 @@ function processUserRooms(roomList) {
         console.log("Adding room "+ rooms[i] + " to the table")
         $("#roomList tbody").append("<tr class='clickable "+rooms[i]+"' onclick='enableChatRoom(\""+rooms[i]+"\")' data-href='url://' ><td>" + rooms[i] + "</td></tr>");
     }
+
+    //select first room by default
+    selectFirstRoombyDefault();
 }
 
 
@@ -93,7 +102,7 @@ function enableChatRoom(element) {
 
     //Add "active" class to the clicked TR
     var tractive= document.getElementsByClassName(element);
-    tractive[0].classList.add("active");
+    if(!( typeof tractive === 'undefined') && tractive.length!=0 ) tractive[0].classList.add("active");
 
     $("#board tbody tr").css("display","none");
 
@@ -111,6 +120,7 @@ $(document).on('submit','#addroom',function(event){
     /* get some values from elements on the page: */
     var $form = $(this),
         term = $form.find('input[name="name"]').val(),
+        password = $form.find('input[name="password"]').val(),
         url = $form.attr('action');
 
     /* Send the data using post */
@@ -121,11 +131,22 @@ $(document).on('submit','#addroom',function(event){
     /* Put the results in a div */
     posting.done(function(data) {
         console.log(data);
-        $("#roomList tbody").append("<tr class='clickable "+data+"' onclick='enableChatRoom(\""+data+"\")' data-href='url://' ><td>" + data + "</td></tr>");
+        $("#roomList tbody").append("<tr class='active clickable "+data+"' onclick='enableChatRoom(\""+data+"\")' data-href='url://' ><td>" + data + "</td>");
+        $("#roomList tbody").append("<input type=\"hidden\" value=\""+password+"\" id=\""+data+"\" > </tr>");
     });
 
-    $("#roomList th a").click();
+    $("#roomList th a").click(); // Make the pop over go back
+    console.log(term + " selected by default");
+    enableChatRoom(term); // select the room entered by default
 });
 
+// Select first room by default
+function selectFirstRoombyDefault() {
+    var firstRoom = $("#roomList tbody").find("td:first").text();
+
+    console.log("First room is : " + firstRoom);
+    if(firstRoom.length!=0)
+        enableChatRoom(firstRoom);
+}
 
 getUserRooms(processUserRooms);

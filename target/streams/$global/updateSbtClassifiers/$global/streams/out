@@ -4048,9 +4048,9 @@
 [debug] 	[NOT REQUIRED] asm#asm;3.1!asm.jar
 [debug] 	[NOT REQUIRED] jfree#jcommon;1.0.12!jcommon.jar
 [debug] 	[NOT REQUIRED] jfree#jfreechart;1.0.8a!jfreechart.jar
-[debug] :: resolution report :: resolve 5899ms :: artifacts dl 135ms
+[debug] :: resolution report :: resolve 4669ms :: artifacts dl 111ms
 [debug] 	report for hashittalkit#hashittalkit$sbt_2.11;1.0-SNAPSHOT default produced in /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/resolution-cache/reports/hashittalkit-hashittalkit$sbt_2.11-default.xml
-[debug] 	resolve done (5899ms resolve - 135ms download)
+[debug] 	resolve done (4669ms resolve - 111ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: hashittalkit#hashittalkit$sources_2.11;1.0-SNAPSHOT
 [debug] 	confs: [default]
@@ -5212,6 +5212,6 @@
 [debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-mocha;1.1.0!sbt-mocha.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt-core-next;0.1.1!sbt-core-next.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#core-next_2.10;0.1.1!core-next_2.10.jar(src)
-[debug] :: resolution report :: resolve 3436ms :: artifacts dl 95ms
+[debug] :: resolution report :: resolve 2294ms :: artifacts dl 94ms
 [debug] 	report for hashittalkit#hashittalkit$sources_2.11;1.0-SNAPSHOT default produced in /Users/MAC/Documents/PlayExperiment/HashItTalkIt/target/resolution-cache/reports/hashittalkit-hashittalkit$sources_2.11-default.xml
-[debug] 	resolve done (3436ms resolve - 95ms download)
+[debug] 	resolve done (2294ms resolve - 94ms download)

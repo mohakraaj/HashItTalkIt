@@ -12,7 +12,7 @@ import play.api.mvc._
 import play.api.i18n.Messages.Implicits._
 import play.api.Play.current
 import play.api.mvc.WebSocket
-import scala.collection.mutable.{HashMap,Set}
+import scala.collection.mutable.HashMap
 import scala.concurrent.Future
 
 
@@ -67,11 +67,13 @@ class Application extends Controller {
       },
       RoomData => {
         logger.debug("Room Form is in acceptable format")
-        logger.info("Room created by user "+ uid)
-        if (uidToRoomMap(uid).add(RoomData.name) ) {
+        logger.debug("Room created by user "+ uid)
 
-          // investigate why it is returning false. more clearly why roomToUidMap("anything") = "1"
-          roomToUidMap(RoomData.name).add(uid)
+        // if maps contain the roomname for uid or viceversa its duplicate room
+        if ( !( (uidToRoomMap(uid).contains(RoomData.name)) && ( roomToUidMap(RoomData.name).contains(uid))) ) {
+          //update hashmap to have uid->room relations
+          uidToRoomMap(uid) = uidToRoomMap(uid) + RoomData.name
+          roomToUidMap(RoomData.name) = roomToUidMap(RoomData.name) + uid
           Ok(RoomData.name)
         }
         else

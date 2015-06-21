@@ -29,11 +29,9 @@ Existing bugs
 
 
 TODO:
-Strip: color based on the uid
 Place input box at the bottom the page
 Clicking without roomname should be blocked
-First room should be selected automatically
-differentiate users by alignment of text
+
 
 Addrooms button inactivity should be recognised
 change navigation hover, active
@@ -46,6 +44,6 @@ Chat table should only show messages of the room
 Clearing all cache when the user enters is wrong, should clear the cache only the person who reenters
 
 Doubts:
-
+difference between ==  and ===
 why flat map or map is not there for list[String]
 function of rows in bootstrap

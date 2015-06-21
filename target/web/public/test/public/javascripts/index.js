@@ -9,7 +9,10 @@ $(function () {
         switch (message.type) {
             case "message":
                 console.log($("#msgtext").val() + "recieved");
-                return $("#board tbody").append("<tr><td>" + message.uid + "</td><td>" + DecryptText(message.msg).toString() + "</td></tr>");
+                if(message.uid != $("#uid").val())
+                  return $("#board tbody").append("<tr  class=\"text-right "+ message.roomname+" \" ><td>" + DecryptText(message.msg).toString() + "</td></tr>");
+                else
+                    return $("#board tbody").append("<tr  class=\"text-left "+ message.roomname+" \" ><td>" + DecryptText(message.msg).toString() + "</td></tr>");
             default:
                 return console.log(message);
         }
@@ -22,6 +25,7 @@ $(function () {
             msg: msgEncrypt.toString(),
             roomname: roomName //TODO : add empty string validation on server
         }));
+        $("#msgtext").val("") // clear input form
         return msgEncrypt.toString()
     });
 });
@@ -91,9 +95,37 @@ function enableChatRoom(element) {
     var tractive= document.getElementsByClassName(element);
     tractive[0].classList.add("active");
 
-    // Show text box to enter chat
-    document.getElementById("chatform").style.display="block";
+    $("#board tbody tr").css("display","none");
+
+    $("#board tbody tr." +element).css("display","block");
+
 }
+
+/* attach a submit handler to the form */
+
+$(document).on('submit','#addroom',function(event){
+
+    /* stop form from submitting normally */
+    event.preventDefault();
+
+    /* get some values from elements on the page: */
+    var $form = $(this),
+        term = $form.find('input[name="name"]').val(),
+        url = $form.attr('action');
+
+    /* Send the data using post */
+    var posting = $.post(url, {
+        name: term
+    });
+
+    /* Put the results in a div */
+    posting.done(function(data) {
+        console.log(data);
+        $("#roomList tbody").append("<tr class='clickable "+data+"' onclick='enableChatRoom(\""+data+"\")' data-href='url://' ><td>" + data + "</td></tr>");
+    });
+
+    $("#roomList th a").click();
+});
 
 
 getUserRooms(processUserRooms);

@@ -27,7 +27,7 @@
     <body data-ws-url="@routes.Application.ws().webSocketURL()" class="bg-primary" >
         <div class="container-fluid navbar navbar-primary navbar-fixed-top">
             <div class="row">
-                <ul class="nav">
+                <ul class="nav text-center ">
                     <li class="col-md-6 col-sm-6 col-xs-6 nav active" ><a href="/"><h4>HashTalk</h4></a></li>
                     <li class="col-md-6 col-sm-6 col-xs-6 nav"><a href="/about"> <h4>About</h4></a></li>
                 </ul>
@@ -49,9 +49,10 @@
                         <thead>
                             <th class="text-center" >
                                 <a href="#" rel="popover" data-toggle="popover"
-                                data-content='<form id="addroom" action="@routes.Application.addRoomDetails()" method="post" class="form-inline">
+                                data-content='<form id="addroom" action="@routes.Application.addRoomDetails()" method="post" class="form-horizontal">
                                                <input type="text" name="name" class="form-control" placeholder="Room Name"/>
-                                               <button type="submit" style="display:none" class="form-control btn btn-primary"><span class="glyphicon glyphicon-ok"></span></button>
+                                               <input type="text" name="password" class="form-control" placeholder="Passwd" />
+                                               <button type="submit" class="form-control btn btn-primary"><span class="glyphicon glyphicon-ok"></span></button>
                                             </form>'
                                 data-placement="bottom" data-html="true" >Add Rooms </a>
 

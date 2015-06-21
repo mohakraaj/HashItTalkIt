@@ -1,10 +1,24 @@
+[debug] The models.RoomData source file has the following regular definitions changed:
+[debug] 	userRoomMapping, uidToRoomMap, roomToUidMap.
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) models.RoomData: Set(); now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all sources transitively invalidated by inheritance.
+[debug] Getting sources that directly depend on (external) models.RoomData.
+[debug] None of the modified names appears in /Users/MAC/Documents/PlayExperiment/HashItTalkIt/test/ApplicationSpec.scala. This dependency is not being considered for invalidation.
+[debug] The models.RoomData$ source file has the following regular definitions changed:
+[debug] 	userRoomMapping, uidToRoomMap, roomToUidMap.
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) models.RoomData$: Set(); now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all sources transitively invalidated by inheritance.
+[debug] Getting sources that directly depend on (external) models.RoomData$.
+[debug] None of the modified names appears in /Users/MAC/Documents/PlayExperiment/HashItTalkIt/test/ApplicationSpec.scala. This dependency is not being considered for invalidation.
 [debug] 
 [debug] Initial source changes: 
 [debug] 	removed:Set()
 [debug] 	added: Set()
 [debug] 	modified: Set()
 [debug] Removed products: Set()
-[debug] External API changes: API Changes: Set()
+[debug] External API changes: API Changes: Set(NamesChange(models.RoomData,ModifiedNames(regularNames = userRoomMapping, uidToRoomMap, roomToUidMap, implicitNames = )), NamesChange(models.RoomData$,ModifiedNames(regularNames = userRoomMapping, uidToRoomMap, roomToUidMap, implicitNames = )))
 [debug] Modified binary dependencies: Set()
 [debug] Initial directly invalidated sources: Set()
 [debug] 
