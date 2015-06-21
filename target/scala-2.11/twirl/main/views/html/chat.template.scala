@@ -40,16 +40,17 @@ Seq[Any](format.raw/*3.48*/("""
         <link rel="shortcut icon" type="image/png" href=""""),_display_(/*15.59*/routes/*15.65*/.Assets.at("images/chat.png")),format.raw/*15.94*/("""" >
 
         <script type='text/javascript' src='"""),_display_(/*17.46*/routes/*17.52*/.Assets.at("javascripts/jquery.min.js")),format.raw/*17.91*/("""'> </script>
-        <script type='text/javascript' src='"""),_display_(/*18.46*/routes/*18.52*/.Assets.at("javascripts/bootstrap.min.js")),format.raw/*18.94*/("""'> </script>
-        <script type='text/javascript' src='"""),_display_(/*19.46*/routes/*19.52*/.Assets.at("javascripts/aes.js")),format.raw/*19.84*/("""'></script>
-        <script type='text/javascript' src='"""),_display_(/*20.46*/routes/*20.52*/.Assets.at("javascripts/index.js")),format.raw/*20.86*/("""'></script>
+        <script type='text/javascript' src='"""),_display_(/*18.46*/routes/*18.52*/.Assets.at("javascripts/bootstrap.js")),format.raw/*18.90*/("""'> </script>
+        <script type='text/javascript' src='"""),_display_(/*19.46*/routes/*19.52*/.Assets.at("javascripts/bootbox.min.js")),format.raw/*19.92*/("""'> </script>
+        <script type='text/javascript' src='"""),_display_(/*20.46*/routes/*20.52*/.Assets.at("javascripts/aes.js")),format.raw/*20.84*/("""'></script>
+        <script type='text/javascript' src='"""),_display_(/*21.46*/routes/*21.52*/.Assets.at("javascripts/index.js")),format.raw/*21.86*/("""'></script>
 
         <script>
 
     </script>
     </head>
 
-    <body data-ws-url=""""),_display_(/*27.25*/routes/*27.31*/.Application.ws().webSocketURL()),format.raw/*27.63*/("""" class="bg-primary" >
+    <body data-ws-url=""""),_display_(/*28.25*/routes/*28.31*/.Application.ws().webSocketURL()),format.raw/*28.63*/("""" class="bg-primary" >
         <div class="container-fluid navbar navbar-primary navbar-fixed-top">
             <div class="row">
                 <ul class="nav text-center ">
@@ -59,7 +60,7 @@ Seq[Any](format.raw/*3.48*/("""
             </div>
         </div>
 
-        <input id="uid" style="display: none" value=""""),_display_(/*37.55*/uid),format.raw/*37.58*/("""" />
+        <input id="uid" style="display: none" value=""""),_display_(/*38.55*/uid),format.raw/*38.58*/("""" />
             <!--            <div id="passworddiv" >
 
 
@@ -73,13 +74,7 @@ Seq[Any](format.raw/*3.48*/("""
                     <table id="roomList" data-click-to-select="true" class="table table-hover " data-search="true">
                         <thead>
                             <th class="text-center" >
-                                <a href="#" rel="popover" data-toggle="popover"
-                                data-content='<form id="addroom" action=""""),_display_(/*52.75*/routes/*52.81*/.Application.addRoomDetails()),format.raw/*52.110*/("""" method="post" class="form-horizontal">
-                                               <input type="text" name="name" class="form-control" placeholder="Room Name"/>
-                                               <input type="text" name="password" class="form-control" placeholder="Passwd" />
-                                               <button type="submit" class="form-control btn btn-primary"><span class="glyphicon glyphicon-ok"></span></button>
-                                            </form>'
-                                data-placement="bottom" data-html="true" >Add Rooms </a>
+                                <a href="#"  >Add Rooms </a>
 
                             </th>
                         </thead>
@@ -105,10 +100,10 @@ Seq[Any](format.raw/*3.48*/("""
             </div>
         </div>
 
-        <div id="chatform" class="row" >
+        <div id="chatform" class="row bottom" >
             <form id="msgform" class="form-horizontal" >
                 <div class="col-md-7 col-lg-7 col-xs-6 col-xs-offset-3 col-md-offset-4 col-lg-offset-4" >
-                    <input id="msgtext" type="text" class="form-control" placeholder="Type your secret message " />
+                    <input id="msgtext" type="text" maxlength="50" class="form-control" placeholder="Type your secret message " />
                 </div>
                     <button type="submit" style="display: none">Send</button>
             </form>
@@ -136,11 +131,11 @@ Seq[Any](format.raw/*3.48*/("""
 object chat extends chat_Scope0.chat_Scope1.chat
               /*
                   -- GENERATED --
-                  DATE: Sat Jun 20 17:53:18 PDT 2015
+                  DATE: Sun Jun 21 02:02:33 PDT 2015
                   SOURCE: /Users/MAC/Documents/PlayExperiment/HashItTalkIt/app/views/chat.scala.html
-                  HASH: 9ec0eea9441b165b2a6f38f7aca94c3496da4f6a
-                  MATRIX: 600->37|741->83|769->85|907->196|922->202|993->252|1062->294|1077->300|1143->345|1212->387|1227->393|1282->427|1371->489|1386->495|1436->524|1513->574|1528->580|1588->619|1673->677|1688->683|1751->725|1836->783|1851->789|1904->821|1988->878|2003->884|2058->918|2167->1000|2182->1006|2235->1038|2764->1540|2788->1543|3669->2397|3684->2403|3735->2432
-                  LINES: 23->3|28->3|30->5|37->12|37->12|37->12|38->13|38->13|38->13|39->14|39->14|39->14|40->15|40->15|40->15|42->17|42->17|42->17|43->18|43->18|43->18|44->19|44->19|44->19|45->20|45->20|45->20|52->27|52->27|52->27|62->37|62->37|77->52|77->52|77->52
+                  HASH: 51e8435f0e1d8cee1d061b0c6262308ff12f13fc
+                  MATRIX: 600->37|741->83|769->85|907->196|922->202|993->252|1062->294|1077->300|1143->345|1212->387|1227->393|1282->427|1371->489|1386->495|1436->524|1513->574|1528->580|1588->619|1673->677|1688->683|1747->721|1832->779|1847->785|1908->825|1993->883|2008->889|2061->921|2145->978|2160->984|2215->1018|2324->1100|2339->1106|2392->1138|2921->1640|2945->1643
+                  LINES: 23->3|28->3|30->5|37->12|37->12|37->12|38->13|38->13|38->13|39->14|39->14|39->14|40->15|40->15|40->15|42->17|42->17|42->17|43->18|43->18|43->18|44->19|44->19|44->19|45->20|45->20|45->20|46->21|46->21|46->21|53->28|53->28|53->28|63->38|63->38
                   -- GENERATED --
               */
           

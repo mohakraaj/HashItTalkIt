@@ -12,3 +12,29 @@ tr.active,
     background-color: #32475D;
 }
 
+.orange {
+    color: orange;
+}
+
+.modal-dialog {
+    color : #32475D;
+}
+
+
+.bottom{
+    position: fixed;
+    text-align: center;
+    bottom: 10%;
+    width: 100%;
+}
+
+.modal-footer {
+    padding: 0px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border: none;
+}
+
+#chatform {
+    display: none;
+}

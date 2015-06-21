@@ -11,14 +11,21 @@ Usage
 2. User is provided with page to Enter password ( Password remains in the user browser, is not sent to server)
 
 
+Get the app running
+
+1. Install typesafeactivator (https://www.playframework.com/documentation/2.4.x/Installing)
+2. cd HashItTalkIt
+3. activator run
+
 
 Completed spec list
 
 - Chat
 - Encryption
+- UI (look/Feel)
 
 Remaining spec List (on decreasing priority)
-- UI (look/Feel)
+
 - Metric collection
 - Tests
 - Bug Fixing
