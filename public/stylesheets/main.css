@@ -1,0 +1,45 @@
+body {
+    margin-top: 70px;
+    color: white;
+}
+
+tr.active,
+tr.active,
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th
+{
+    color: #555555;
+    background-color: #32475D;
+}
+
+.orange {
+    color: orange;
+}
+
+.modal-dialog {
+    color : #32475D;
+}
+
+
+.bottom{
+    position: fixed;
+    text-align: center;
+    bottom: 10%;
+    width: 100%;
+}
+
+.modal-footer {
+    padding: 0px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border: none;
+}
+
+#chatform {
+    display: none;
+}
+
+th {
+    color:#18BCA2 ;
+    font-size: 16px;
+}

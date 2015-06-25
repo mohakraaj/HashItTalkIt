@@ -20,6 +20,7 @@ $(function () {
     return $("#msgform").submit(function (event) {
         event.preventDefault();
         var msgEncrypt = EncryptText($("#msgtext").val())
+
         console.log(msgEncrypt);
         ws.send(JSON.stringify({
             msg: msgEncrypt.toString(),
@@ -147,53 +148,72 @@ function enableChatRoom(element, askforupdate) {
 
 $(document).on('click', '#roomList th', function (event) {
 
-        bootbox.dialog({
-                message: '<div class="row">  <form id="addroom" class="form-horizontal">' +
-                '<input type="text" maxlength="20" name="name" class="form-control" placeholder="Room Name"/>' +
-                '<input type="password" maxlength="20" name="password" class="form-control" placeholder="Password" />' +
+    addRoomInputHandling("");
+});
 
-                '</div > ',
-                buttons: {
-                    success: {
-                        label:'Save <span class="glyphicon glyphicon-ok"></span>',
-                        className: "btn-success",
-                        callback: function () {
-                            /* get some values from elements on the page: */
-                            var $form = $(this),
-                                term = $form.find('input[name="name"]').val(),
-                                password = $form.find('input[name="password"]').val(),
-                                url = $form.attr('action');
+// method to handle the adding roomdata
+function addRoomInputHandling(title) {
 
-                            /* Send the data using post */
-                            var posting = $.post('/addroomdetails', {
-                                name: term
-                            });
+    bootbox.dialog({
+            title: title,
+            message: '<div class="row">  <form id="addroom" class="form-horizontal">' +
+            '<input type="text" maxlength="20" name="name" class="form-control" placeholder="Room Name"/>' +
+            '<input type="password" maxlength="20" name="password" class="form-control" placeholder="Password" />' +
 
-                            /* Put the results in a table */
-                            posting.done(function (data) {
-                                console.log(data +"hell");
-                                $("#roomList tbody").append("<tr class='active clickable " + data + "' onclick='enableChatRoom(\""+data+"\")' data-href='uri://' ><td>" + data + "</td>");
-                                $("#roomList tbody").append("<input type=\"hidden\" value=\"" + password + "\" id=\"" + data + "\"> </tr>");
-                            });
+            '</div > ',
+            buttons: {
+                success: {
+                    label:'Save <span class="glyphicon glyphicon-ok"></span>',
+                    className: "btn-success",
+                    callback: function () {
+                        /* get some values from elements on the page: */
+                        var $form = $(this),
+                            term = $form.find('input[name="name"]').val(),
+                            password = $form.find('input[name="password"]').val(),
+                            url = $form.attr('action');
 
-                            console.log(term + "selected by default");
-                            enableChatRoom(term); // select the room entered by default
-                        }
+                        /* Send the data using post */
+                        var posting = $.post('/addroomdetails', {
+                            name: term
+                        });
+
+                        /* Put the results in a table */
+                        posting.done(function (data) {
+                            console.log(data +"hell");
+                            $("#roomList tbody").append("<tr class='active clickable " + data + "' onclick='enableChatRoom(\""+data+"\")' data-href='uri://' ><td>" + data + "</td>");
+                            $("#roomList tbody").append("<input type=\"hidden\" value=\"" + password + "\" id=\"" + data + "\"> </tr>");
+                        });
+
+                        console.log(term + "selected by default");
+                        enableChatRoom(term); // select the room entered by default
                     }
                 }
-
             }
-        );
-    });
 
+        }
+    );
+}
 // Select first room by default
-    function selectFirstRoombyDefault() {
-        var firstRoom = $("#roomList tbody").find("td:first").text();
+function selectFirstRoombyDefault() {
+    var firstRoom = $("#roomList tbody").find("td:first").text();
 
-        console.log("First room is : " + firstRoom);
-        if (firstRoom.length != 0)
-            enableChatRoom(firstRoom, true);
+    console.log("First room is : " + firstRoom);
+    if (firstRoom.length != 0)
+        enableChatRoom(firstRoom, true);
 
-    }
+}
 
-    getUserRooms(processUserRooms);
+$(document).ready(function(){
+    $('#msgtext').keypress(function () {
+        console.log("Keypress event entered")
+        // if there is no room, ask user to enter room
+        if (roomName=="") {
+            console.log("No room is selected by default")
+            addRoomInputHandling("Need a room to Chat")
+        }
+    });
+});
+// if No room is selected, we shd promt user to enter room
+
+
+getUserRooms(processUserRooms);
